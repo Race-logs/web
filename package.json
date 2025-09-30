@@ -2,9 +2,12 @@
   "name": "race-logs-front-end",
   "packageManager": "yarn@4.10.3",
   "devDependencies": {
+    "@biomejs/biome": "^2.2.4",
     "typescript": "^5.9.2"
   },
   "scripts": {
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "format": "biome format --write ./src",
+    "check": "biome lint ./src && biome format ./src"
   }
 }
