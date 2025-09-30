@@ -3,11 +3,14 @@
   "packageManager": "yarn@4.10.3",
   "devDependencies": {
     "@biomejs/biome": "^2.2.4",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vite": "^7.1.7"
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
     "format": "biome format --write ./src",
-    "check": "biome lint ./src && biome format ./src"
+    "check": "biome lint ./src && biome format ./src",
+    "dev": "vite",
+    "build": "vite build"
   }
 }
