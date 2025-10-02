@@ -578,6 +578,51 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@porsche-design-system/components-js@npm:3.29.0":
+  version: 3.29.0
+  resolution: "@porsche-design-system/components-js@npm:3.29.0"
+  peerDependencies:
+    ag-grid-community: ">= 33.0.0 <35.0.0"
+    ag-grid-enterprise: ">= 33.0.0 <35.0.0"
+    tailwindcss: ">= 4.0.0 <5.0.0"
+  peerDependenciesMeta:
+    ag-grid-community:
+      optional: true
+    ag-grid-enterprise:
+      optional: true
+    tailwindcss:
+      optional: true
+  checksum: 10c0/eafdea0df11ee68267028974e88ae8651a783670523053256a54e23149f6528dbf585c71160e8cde59b530db7e558bb57171187f58ef9f1e005eba5b6da5e5da
+  languageName: node
+  linkType: hard
+
+"@porsche-design-system/components-react@npm:^3.29.0":
+  version: 3.29.0
+  resolution: "@porsche-design-system/components-react@npm:3.29.0"
+  dependencies:
+    "@porsche-design-system/components-js": "npm:3.29.0"
+  peerDependencies:
+    ag-grid-community: ">= 33.0.0 <35.0.0"
+    ag-grid-enterprise: ">= 33.0.0 <35.0.0"
+    ag-grid-react: ">= 33.0.0 <35.0.0"
+    react: ">=19.0.0 <20.0.0"
+    react-dom: ">=19.0.0 <20.0.0"
+    tailwindcss: ">= 4.0.0 <5.0.0"
+  peerDependenciesMeta:
+    ag-grid-community:
+      optional: true
+    ag-grid-enterprise:
+      optional: true
+    ag-grid-react:
+      optional: true
+    tailwindcss:
+      optional: true
+  bin:
+    patchRemixRunProcessBrowserGlobalIdentifier: bin/patchRemixRunProcessBrowserGlobalIdentifier.js
+  checksum: 10c0/d209d466051766f1abd793ec4ecb862315559035327120045621dc12e83381cc1688d7ced0e7b73f7f13547e6eb201cf219d61c9285e76811db4808991fdafee
+  languageName: node
+  linkType: hard
+
 "@rolldown/pluginutils@npm:1.0.0-beta.38":
   version: 1.0.0-beta.38
   resolution: "@rolldown/pluginutils@npm:1.0.0-beta.38"
@@ -1594,6 +1639,7 @@ __metadata:
   resolution: "race-logs-front-end@workspace:."
   dependencies:
     "@biomejs/biome": "npm:^2.2.4"
+    "@porsche-design-system/components-react": "npm:^3.29.0"
     "@types/react": "npm:19"
     "@types/react-dom": "npm:19"
     "@vitejs/plugin-react": "npm:^5.0.4"
