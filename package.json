@@ -3,11 +3,18 @@
   "packageManager": "yarn@4.10.3",
   "devDependencies": {
     "@biomejs/biome": "^2.2.4",
+    "@types/express": "^5",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "^5.0.4",
+    "express": "^5.1.0",
     "typescript": "^5.9.2",
     "vite": "^7.1.7"
+  },
+  "dependencies": {
+    "@porsche-design-system/components-react": "^3.29.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
@@ -15,10 +22,5 @@
     "check": "biome lint ./src && biome format ./src",
     "dev": "vite",
     "build": "vite build"
-  },
-  "dependencies": {
-    "@porsche-design-system/components-react": "^3.29.0",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
   }
 }
