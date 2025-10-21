@@ -1,13 +1,12 @@
 {
   "name": "race-logs-front-end",
   "packageManager": "yarn@4.10.3",
+  "type": "module",
   "devDependencies": {
     "@biomejs/biome": "^2.2.4",
-    "@types/express": "^5",
-    "@types/react": "^19.2.0",
-    "@types/react-dom": "^19.2.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
     "@vitejs/plugin-react": "^5.0.4",
-    "express": "^5.1.0",
     "typescript": "^5.9.2",
     "vite": "^7.1.7"
   },
@@ -21,6 +20,7 @@
     "format": "biome format --write ./src",
     "check": "biome lint ./src && biome format ./src",
     "dev": "vite",
+    "mock-server": "node ./mock-server/index.js",
     "build": "vite build"
   }
 }
