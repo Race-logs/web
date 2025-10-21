@@ -1,0 +1,6902 @@
+[
+  {
+    "id": "97904f49-3d6d-4ed6-9f6c-c1800e0f63cb",
+    "athlete": {
+      "id": "336165cc-66e8-47af-b5f2-6bfcd120b207",
+      "firstName": "Haile",
+      "lastName": "Panetta",
+      "gender": "M",
+      "year": 1971,
+      "category": "SENIOR",
+      "bibNumber": 101,
+      "sportsClub": "CUS Torino",
+      "position": 1
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3607,
+    "gapSeconds": 0,
+    "paceMinKm": 6.01
+  },
+  {
+    "id": "8b24629d-ea37-4912-9765-b507fc9deb7c",
+    "athlete": {
+      "id": "41f199c3-4684-44d9-9995-2fd920e56e7b",
+      "firstName": "Ingrid",
+      "lastName": "Bordin",
+      "gender": "M",
+      "year": 1987,
+      "category": "SENIOR",
+      "bibNumber": 102,
+      "sportsClub": "CUS Torino",
+      "position": 2
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3636,
+    "gapSeconds": 11,
+    "paceMinKm": 6.06
+  },
+  {
+    "id": "57d61a75-b860-4333-899b-3b362a80a86b",
+    "athlete": {
+      "id": "1d057284-a639-4c2c-8574-a9c6db9fccb7",
+      "firstName": "Ingrid",
+      "lastName": "Simeoni",
+      "gender": "F",
+      "year": 1981,
+      "category": "SENIOR",
+      "bibNumber": 103,
+      "sportsClub": "CUS Torino",
+      "position": 3
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3645,
+    "gapSeconds": 20,
+    "paceMinKm": 6.08
+  },
+  {
+    "id": "f05cc9d6-9634-48af-965c-467a34009510",
+    "athlete": {
+      "id": "7b41ffc1-4afc-430b-b531-eb0232d81a93",
+      "firstName": "Vincenzo",
+      "lastName": "Mayr",
+      "gender": "M",
+      "year": 1990,
+      "category": "SENIOR",
+      "bibNumber": 104,
+      "sportsClub": "Marathon Napoli",
+      "position": 4
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3656,
+    "gapSeconds": 60,
+    "paceMinKm": 6.09
+  },
+  {
+    "id": "d6dc18c4-cfae-44ec-a7a7-17823caec8aa",
+    "athlete": {
+      "id": "f54aa922-88ae-4020-8152-fe06fb8dff2c",
+      "firstName": "Sebastian",
+      "lastName": "Gebrselassie",
+      "gender": "M",
+      "year": 1998,
+      "category": "SENIOR",
+      "bibNumber": 105,
+      "sportsClub": "Running Roma",
+      "position": 5
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3640,
+    "gapSeconds": 24,
+    "paceMinKm": 6.07
+  },
+  {
+    "id": "56392a1a-45d8-4f34-a06f-56efe152cb2d",
+    "athlete": {
+      "id": "5a36bb9d-9035-4161-96e7-11bad0088b85",
+      "firstName": "Hicham",
+      "lastName": "Mayr",
+      "gender": "M",
+      "year": 1985,
+      "category": "SENIOR",
+      "bibNumber": 106,
+      "sportsClub": "Running Roma",
+      "position": 6
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3666,
+    "gapSeconds": 50,
+    "paceMinKm": 6.11
+  },
+  {
+    "id": "a22d66a8-8023-4568-beba-177fd221e6b8",
+    "athlete": {
+      "id": "6f3bf6b5-c777-4289-814d-731260a24380",
+      "firstName": "Gabriela",
+      "lastName": "Bikila",
+      "gender": "M",
+      "year": 1983,
+      "category": "SENIOR",
+      "bibNumber": 107,
+      "sportsClub": "CUS Torino",
+      "position": 7
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3698,
+    "gapSeconds": 120,
+    "paceMinKm": 6.16
+  },
+  {
+    "id": "6b31a6dd-cef9-4f8c-92a5-5f3c0d02622a",
+    "athlete": {
+      "id": "62c51cb3-0a70-4359-be41-571162b6b09a",
+      "firstName": "Stefano",
+      "lastName": "Zatopek",
+      "gender": "F",
+      "year": 1998,
+      "category": "SENIOR",
+      "bibNumber": 108,
+      "sportsClub": "Marathon Napoli",
+      "position": 8
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3712,
+    "gapSeconds": 84,
+    "paceMinKm": 6.19
+  },
+  {
+    "id": "a631be68-dbb4-47d8-8e16-e9f2a205d306",
+    "athlete": {
+      "id": "f759ff88-50fb-4851-b64b-11bfe3032947",
+      "firstName": "Orlando",
+      "lastName": "Lewis",
+      "gender": "M",
+      "year": 1973,
+      "category": "SENIOR",
+      "bibNumber": 109,
+      "sportsClub": "CUS Torino",
+      "position": 9
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3690,
+    "gapSeconds": 160,
+    "paceMinKm": 6.15
+  },
+  {
+    "id": "269cd05b-c877-467d-aca1-8444979f050e",
+    "athlete": {
+      "id": "b6cb79a3-0e3d-4f3d-80c8-094a201e9576",
+      "firstName": "Paavo",
+      "lastName": "Mei",
+      "gender": "F",
+      "year": 1971,
+      "category": "SENIOR",
+      "bibNumber": 110,
+      "sportsClub": "Marathon Napoli",
+      "position": 10
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3750,
+    "gapSeconds": 135,
+    "paceMinKm": 6.25
+  },
+  {
+    "id": "5a764c64-4758-44a2-97dd-e84cd2b3e22b",
+    "athlete": {
+      "id": "79178106-bdb6-4e9b-9775-edd03ae6c786",
+      "firstName": "Kenenisa",
+      "lastName": "Modica",
+      "gender": "F",
+      "year": 1996,
+      "category": "SENIOR",
+      "bibNumber": 111,
+      "sportsClub": "CUS Torino",
+      "position": 11
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3677,
+    "gapSeconds": 80,
+    "paceMinKm": 6.13
+  },
+  {
+    "id": "d48d0af3-2f22-4aa4-8c34-c59e1c0faf74",
+    "athlete": {
+      "id": "0f91dcf0-5d80-4435-bb54-ef24f4920edc",
+      "firstName": "Kenenisa",
+      "lastName": "Panetta",
+      "gender": "F",
+      "year": 1967,
+      "category": "SENIOR",
+      "bibNumber": 112,
+      "sportsClub": "CUS Torino",
+      "position": 12
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3684,
+    "gapSeconds": 110,
+    "paceMinKm": 6.14
+  },
+  {
+    "id": "fcec4b9d-c66d-4dbf-87a0-e60009d88911",
+    "athlete": {
+      "id": "ee641a9d-76d2-473f-9b03-54761960e7df",
+      "firstName": "Abebe",
+      "lastName": "Coe",
+      "gender": "M",
+      "year": 1985,
+      "category": "SENIOR",
+      "bibNumber": 113,
+      "sportsClub": "Atletica Milano",
+      "position": 13
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3665,
+    "gapSeconds": 240,
+    "paceMinKm": 6.11
+  },
+  {
+    "id": "7e4fac81-17b9-4bb7-b3c9-7013107032a8",
+    "athlete": {
+      "id": "589f739e-a900-4649-ac13-a08d65dee7cd",
+      "firstName": "Francesco",
+      "lastName": "Modica",
+      "gender": "M",
+      "year": 1974,
+      "category": "SENIOR",
+      "bibNumber": 114,
+      "sportsClub": "CUS Torino",
+      "position": 14
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3698,
+    "gapSeconds": 117,
+    "paceMinKm": 6.16
+  },
+  {
+    "id": "c86317bd-1112-42b8-bb4e-96bab842b43c",
+    "athlete": {
+      "id": "f7c3fe82-4033-4205-bc76-5e7e8ad710c0",
+      "firstName": "Abebe",
+      "lastName": "Cova",
+      "gender": "F",
+      "year": 1985,
+      "category": "SENIOR",
+      "bibNumber": 115,
+      "sportsClub": "Marathon Napoli",
+      "position": 15
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3885,
+    "gapSeconds": 182,
+    "paceMinKm": 6.47
+  },
+  {
+    "id": "90eb33b1-c918-41b1-b0fa-37e87297550f",
+    "athlete": {
+      "id": "801692de-8827-4a2e-b2f8-76803d3389f2",
+      "firstName": "Sebastian",
+      "lastName": "Lewis",
+      "gender": "M",
+      "year": 1981,
+      "category": "SENIOR",
+      "bibNumber": 116,
+      "sportsClub": "Marathon Napoli",
+      "position": 16
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3920,
+    "gapSeconds": 255,
+    "paceMinKm": 6.53
+  },
+  {
+    "id": "e7ec2625-dde8-4020-891d-f82408509866",
+    "athlete": {
+      "id": "1513fd93-0c84-46a2-8ddc-498059aa5dcc",
+      "firstName": "Kenenisa",
+      "lastName": "ElGuerrouj",
+      "gender": "F",
+      "year": 1992,
+      "category": "SENIOR",
+      "bibNumber": 117,
+      "sportsClub": "Atletica Milano",
+      "position": 17
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3889,
+    "gapSeconds": 256,
+    "paceMinKm": 6.48
+  },
+  {
+    "id": "711b8c55-3a27-4ca2-afe5-c4c15800385a",
+    "athlete": {
+      "id": "cf4b31fa-cf48-4609-ab58-43d9250fb85e",
+      "firstName": "Vincenzo",
+      "lastName": "Panetta",
+      "gender": "F",
+      "year": 1983,
+      "category": "SENIOR",
+      "bibNumber": 118,
+      "sportsClub": "Running Roma",
+      "position": 18
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3816,
+    "gapSeconds": 153,
+    "paceMinKm": 6.36
+  },
+  {
+    "id": "5500739c-3571-403a-8616-6d21863ac371",
+    "athlete": {
+      "id": "6bb97526-57fd-4836-b170-31f9138d7ea1",
+      "firstName": "Ingrid",
+      "lastName": "Mei",
+      "gender": "F",
+      "year": 1980,
+      "category": "SENIOR",
+      "bibNumber": 119,
+      "sportsClub": "Marathon Napoli",
+      "position": 19
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3752,
+    "gapSeconds": 270,
+    "paceMinKm": 6.25
+  },
+  {
+    "id": "4bcdfc0e-f8e5-482d-b801-aa633bf7a49f",
+    "athlete": {
+      "id": "22c46c98-5c0e-424a-8679-2c07e636925e",
+      "firstName": "Vincenzo",
+      "lastName": "Bekele",
+      "gender": "M",
+      "year": 1963,
+      "category": "SENIOR",
+      "bibNumber": 120,
+      "sportsClub": "Marathon Napoli",
+      "position": 20
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3720,
+    "gapSeconds": 133,
+    "paceMinKm": 6.2
+  },
+  {
+    "id": "a8d240f7-7836-45a0-9355-b6f287700f4a",
+    "athlete": {
+      "id": "7ce51053-86bc-4f65-a085-7173dad4970a",
+      "firstName": "Hicham",
+      "lastName": "Morceli",
+      "gender": "F",
+      "year": 1965,
+      "category": "SENIOR",
+      "bibNumber": 121,
+      "sportsClub": "CUS Torino",
+      "position": 21
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3789,
+    "gapSeconds": 120,
+    "paceMinKm": 6.31
+  },
+  {
+    "id": "62f74dc9-fda0-4abf-b4a5-c7aff5975f0e",
+    "athlete": {
+      "id": "d83f93f4-bbec-4d33-922f-cae7089260ec",
+      "firstName": "Orlando",
+      "lastName": "Pizzolato",
+      "gender": "M",
+      "year": 1985,
+      "category": "SENIOR",
+      "bibNumber": 122,
+      "sportsClub": "Marathon Napoli",
+      "position": 22
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3886,
+    "gapSeconds": 189,
+    "paceMinKm": 6.48
+  },
+  {
+    "id": "d334bf54-a110-470b-91ce-f5f368deb429",
+    "athlete": {
+      "id": "aa4272b3-14b3-4b19-bdd6-5a9b89161367",
+      "firstName": "Emil",
+      "lastName": "Nurmi",
+      "gender": "F",
+      "year": 1976,
+      "category": "SENIOR",
+      "bibNumber": 123,
+      "sportsClub": "Marathon Napoli",
+      "position": 23
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3853,
+    "gapSeconds": 308,
+    "paceMinKm": 6.42
+  },
+  {
+    "id": "b6fab7a4-3edd-4e06-9013-13f81a76453b",
+    "athlete": {
+      "id": "d7fe4725-5a24-4813-8a9f-d74810367d28",
+      "firstName": "Sebastian",
+      "lastName": "Bordin",
+      "gender": "F",
+      "year": 1973,
+      "category": "SENIOR",
+      "bibNumber": 124,
+      "sportsClub": "Marathon Napoli",
+      "position": 24
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3864,
+    "gapSeconds": 460,
+    "paceMinKm": 6.44
+  },
+  {
+    "id": "3609e3ac-b763-4796-bbe9-11d5b1d304f9",
+    "athlete": {
+      "id": "4d2ecd5b-3e5c-4e63-8295-906458eebb02",
+      "firstName": "Hicham",
+      "lastName": "Kristiansen",
+      "gender": "F",
+      "year": 1961,
+      "category": "SENIOR",
+      "bibNumber": 125,
+      "sportsClub": "CUS Torino",
+      "position": 25
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3950,
+    "gapSeconds": 216,
+    "paceMinKm": 6.58
+  },
+  {
+    "id": "1fa8c6f8-9c35-46ab-b041-cdc7de951689",
+    "athlete": {
+      "id": "243b1dd6-b05b-4263-aa80-5f2515d9fe21",
+      "firstName": "Sara",
+      "lastName": "Nurmi",
+      "gender": "M",
+      "year": 1983,
+      "category": "SENIOR",
+      "bibNumber": 126,
+      "sportsClub": "Atletica Milano",
+      "position": 26
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4094,
+    "gapSeconds": 475,
+    "paceMinKm": 6.82
+  },
+  {
+    "id": "3c06e7d0-bc7c-423d-aaec-b468680fc706",
+    "athlete": {
+      "id": "d3912393-2e72-47ee-a948-19a03b9916b9",
+      "firstName": "Gelindo",
+      "lastName": "Cova",
+      "gender": "M",
+      "year": 1993,
+      "category": "SENIOR",
+      "bibNumber": 127,
+      "sportsClub": "Atletica Milano",
+      "position": 27
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4140,
+    "gapSeconds": 520,
+    "paceMinKm": 6.9
+  },
+  {
+    "id": "20c5422b-d352-4d3e-8366-2efb2ef40c62",
+    "athlete": {
+      "id": "a1ea9e02-ff1c-482f-9bae-7a4a7101e977",
+      "firstName": "Hicham",
+      "lastName": "Zatopek",
+      "gender": "F",
+      "year": 1978,
+      "category": "SENIOR",
+      "bibNumber": 128,
+      "sportsClub": "Running Roma",
+      "position": 28
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3852,
+    "gapSeconds": 432,
+    "paceMinKm": 6.42
+  },
+  {
+    "id": "5072b3d9-c977-405e-add3-0c4a52c1ee29",
+    "athlete": {
+      "id": "f10f9a46-8070-4620-8797-4b54bbd22260",
+      "firstName": "Sebastian",
+      "lastName": "Lewis",
+      "gender": "M",
+      "year": 2000,
+      "category": "SENIOR",
+      "bibNumber": 129,
+      "sportsClub": "CUS Torino",
+      "position": 29
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3919,
+    "gapSeconds": 224,
+    "paceMinKm": 6.53
+  },
+  {
+    "id": "a550570c-a158-4f4d-ac61-cd31a65a6d11",
+    "athlete": {
+      "id": "6ade1168-df6e-49b5-8175-3950e1fe602d",
+      "firstName": "Emil",
+      "lastName": "Mayr",
+      "gender": "F",
+      "year": 1966,
+      "category": "SENIOR",
+      "bibNumber": 130,
+      "sportsClub": "Running Roma",
+      "position": 30
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4110,
+    "gapSeconds": 493,
+    "paceMinKm": 6.85
+  },
+  {
+    "id": "1e6aa489-9f03-478e-86af-f952e0d25d82",
+    "athlete": {
+      "id": "2ea72cbc-e66d-48a5-8532-0937e677c0d3",
+      "firstName": "Noureddine",
+      "lastName": "Bolt",
+      "gender": "M",
+      "year": 1968,
+      "category": "SENIOR",
+      "bibNumber": 131,
+      "sportsClub": "CUS Torino",
+      "position": 31
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4096,
+    "gapSeconds": 510,
+    "paceMinKm": 6.83
+  },
+  {
+    "id": "1a6fd335-598b-45bd-931a-12677a199394",
+    "athlete": {
+      "id": "f7e6a12b-74f1-4203-acfe-df696c347183",
+      "firstName": "Emil",
+      "lastName": "Bordin",
+      "gender": "F",
+      "year": 1988,
+      "category": "SENIOR",
+      "bibNumber": 132,
+      "sportsClub": "Running Roma",
+      "position": 32
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4144,
+    "gapSeconds": 434,
+    "paceMinKm": 6.91
+  },
+  {
+    "id": "b86385d3-5dba-4b29-9a07-ba678edee9ba",
+    "athlete": {
+      "id": "3ae69b45-d299-4f20-8e0a-c8ebd28fa98a",
+      "firstName": "Hicham",
+      "lastName": "Modica",
+      "gender": "F",
+      "year": 1975,
+      "category": "SENIOR",
+      "bibNumber": 133,
+      "sportsClub": "Atletica Milano",
+      "position": 33
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4029,
+    "gapSeconds": 224,
+    "paceMinKm": 6.71
+  },
+  {
+    "id": "9a879cc7-c589-4da3-babe-dbd140b46c3f",
+    "athlete": {
+      "id": "12f105ba-8fda-44bd-a50b-02dc0d06afa8",
+      "firstName": "Francesco",
+      "lastName": "Simeoni",
+      "gender": "F",
+      "year": 1999,
+      "category": "SENIOR",
+      "bibNumber": 134,
+      "sportsClub": "Running Roma",
+      "position": 34
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4008,
+    "gapSeconds": 198,
+    "paceMinKm": 6.68
+  },
+  {
+    "id": "f070c623-edb8-405a-997b-c65764ef5436",
+    "athlete": {
+      "id": "9128d9d7-0db5-4182-ad03-fcd4a407c549",
+      "firstName": "Haile",
+      "lastName": "Panetta",
+      "gender": "M",
+      "year": 1978,
+      "category": "SENIOR",
+      "bibNumber": 135,
+      "sportsClub": "CUS Torino",
+      "position": 35
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4055,
+    "gapSeconds": 170,
+    "paceMinKm": 6.76
+  },
+  {
+    "id": "ebabe534-8487-4b96-a0da-3cde230ced2b",
+    "athlete": {
+      "id": "60467dae-a3bd-4b62-8cd4-807fa96b09ae",
+      "firstName": "Gelindo",
+      "lastName": "Bekele",
+      "gender": "M",
+      "year": 1980,
+      "category": "SENIOR",
+      "bibNumber": 136,
+      "sportsClub": "Marathon Napoli",
+      "position": 36
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4284,
+    "gapSeconds": 455,
+    "paceMinKm": 7.14
+  },
+  {
+    "id": "a9e5dfe3-0744-4b7a-aa78-9362428f84a2",
+    "athlete": {
+      "id": "7163fa39-f39d-4e42-a74e-0478d6b5f693",
+      "firstName": "Sebastian",
+      "lastName": "Coe",
+      "gender": "F",
+      "year": 1993,
+      "category": "SENIOR",
+      "bibNumber": 137,
+      "sportsClub": "Atletica Milano",
+      "position": 37
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4266,
+    "gapSeconds": 612,
+    "paceMinKm": 7.11
+  },
+  {
+    "id": "c3ad6f9a-eac5-4654-8933-a7502ebc6e8e",
+    "athlete": {
+      "id": "83ef3bf8-36cf-4d35-b2d0-367a7984fb19",
+      "firstName": "Ingrid",
+      "lastName": "Bordin",
+      "gender": "F",
+      "year": 1979,
+      "category": "SENIOR",
+      "bibNumber": 138,
+      "sportsClub": "Atletica Milano",
+      "position": 38
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3866,
+    "gapSeconds": 222,
+    "paceMinKm": 6.44
+  },
+  {
+    "id": "9de7535e-7846-457e-a214-2445563ea942",
+    "athlete": {
+      "id": "e783dbf7-67a9-4c8e-a7d8-6c7f418ace59",
+      "firstName": "Paavo",
+      "lastName": "Kristiansen",
+      "gender": "F",
+      "year": 1990,
+      "category": "SENIOR",
+      "bibNumber": 139,
+      "sportsClub": "Marathon Napoli",
+      "position": 39
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4224,
+    "gapSeconds": 304,
+    "paceMinKm": 7.04
+  },
+  {
+    "id": "073cd0a8-8d9a-4731-9511-a5048d35cabb",
+    "athlete": {
+      "id": "b0a79b45-8dd4-4d62-ad0a-85e49aac129a",
+      "firstName": "Ingrid",
+      "lastName": "Bordin",
+      "gender": "F",
+      "year": 1966,
+      "category": "SENIOR",
+      "bibNumber": 140,
+      "sportsClub": "Atletica Milano",
+      "position": 40
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3920,
+    "gapSeconds": 195,
+    "paceMinKm": 6.53
+  },
+  {
+    "id": "c965c870-4183-42d6-bf09-9bdea6d65b7a",
+    "athlete": {
+      "id": "f204f85b-389f-4390-9b04-232f52e5aad2",
+      "firstName": "Sebastian",
+      "lastName": "Zatopek",
+      "gender": "F",
+      "year": 1980,
+      "category": "SENIOR",
+      "bibNumber": 141,
+      "sportsClub": "Running Roma",
+      "position": 41
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4010,
+    "gapSeconds": 480,
+    "paceMinKm": 6.68
+  },
+  {
+    "id": "eff84a97-00df-4410-a4bd-7c788a16d8b6",
+    "athlete": {
+      "id": "89dbdc9b-befd-4c02-94f4-ba69d0c06f07",
+      "firstName": "Fiona",
+      "lastName": "Kristiansen",
+      "gender": "M",
+      "year": 1983,
+      "category": "SENIOR",
+      "bibNumber": 142,
+      "sportsClub": "Running Roma",
+      "position": 42
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4188,
+    "gapSeconds": 369,
+    "paceMinKm": 6.98
+  },
+  {
+    "id": "180add0d-4ecc-4e7d-970f-f03765461761",
+    "athlete": {
+      "id": "790f686c-b710-432d-94b2-475f1669bc7f",
+      "firstName": "Gelindo",
+      "lastName": "Cova",
+      "gender": "F",
+      "year": 1968,
+      "category": "SENIOR",
+      "bibNumber": 143,
+      "sportsClub": "Atletica Milano",
+      "position": 43
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3858,
+    "gapSeconds": 588,
+    "paceMinKm": 6.43
+  },
+  {
+    "id": "71f9516e-93da-421d-8fba-9a790c5e5a82",
+    "athlete": {
+      "id": "f60b7798-940e-4c3f-b828-fd48ec350eea",
+      "firstName": "Sara",
+      "lastName": "Mayr",
+      "gender": "F",
+      "year": 1971,
+      "category": "SENIOR",
+      "bibNumber": 144,
+      "sportsClub": "Marathon Napoli",
+      "position": 44
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4392,
+    "gapSeconds": 344,
+    "paceMinKm": 7.32
+  },
+  {
+    "id": "49cabfd3-4766-485c-b70e-caced13d5788",
+    "athlete": {
+      "id": "e2f68155-bcdf-4a5c-9773-7733ca8189eb",
+      "firstName": "Ingrid",
+      "lastName": "Mei",
+      "gender": "F",
+      "year": 1975,
+      "category": "SENIOR",
+      "bibNumber": 145,
+      "sportsClub": "Running Roma",
+      "position": 45
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4410,
+    "gapSeconds": 748,
+    "paceMinKm": 7.35
+  },
+  {
+    "id": "510d45cd-4a08-4327-946e-89f67bdf422a",
+    "athlete": {
+      "id": "66aa894b-3674-437f-8a88-60fe20077b65",
+      "firstName": "Orlando",
+      "lastName": "Modica",
+      "gender": "M",
+      "year": 1997,
+      "category": "SENIOR",
+      "bibNumber": 146,
+      "sportsClub": "Marathon Napoli",
+      "position": 46
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4198,
+    "gapSeconds": 810,
+    "paceMinKm": 7.0
+  },
+  {
+    "id": "397a762c-a3fb-47a0-a05e-9e1576663a7b",
+    "athlete": {
+      "id": "a4619967-227a-4038-8d03-a74ee4ea6aeb",
+      "firstName": "Ingrid",
+      "lastName": "Coe",
+      "gender": "F",
+      "year": 1972,
+      "category": "SENIOR",
+      "bibNumber": 147,
+      "sportsClub": "Running Roma",
+      "position": 47
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3929,
+    "gapSeconds": 690,
+    "paceMinKm": 6.55
+  },
+  {
+    "id": "76a7f29e-cefa-4ec9-84bd-3fdfab58d6aa",
+    "athlete": {
+      "id": "744d37e1-9a7e-4f59-8e03-efd27c2dfacf",
+      "firstName": "Carl",
+      "lastName": "Bolt",
+      "gender": "F",
+      "year": 1964,
+      "category": "SENIOR",
+      "bibNumber": 148,
+      "sportsClub": "Marathon Napoli",
+      "position": 48
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4416,
+    "gapSeconds": 423,
+    "paceMinKm": 7.36
+  },
+  {
+    "id": "32f6053d-7659-424c-8d97-9db3c2efbe56",
+    "athlete": {
+      "id": "d28d20eb-18cf-4ffb-a3a1-c2db2e82408e",
+      "firstName": "Noureddine",
+      "lastName": "Morceli",
+      "gender": "F",
+      "year": 1989,
+      "category": "SENIOR",
+      "bibNumber": 149,
+      "sportsClub": "Running Roma",
+      "position": 49
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4237,
+    "gapSeconds": 912,
+    "paceMinKm": 7.06
+  },
+  {
+    "id": "b1303a17-2cad-4a87-8886-a3af742e0303",
+    "athlete": {
+      "id": "e411db07-661b-4444-9189-0ddcb5337139",
+      "firstName": "Gabriela",
+      "lastName": "Zatopek",
+      "gender": "F",
+      "year": 1987,
+      "category": "SENIOR",
+      "bibNumber": 150,
+      "sportsClub": "Marathon Napoli",
+      "position": 50
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4350,
+    "gapSeconds": 343,
+    "paceMinKm": 7.25
+  },
+  {
+    "id": "bede0b77-06ef-4eb1-9d8f-4821766e62b3",
+    "athlete": {
+      "id": "77d3fead-ae31-4310-8056-f899bc4b93ea",
+      "firstName": "Haile",
+      "lastName": "Bolt",
+      "gender": "F",
+      "year": 1974,
+      "category": "SENIOR",
+      "bibNumber": 151,
+      "sportsClub": "Atletica Milano",
+      "position": 51
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3957,
+    "gapSeconds": 850,
+    "paceMinKm": 6.59
+  },
+  {
+    "id": "6de0953d-41c6-4bf4-8847-d5aa3d89a368",
+    "athlete": {
+      "id": "3f1b1bcb-7c6e-4818-a4f3-1329cc686c66",
+      "firstName": "Orlando",
+      "lastName": "Modica",
+      "gender": "F",
+      "year": 1965,
+      "category": "SENIOR",
+      "bibNumber": 152,
+      "sportsClub": "CUS Torino",
+      "position": 52
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4276,
+    "gapSeconds": 612,
+    "paceMinKm": 7.13
+  },
+  {
+    "id": "9f6d61b5-95e0-478d-a230-4c41470031e0",
+    "athlete": {
+      "id": "a4ac2b57-2890-4d5f-980d-455f14792bde",
+      "firstName": "Fiona",
+      "lastName": "Bolt",
+      "gender": "F",
+      "year": 1974,
+      "category": "SENIOR",
+      "bibNumber": 153,
+      "sportsClub": "Atletica Milano",
+      "position": 53
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4607,
+    "gapSeconds": 312,
+    "paceMinKm": 7.68
+  },
+  {
+    "id": "ff982763-fad2-470c-9ee2-ad329499c07b",
+    "athlete": {
+      "id": "677b80ad-d286-4113-8475-85593f2db70e",
+      "firstName": "Orlando",
+      "lastName": "Cova",
+      "gender": "M",
+      "year": 1963,
+      "category": "SENIOR",
+      "bibNumber": 154,
+      "sportsClub": "Running Roma",
+      "position": 54
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3924,
+    "gapSeconds": 583,
+    "paceMinKm": 6.54
+  },
+  {
+    "id": "bc8db8d1-68c2-42bc-9f37-4a885408445b",
+    "athlete": {
+      "id": "0fb8c09d-d5f2-41ac-9b22-7adf1991c82c",
+      "firstName": "Gabriela",
+      "lastName": "Pizzolato",
+      "gender": "F",
+      "year": 1968,
+      "category": "SENIOR",
+      "bibNumber": 155,
+      "sportsClub": "CUS Torino",
+      "position": 55
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4095,
+    "gapSeconds": 540,
+    "paceMinKm": 6.83
+  },
+  {
+    "id": "9a73da3f-f4f4-421c-bf24-abffbc8ab7a3",
+    "athlete": {
+      "id": "adaecfa4-39fb-4b27-9811-9daf021a7fcf",
+      "firstName": "Sara",
+      "lastName": "Pizzolato",
+      "gender": "F",
+      "year": 1980,
+      "category": "SENIOR",
+      "bibNumber": 156,
+      "sportsClub": "Marathon Napoli",
+      "position": 56
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4440,
+    "gapSeconds": 660,
+    "paceMinKm": 7.4
+  },
+  {
+    "id": "24a7dcc7-f9c7-4bf2-897f-234d33b52ae4",
+    "athlete": {
+      "id": "722a3883-d2ea-407c-b5fd-071f9ffa88d2",
+      "firstName": "Emil",
+      "lastName": "Bekele",
+      "gender": "F",
+      "year": 1986,
+      "category": "SENIOR",
+      "bibNumber": 157,
+      "sportsClub": "Running Roma",
+      "position": 57
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4512,
+    "gapSeconds": 504,
+    "paceMinKm": 7.52
+  },
+  {
+    "id": "5f7309e0-2463-4792-9f7a-09506b1be69e",
+    "athlete": {
+      "id": "3d6b4603-29a6-4fc2-a6db-2f21ca0329b6",
+      "firstName": "Gelindo",
+      "lastName": "Bordin",
+      "gender": "F",
+      "year": 1989,
+      "category": "SENIOR",
+      "bibNumber": 158,
+      "sportsClub": "Running Roma",
+      "position": 58
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4760,
+    "gapSeconds": 684,
+    "paceMinKm": 7.93
+  },
+  {
+    "id": "59118698-7563-452e-bfec-f44a6f450cb0",
+    "athlete": {
+      "id": "7ca0c9a3-dd34-49cc-92fa-14cbd330a785",
+      "firstName": "Carl",
+      "lastName": "Morceli",
+      "gender": "F",
+      "year": 1991,
+      "category": "SENIOR",
+      "bibNumber": 159,
+      "sportsClub": "CUS Torino",
+      "position": 59
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4721,
+    "gapSeconds": 406,
+    "paceMinKm": 7.87
+  },
+  {
+    "id": "49ed241c-285e-48cf-a031-b198c00e6915",
+    "athlete": {
+      "id": "f02fec45-2fa4-425e-bb44-157b188bd562",
+      "firstName": "Francesco",
+      "lastName": "Bordin",
+      "gender": "F",
+      "year": 1976,
+      "category": "SENIOR",
+      "bibNumber": 160,
+      "sportsClub": "Atletica Milano",
+      "position": 60
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4440,
+    "gapSeconds": 354,
+    "paceMinKm": 7.4
+  },
+  {
+    "id": "b20cd46d-e9db-405a-998c-5bc95ff5bc86",
+    "athlete": {
+      "id": "ca390594-a282-4481-bc20-24bbb5e09498",
+      "firstName": "Vincenzo",
+      "lastName": "Kristiansen",
+      "gender": "F",
+      "year": 1985,
+      "category": "SENIOR",
+      "bibNumber": 161,
+      "sportsClub": "Running Roma",
+      "position": 61
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4149,
+    "gapSeconds": 1020,
+    "paceMinKm": 6.92
+  },
+  {
+    "id": "d6ed345a-d9a7-4bb0-90ee-b547bc652780",
+    "athlete": {
+      "id": "2bb00db3-4e14-49a8-9589-3bd8ae277218",
+      "firstName": "Stefano",
+      "lastName": "Lewis",
+      "gender": "F",
+      "year": 1971,
+      "category": "SENIOR",
+      "bibNumber": 162,
+      "sportsClub": "Marathon Napoli",
+      "position": 62
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4530,
+    "gapSeconds": 793,
+    "paceMinKm": 7.55
+  },
+  {
+    "id": "292e8c0d-8c3d-4215-90ec-b0b8c9980e97",
+    "athlete": {
+      "id": "e529b20c-7061-40bb-a417-36f757e5aa8b",
+      "firstName": "Paavo",
+      "lastName": "Morceli",
+      "gender": "F",
+      "year": 1979,
+      "category": "SENIOR",
+      "bibNumber": 163,
+      "sportsClub": "Marathon Napoli",
+      "position": 63
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4608,
+    "gapSeconds": 496,
+    "paceMinKm": 7.68
+  },
+  {
+    "id": "7551622e-4355-46ce-8dc1-8b6075cb705a",
+    "athlete": {
+      "id": "5ad4f127-d8d3-4255-a587-d718bc195fa7",
+      "firstName": "Kenenisa",
+      "lastName": "Bolt",
+      "gender": "M",
+      "year": 1992,
+      "category": "SENIOR",
+      "bibNumber": 164,
+      "sportsClub": "Atletica Milano",
+      "position": 64
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 3984,
+    "gapSeconds": 1260,
+    "paceMinKm": 6.64
+  },
+  {
+    "id": "7e6f6823-b100-4f5c-8ad4-74086f70b474",
+    "athlete": {
+      "id": "3cd10e65-b6ae-45f3-b28a-3f5d5a87c1d2",
+      "firstName": "Ingrid",
+      "lastName": "ElGuerrouj",
+      "gender": "F",
+      "year": 1964,
+      "category": "SENIOR",
+      "bibNumber": 165,
+      "sportsClub": "Running Roma",
+      "position": 65
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4380,
+    "gapSeconds": 768,
+    "paceMinKm": 7.3
+  },
+  {
+    "id": "0d592b21-2a2e-4f07-a69f-125a757d51c0",
+    "athlete": {
+      "id": "4ef29d3d-1091-4509-8f5f-3458fa3f54b0",
+      "firstName": "Vincenzo",
+      "lastName": "Cova",
+      "gender": "F",
+      "year": 1998,
+      "category": "SENIOR",
+      "bibNumber": 166,
+      "sportsClub": "Atletica Milano",
+      "position": 66
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4788,
+    "gapSeconds": 520,
+    "paceMinKm": 7.98
+  },
+  {
+    "id": "715b58c2-c507-4f51-b94b-68e99f531d49",
+    "athlete": {
+      "id": "7918d0cd-c71b-4067-b9a6-83e1af3f5668",
+      "firstName": "Paavo",
+      "lastName": "Pizzolato",
+      "gender": "F",
+      "year": 1976,
+      "category": "SENIOR",
+      "bibNumber": 167,
+      "sportsClub": "Marathon Napoli",
+      "position": 67
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4873,
+    "gapSeconds": 1254,
+    "paceMinKm": 8.12
+  },
+  {
+    "id": "b6a86341-bfcc-48d0-b797-f9688a145d41",
+    "athlete": {
+      "id": "da361d4d-e954-44e8-830f-f00c8d719753",
+      "firstName": "Ingrid",
+      "lastName": "Zatopek",
+      "gender": "F",
+      "year": 1967,
+      "category": "SENIOR",
+      "bibNumber": 168,
+      "sportsClub": "Marathon Napoli",
+      "position": 68
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4892,
+    "gapSeconds": 1340,
+    "paceMinKm": 8.15
+  },
+  {
+    "id": "2c806003-4240-445b-b2c5-65b00a392982",
+    "athlete": {
+      "id": "4434c363-5aa2-47b7-b71a-f29f797d69e8",
+      "firstName": "Ingrid",
+      "lastName": "Morceli",
+      "gender": "M",
+      "year": 1965,
+      "category": "SENIOR",
+      "bibNumber": 169,
+      "sportsClub": "Marathon Napoli",
+      "position": 69
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4014,
+    "gapSeconds": 816,
+    "paceMinKm": 6.69
+  },
+  {
+    "id": "d4200881-02a4-42f7-b9fd-fe076ad9b9b1",
+    "athlete": {
+      "id": "c7606ea6-5de2-41d3-af26-f8dd0d5e07a8",
+      "firstName": "Fiona",
+      "lastName": "ElGuerrouj",
+      "gender": "F",
+      "year": 1967,
+      "category": "SENIOR",
+      "bibNumber": 170,
+      "sportsClub": "Running Roma",
+      "position": 70
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4230,
+    "gapSeconds": 1380,
+    "paceMinKm": 7.05
+  },
+  {
+    "id": "3321868f-7abf-42b8-aab1-ea083c943642",
+    "athlete": {
+      "id": "b1b92a0b-81ae-4b62-9eeb-07e16d3460e6",
+      "firstName": "Usain",
+      "lastName": "Cova",
+      "gender": "M",
+      "year": 1989,
+      "category": "SENIOR",
+      "bibNumber": 171,
+      "sportsClub": "Running Roma",
+      "position": 71
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4949,
+    "gapSeconds": 1400,
+    "paceMinKm": 8.25
+  },
+  {
+    "id": "81444340-cd11-4790-995a-4064c3989019",
+    "athlete": {
+      "id": "c4ad0fe7-c959-45d6-9676-ff8dcd915509",
+      "firstName": "Paavo",
+      "lastName": "Gebrselassie",
+      "gender": "M",
+      "year": 1965,
+      "category": "SENIOR",
+      "bibNumber": 172,
+      "sportsClub": "Marathon Napoli",
+      "position": 72
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4536,
+    "gapSeconds": 710,
+    "paceMinKm": 7.56
+  },
+  {
+    "id": "ac639405-f8f3-47d0-9035-e99183c5113e",
+    "athlete": {
+      "id": "68439f58-ccda-41a1-b238-b1954d8f4687",
+      "firstName": "Usain",
+      "lastName": "Szabo",
+      "gender": "F",
+      "year": 1996,
+      "category": "SENIOR",
+      "bibNumber": 173,
+      "sportsClub": "CUS Torino",
+      "position": 73
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4330,
+    "gapSeconds": 720,
+    "paceMinKm": 7.22
+  },
+  {
+    "id": "c48fb71e-70d6-4cf5-bcc0-5d78f384f7df",
+    "athlete": {
+      "id": "888c25ca-496a-4a8b-bd4e-21cbf740eff6",
+      "firstName": "Orlando",
+      "lastName": "Mayr",
+      "gender": "F",
+      "year": 1961,
+      "category": "SENIOR",
+      "bibNumber": 174,
+      "sportsClub": "CUS Torino",
+      "position": 74
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4340,
+    "gapSeconds": 1241,
+    "paceMinKm": 7.23
+  },
+  {
+    "id": "85560831-3ba1-4a93-a52e-ad81e776f981",
+    "athlete": {
+      "id": "8ed3ce4b-4278-4ace-b99f-a237494ab521",
+      "firstName": "Orlando",
+      "lastName": "Bordin",
+      "gender": "M",
+      "year": 1973,
+      "category": "SENIOR",
+      "bibNumber": 175,
+      "sportsClub": "Running Roma",
+      "position": 75
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4725,
+    "gapSeconds": 1110,
+    "paceMinKm": 7.88
+  },
+  {
+    "id": "58e9f4b3-a1a3-45c6-bf05-8ede44863934",
+    "athlete": {
+      "id": "a0c3e435-0f0c-4efb-b74b-328c64be0d99",
+      "firstName": "Kenenisa",
+      "lastName": "Bolt",
+      "gender": "M",
+      "year": 1998,
+      "category": "SENIOR",
+      "bibNumber": 176,
+      "sportsClub": "CUS Torino",
+      "position": 76
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4968,
+    "gapSeconds": 1125,
+    "paceMinKm": 8.28
+  },
+  {
+    "id": "4159c8b8-8703-439d-a9eb-f9441aa67fdc",
+    "athlete": {
+      "id": "9c87c513-bb47-49da-bc45-330f32671436",
+      "firstName": "Fiona",
+      "lastName": "Nurmi",
+      "gender": "M",
+      "year": 1983,
+      "category": "SENIOR",
+      "bibNumber": 177,
+      "sportsClub": "CUS Torino",
+      "position": 77
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4139,
+    "gapSeconds": 456,
+    "paceMinKm": 6.9
+  },
+  {
+    "id": "1cf9a725-f60a-4552-ab40-74d9eaa28c56",
+    "athlete": {
+      "id": "ecd9c11e-4586-4698-9bf9-7894cf3c2ac4",
+      "firstName": "Gelindo",
+      "lastName": "Mayr",
+      "gender": "F",
+      "year": 1975,
+      "category": "SENIOR",
+      "bibNumber": 178,
+      "sportsClub": "Running Roma",
+      "position": 78
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4770,
+    "gapSeconds": 847,
+    "paceMinKm": 7.95
+  },
+  {
+    "id": "a88bfaac-18b9-40c8-b160-78320b9907a3",
+    "athlete": {
+      "id": "1d8cc1e8-30f1-465f-b122-ea6e1ecbf5fc",
+      "firstName": "Sara",
+      "lastName": "Lewis",
+      "gender": "F",
+      "year": 1968,
+      "category": "SENIOR",
+      "bibNumber": 179,
+      "sportsClub": "Marathon Napoli",
+      "position": 79
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4864,
+    "gapSeconds": 1560,
+    "paceMinKm": 8.11
+  },
+  {
+    "id": "e35e7575-a3bb-4512-bc1b-4dc3d5c1b4e7",
+    "athlete": {
+      "id": "f35084d4-c51b-4875-911d-80f018c870f8",
+      "firstName": "Hicham",
+      "lastName": "Bekele",
+      "gender": "F",
+      "year": 1968,
+      "category": "SENIOR",
+      "bibNumber": 180,
+      "sportsClub": "Atletica Milano",
+      "position": 80
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4000,
+    "gapSeconds": 1185,
+    "paceMinKm": 6.67
+  },
+  {
+    "id": "dfee000d-15af-4159-84f2-8b809278530b",
+    "athlete": {
+      "id": "76189d62-efc7-4970-a854-2201632ee17d",
+      "firstName": "Paavo",
+      "lastName": "Cova",
+      "gender": "M",
+      "year": 1982,
+      "category": "SENIOR",
+      "bibNumber": 181,
+      "sportsClub": "Running Roma",
+      "position": 81
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4248,
+    "gapSeconds": 1040,
+    "paceMinKm": 7.08
+  },
+  {
+    "id": "d7656843-c5a5-4085-be76-39d993ae82e2",
+    "athlete": {
+      "id": "fd90c877-a3e6-44c1-90db-ee09a4b18b98",
+      "firstName": "Kenenisa",
+      "lastName": "ElGuerrouj",
+      "gender": "M",
+      "year": 1986,
+      "category": "SENIOR",
+      "bibNumber": 182,
+      "sportsClub": "Atletica Milano",
+      "position": 82
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4092,
+    "gapSeconds": 405,
+    "paceMinKm": 6.82
+  },
+  {
+    "id": "de90f05d-be8a-49ed-9453-c231296fd209",
+    "athlete": {
+      "id": "b06e5155-69fc-4fea-9b03-5feba81be8b8",
+      "firstName": "Gabriela",
+      "lastName": "Bikila",
+      "gender": "F",
+      "year": 1965,
+      "category": "SENIOR",
+      "bibNumber": 183,
+      "sportsClub": "Atletica Milano",
+      "position": 83
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4015,
+    "gapSeconds": 1558,
+    "paceMinKm": 6.69
+  },
+  {
+    "id": "6b1e8b1f-8ec9-45f4-9a0f-b424e7447727",
+    "athlete": {
+      "id": "04b0be6f-0850-46db-b19c-838062566ecf",
+      "firstName": "Stefano",
+      "lastName": "Mayr",
+      "gender": "M",
+      "year": 1967,
+      "category": "SENIOR",
+      "bibNumber": 184,
+      "sportsClub": "Atletica Milano",
+      "position": 84
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4524,
+    "gapSeconds": 1162,
+    "paceMinKm": 7.54
+  },
+  {
+    "id": "554a4017-5fd9-4f04-8f96-138f4aac8fbb",
+    "athlete": {
+      "id": "74c49071-b452-4078-844b-949abb1109f8",
+      "firstName": "Sebastian",
+      "lastName": "Szabo",
+      "gender": "M",
+      "year": 1999,
+      "category": "SENIOR",
+      "bibNumber": 185,
+      "sportsClub": "Atletica Milano",
+      "position": 85
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5215,
+    "gapSeconds": 1260,
+    "paceMinKm": 8.69
+  },
+  {
+    "id": "13d29b4a-e8a8-4ed5-9792-a8b1cd6d5e1f",
+    "athlete": {
+      "id": "e6aa8f9f-e63b-459d-8bcb-2743a3b79f98",
+      "firstName": "Gelindo",
+      "lastName": "Zatopek",
+      "gender": "M",
+      "year": 1976,
+      "category": "SENIOR",
+      "bibNumber": 186,
+      "sportsClub": "Running Roma",
+      "position": 86
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4460,
+    "gapSeconds": 510,
+    "paceMinKm": 7.43
+  },
+  {
+    "id": "334c7553-eff9-4b83-964e-599b4551c1d4",
+    "athlete": {
+      "id": "c6913371-fbef-41bc-aaa8-1a64e90aca56",
+      "firstName": "Ingrid",
+      "lastName": "ElGuerrouj",
+      "gender": "F",
+      "year": 1968,
+      "category": "SENIOR",
+      "bibNumber": 187,
+      "sportsClub": "Marathon Napoli",
+      "position": 87
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4035,
+    "gapSeconds": 1548,
+    "paceMinKm": 6.72
+  },
+  {
+    "id": "3e3debd8-181e-4c09-98b7-c68befb6596c",
+    "athlete": {
+      "id": "304fda60-e69e-4d58-8d0c-96f4ada7ceec",
+      "firstName": "Stefano",
+      "lastName": "Nurmi",
+      "gender": "M",
+      "year": 1987,
+      "category": "SENIOR",
+      "bibNumber": 188,
+      "sportsClub": "Running Roma",
+      "position": 88
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4304,
+    "gapSeconds": 870,
+    "paceMinKm": 7.17
+  },
+  {
+    "id": "9201ed49-26ab-42c8-a974-73b485e02aea",
+    "athlete": {
+      "id": "a2a765db-d72f-4255-9b7f-94feb6c0d6cf",
+      "firstName": "Hicham",
+      "lastName": "Coe",
+      "gender": "M",
+      "year": 1969,
+      "category": "SENIOR",
+      "bibNumber": 189,
+      "sportsClub": "CUS Torino",
+      "position": 89
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5380,
+    "gapSeconds": 704,
+    "paceMinKm": 8.97
+  },
+  {
+    "id": "b91c78b3-3422-4c49-bc6f-17d04bd6f319",
+    "athlete": {
+      "id": "c1ac4288-d482-4367-90f7-aa673e558c35",
+      "firstName": "Usain",
+      "lastName": "Mei",
+      "gender": "F",
+      "year": 1982,
+      "category": "SENIOR",
+      "bibNumber": 190,
+      "sportsClub": "Running Roma",
+      "position": 90
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4770,
+    "gapSeconds": 1691,
+    "paceMinKm": 7.95
+  },
+  {
+    "id": "5cf717ed-9034-4451-9ff0-9ffe00e138a9",
+    "athlete": {
+      "id": "74b7d6b3-d13c-4cca-8211-3d2f9cbbd912",
+      "firstName": "Paavo",
+      "lastName": "Pizzolato",
+      "gender": "M",
+      "year": 1992,
+      "category": "SENIOR",
+      "bibNumber": 191,
+      "sportsClub": "Atletica Milano",
+      "position": 91
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4237,
+    "gapSeconds": 900,
+    "paceMinKm": 7.06
+  },
+  {
+    "id": "980d2aba-23f2-4e40-95a3-a9429d2ce77f",
+    "athlete": {
+      "id": "97a1ee91-0332-410a-aac6-c7079b081844",
+      "firstName": "Fiona",
+      "lastName": "Panetta",
+      "gender": "F",
+      "year": 1987,
+      "category": "SENIOR",
+      "bibNumber": 192,
+      "sportsClub": "Atletica Milano",
+      "position": 92
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4336,
+    "gapSeconds": 728,
+    "paceMinKm": 7.23
+  },
+  {
+    "id": "c6fc5d22-0ccc-4b4e-809a-acea10524226",
+    "athlete": {
+      "id": "8aaff0db-9a8d-43ad-8fca-430eae752ff4",
+      "firstName": "Sebastian",
+      "lastName": "Bordin",
+      "gender": "F",
+      "year": 1976,
+      "category": "SENIOR",
+      "bibNumber": 193,
+      "sportsClub": "CUS Torino",
+      "position": 93
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4995,
+    "gapSeconds": 736,
+    "paceMinKm": 8.32
+  },
+  {
+    "id": "52e2e7ee-394f-4c4b-8931-88798a56d515",
+    "athlete": {
+      "id": "82298282-3543-4f26-a286-8dba00c6b947",
+      "firstName": "Francesco",
+      "lastName": "Coe",
+      "gender": "F",
+      "year": 1996,
+      "category": "SENIOR",
+      "bibNumber": 194,
+      "sportsClub": "Marathon Napoli",
+      "position": 94
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4258,
+    "gapSeconds": 1395,
+    "paceMinKm": 7.1
+  },
+  {
+    "id": "07a618f5-9f3c-4669-8a07-57e5978a5610",
+    "athlete": {
+      "id": "8775e466-28ef-422f-81d4-ef9de907f3a8",
+      "firstName": "Kenenisa",
+      "lastName": "Kristiansen",
+      "gender": "M",
+      "year": 1966,
+      "category": "SENIOR",
+      "bibNumber": 195,
+      "sportsClub": "Marathon Napoli",
+      "position": 95
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5500,
+    "gapSeconds": 1504,
+    "paceMinKm": 9.17
+  },
+  {
+    "id": "c2624932-8a06-4c41-946e-aa2c8a29a227",
+    "athlete": {
+      "id": "4b891b70-52cd-4808-a15d-0f488b5d24de",
+      "firstName": "Fiona",
+      "lastName": "Cova",
+      "gender": "F",
+      "year": 1981,
+      "category": "SENIOR",
+      "bibNumber": 196,
+      "sportsClub": "CUS Torino",
+      "position": 96
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4848,
+    "gapSeconds": 1710,
+    "paceMinKm": 8.08
+  },
+  {
+    "id": "0c7d580d-11e6-4323-8d4f-168815bebe10",
+    "athlete": {
+      "id": "979b06e1-2523-4000-96c0-43d94171a2cc",
+      "firstName": "Orlando",
+      "lastName": "Bolt",
+      "gender": "M",
+      "year": 1965,
+      "category": "SENIOR",
+      "bibNumber": 197,
+      "sportsClub": "CUS Torino",
+      "position": 97
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5152,
+    "gapSeconds": 1632,
+    "paceMinKm": 8.59
+  },
+  {
+    "id": "09a97700-9a63-4725-91fc-892b1b0101fa",
+    "athlete": {
+      "id": "c3a8249d-7348-4ae3-ad58-d085f75c10a1",
+      "firstName": "Kenenisa",
+      "lastName": "Bekele",
+      "gender": "F",
+      "year": 1962,
+      "category": "SENIOR",
+      "bibNumber": 198,
+      "sportsClub": "Running Roma",
+      "position": 98
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4678,
+    "gapSeconds": 679,
+    "paceMinKm": 7.8
+  },
+  {
+    "id": "2512b1b6-7f1b-4f27-9ef3-ecf62f22c8de",
+    "athlete": {
+      "id": "4c73b751-3569-4c31-9b28-852c865768f8",
+      "firstName": "Fiona",
+      "lastName": "Simeoni",
+      "gender": "F",
+      "year": 1962,
+      "category": "SENIOR",
+      "bibNumber": 199,
+      "sportsClub": "Running Roma",
+      "position": 99
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5580,
+    "gapSeconds": 1470,
+    "paceMinKm": 9.3
+  },
+  {
+    "id": "9fc0b075-a07b-4722-bb4b-fb2bb49a13fc",
+    "athlete": {
+      "id": "80ebe9de-8999-4b53-9926-f356795aec34",
+      "firstName": "Emil",
+      "lastName": "Mei",
+      "gender": "F",
+      "year": 1978,
+      "category": "SENIOR",
+      "bibNumber": 200,
+      "sportsClub": "Atletica Milano",
+      "position": 100
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5200,
+    "gapSeconds": 990,
+    "paceMinKm": 8.67
+  },
+  {
+    "id": "18346b70-64c3-439f-9394-ea3aad6dbff4",
+    "athlete": {
+      "id": "b1e457e7-95aa-42f1-81e6-50299bed7e20",
+      "firstName": "Noureddine",
+      "lastName": "Bordin",
+      "gender": "M",
+      "year": 1998,
+      "category": "SENIOR",
+      "bibNumber": 201,
+      "sportsClub": "Marathon Napoli",
+      "position": 101
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5216,
+    "gapSeconds": 1000,
+    "paceMinKm": 8.69
+  },
+  {
+    "id": "b96beb76-8ea2-4fff-a859-31aad91f5396",
+    "athlete": {
+      "id": "475cb51b-9da4-483b-9a4d-c67a74df537b",
+      "firstName": "Abebe",
+      "lastName": "Gebrselassie",
+      "gender": "F",
+      "year": 1973,
+      "category": "SENIOR",
+      "bibNumber": 202,
+      "sportsClub": "Atletica Milano",
+      "position": 102
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4620,
+    "gapSeconds": 1313,
+    "paceMinKm": 7.7
+  },
+  {
+    "id": "ba69345a-4b09-4547-af20-0ea1d47f607f",
+    "athlete": {
+      "id": "f1f733ca-92ac-4418-9b3d-970c24515310",
+      "firstName": "Ingrid",
+      "lastName": "ElGuerrouj",
+      "gender": "F",
+      "year": 1961,
+      "category": "SENIOR",
+      "bibNumber": 203,
+      "sportsClub": "Running Roma",
+      "position": 103
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4630,
+    "gapSeconds": 1734,
+    "paceMinKm": 7.72
+  },
+  {
+    "id": "bf4d362d-7247-48e9-9f98-e07efbb29974",
+    "athlete": {
+      "id": "fb1281c6-19e3-41d7-9f45-a814f06c1421",
+      "firstName": "Carl",
+      "lastName": "Mei",
+      "gender": "M",
+      "year": 1969,
+      "category": "SENIOR",
+      "bibNumber": 204,
+      "sportsClub": "CUS Torino",
+      "position": 104
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5368,
+    "gapSeconds": 1442,
+    "paceMinKm": 8.95
+  },
+  {
+    "id": "fdec05e4-fd6f-44a2-9350-4e5ee1ed3dae",
+    "athlete": {
+      "id": "3e0d99e2-fbb2-4ffd-b9e7-0b5bb00c228a",
+      "firstName": "Kenenisa",
+      "lastName": "Kristiansen",
+      "gender": "F",
+      "year": 1965,
+      "category": "SENIOR",
+      "bibNumber": 205,
+      "sportsClub": "CUS Torino",
+      "position": 105
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5595,
+    "gapSeconds": 728,
+    "paceMinKm": 9.32
+  },
+  {
+    "id": "cc102577-b4aa-46fd-8461-63847d2adab0",
+    "athlete": {
+      "id": "b488fd6c-3a2b-481a-ad49-b3529be983d7",
+      "firstName": "Hicham",
+      "lastName": "ElGuerrouj",
+      "gender": "F",
+      "year": 1971,
+      "category": "SENIOR",
+      "bibNumber": 206,
+      "sportsClub": "Atletica Milano",
+      "position": 106
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5402,
+    "gapSeconds": 945,
+    "paceMinKm": 9.0
+  },
+  {
+    "id": "6184c87b-85d6-4db2-b26d-7e5da3fae4dc",
+    "athlete": {
+      "id": "96185e6c-85a9-4989-a8bc-0e50729371b4",
+      "firstName": "Gelindo",
+      "lastName": "Modica",
+      "gender": "F",
+      "year": 1993,
+      "category": "SENIOR",
+      "bibNumber": 207,
+      "sportsClub": "Marathon Napoli",
+      "position": 107
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4563,
+    "gapSeconds": 1060,
+    "paceMinKm": 7.61
+  },
+  {
+    "id": "6a67df19-50e6-4940-8adf-23e80fb93e7a",
+    "athlete": {
+      "id": "64ea21b3-32d6-448b-85ec-48d212688a63",
+      "firstName": "Sebastian",
+      "lastName": "Kristiansen",
+      "gender": "F",
+      "year": 1962,
+      "category": "SENIOR",
+      "bibNumber": 208,
+      "sportsClub": "CUS Torino",
+      "position": 108
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5544,
+    "gapSeconds": 1070,
+    "paceMinKm": 9.24
+  },
+  {
+    "id": "17bfcc42-1da8-4a8f-b91e-b18a1edd379e",
+    "athlete": {
+      "id": "7cd37be5-9f59-4415-8883-5ba5aab93bc3",
+      "firstName": "Abebe",
+      "lastName": "ElGuerrouj",
+      "gender": "M",
+      "year": 1972,
+      "category": "SENIOR",
+      "bibNumber": 209,
+      "sportsClub": "Running Roma",
+      "position": 109
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4690,
+    "gapSeconds": 1836,
+    "paceMinKm": 7.82
+  },
+  {
+    "id": "c448f66f-313f-4539-a2cf-10ee77d86b78",
+    "athlete": {
+      "id": "9d5bcc81-420a-44ba-91af-78f21d70c692",
+      "firstName": "Emil",
+      "lastName": "Mei",
+      "gender": "F",
+      "year": 1984,
+      "category": "SENIOR",
+      "bibNumber": 210,
+      "sportsClub": "CUS Torino",
+      "position": 110
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5690,
+    "gapSeconds": 1744,
+    "paceMinKm": 9.48
+  },
+  {
+    "id": "9bbb3366-c1ef-47a6-8d1e-ebb67d973603",
+    "athlete": {
+      "id": "4777a603-8679-442c-94ec-b3ce9e32e1e3",
+      "firstName": "Gelindo",
+      "lastName": "Mayr",
+      "gender": "F",
+      "year": 1995,
+      "category": "SENIOR",
+      "bibNumber": 211,
+      "sportsClub": "CUS Torino",
+      "position": 111
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5487,
+    "gapSeconds": 1980,
+    "paceMinKm": 9.15
+  },
+  {
+    "id": "98f455f2-f53c-4e1b-9c01-acdb77924984",
+    "athlete": {
+      "id": "4ee0b7b3-d07a-418b-b260-a07602f58217",
+      "firstName": "Kenenisa",
+      "lastName": "Pizzolato",
+      "gender": "M",
+      "year": 1995,
+      "category": "SENIOR",
+      "bibNumber": 212,
+      "sportsClub": "Atletica Milano",
+      "position": 112
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4832,
+    "gapSeconds": 1110,
+    "paceMinKm": 8.05
+  },
+  {
+    "id": "837d43f5-eb7f-4172-b789-d9a60662a67a",
+    "athlete": {
+      "id": "39073159-0c4c-49cb-bd4f-8b93cb9fdf7e",
+      "firstName": "Noureddine",
+      "lastName": "Bolt",
+      "gender": "F",
+      "year": 1984,
+      "category": "SENIOR",
+      "bibNumber": 213,
+      "sportsClub": "Marathon Napoli",
+      "position": 113
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4504,
+    "gapSeconds": 2240,
+    "paceMinKm": 7.51
+  },
+  {
+    "id": "956628a3-2388-4425-990b-7df1a83d0998",
+    "athlete": {
+      "id": "1db1c9b1-40fc-48c5-acfc-ba259dc1cf1e",
+      "firstName": "Noureddine",
+      "lastName": "Nurmi",
+      "gender": "M",
+      "year": 1993,
+      "category": "SENIOR",
+      "bibNumber": 214,
+      "sportsClub": "Running Roma",
+      "position": 114
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4740,
+    "gapSeconds": 678,
+    "paceMinKm": 7.9
+  },
+  {
+    "id": "89c3a407-e057-4ec7-8d14-cb3d3e84e66b",
+    "athlete": {
+      "id": "f57ee56d-4109-4687-840c-47ef0d9e5389",
+      "firstName": "Carl",
+      "lastName": "Modica",
+      "gender": "M",
+      "year": 1960,
+      "category": "SENIOR",
+      "bibNumber": 215,
+      "sportsClub": "Marathon Napoli",
+      "position": 115
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5670,
+    "gapSeconds": 1140,
+    "paceMinKm": 9.45
+  },
+  {
+    "id": "088d7dc2-fc0b-4ac9-a3bb-bd5ce9c85f8e",
+    "athlete": {
+      "id": "70118bc7-df3c-4cff-b5ad-80a624028453",
+      "firstName": "Gabriela",
+      "lastName": "Gebrselassie",
+      "gender": "M",
+      "year": 1965,
+      "category": "SENIOR",
+      "bibNumber": 216,
+      "sportsClub": "Running Roma",
+      "position": 116
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4992,
+    "gapSeconds": 690,
+    "paceMinKm": 8.32
+  },
+  {
+    "id": "7fa5f62b-9a16-441c-ad48-0af3617dcb3b",
+    "athlete": {
+      "id": "2b513d8e-ea6d-466e-b36d-205f43a4208e",
+      "firstName": "Haile",
+      "lastName": "Bekele",
+      "gender": "F",
+      "year": 1991,
+      "category": "SENIOR",
+      "bibNumber": 217,
+      "sportsClub": "Running Roma",
+      "position": 117
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5004,
+    "gapSeconds": 1160,
+    "paceMinKm": 8.34
+  },
+  {
+    "id": "38b63c7d-f3b8-4c64-8822-d8147335516a",
+    "athlete": {
+      "id": "a5ceb36d-f299-40a1-bb82-23c489e2feff",
+      "firstName": "Haile",
+      "lastName": "Bekele",
+      "gender": "F",
+      "year": 1986,
+      "category": "SENIOR",
+      "bibNumber": 218,
+      "sportsClub": "Atletica Milano",
+      "position": 118
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5134,
+    "gapSeconds": 1638,
+    "paceMinKm": 8.56
+  },
+  {
+    "id": "bd504c65-72d3-4778-8d90-606afd7727dc",
+    "athlete": {
+      "id": "03599390-6826-4a18-9a1c-07abf40bdba3",
+      "firstName": "Paavo",
+      "lastName": "Gebrselassie",
+      "gender": "M",
+      "year": 1996,
+      "category": "SENIOR",
+      "bibNumber": 219,
+      "sportsClub": "Atletica Milano",
+      "position": 119
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4909,
+    "gapSeconds": 590,
+    "paceMinKm": 8.18
+  },
+  {
+    "id": "4e0d0e17-f283-4dee-bb35-35912994579b",
+    "athlete": {
+      "id": "1421272f-6a8d-444e-ba2e-440bb04cb0a0",
+      "firstName": "Emil",
+      "lastName": "Simeoni",
+      "gender": "M",
+      "year": 1971,
+      "category": "SENIOR",
+      "bibNumber": 220,
+      "sportsClub": "CUS Torino",
+      "position": 120
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5040,
+    "gapSeconds": 1666,
+    "paceMinKm": 8.4
+  },
+  {
+    "id": "7666b7fa-cada-4db3-bf9e-122c29ad9e43",
+    "athlete": {
+      "id": "15125ac0-27d7-4ee2-8acb-3b889b9f86dc",
+      "firstName": "Gabriela",
+      "lastName": "Simeoni",
+      "gender": "M",
+      "year": 1962,
+      "category": "SENIOR",
+      "bibNumber": 221,
+      "sportsClub": "Marathon Napoli",
+      "position": 121
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4326,
+    "gapSeconds": 840,
+    "paceMinKm": 7.21
+  },
+  {
+    "id": "d39752cf-68ff-48b0-a9e4-8b36f9d5a9fa",
+    "athlete": {
+      "id": "a37886dc-77a3-46e7-abd7-c8014b430316",
+      "firstName": "Paavo",
+      "lastName": "Szabo",
+      "gender": "M",
+      "year": 1980,
+      "category": "SENIOR",
+      "bibNumber": 222,
+      "sportsClub": "Atletica Milano",
+      "position": 122
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5308,
+    "gapSeconds": 1815,
+    "paceMinKm": 8.85
+  },
+  {
+    "id": "ec4ed983-7db7-4950-bd9b-8895403b8d8b",
+    "athlete": {
+      "id": "aaea7535-1536-4fc7-b7eb-8b3e33058661",
+      "firstName": "Alberto",
+      "lastName": "ElGuerrouj",
+      "gender": "F",
+      "year": 1963,
+      "category": "SENIOR",
+      "bibNumber": 223,
+      "sportsClub": "CUS Torino",
+      "position": 123
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4707,
+    "gapSeconds": 2318,
+    "paceMinKm": 7.84
+  },
+  {
+    "id": "155a3bb5-c78f-45e2-82c9-a5374b2b1bcb",
+    "athlete": {
+      "id": "e94b14eb-12d3-4a10-be9c-e6365526f295",
+      "firstName": "Kenenisa",
+      "lastName": "Mei",
+      "gender": "M",
+      "year": 1973,
+      "category": "SENIOR",
+      "bibNumber": 224,
+      "sportsClub": "Running Roma",
+      "position": 124
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5584,
+    "gapSeconds": 1968,
+    "paceMinKm": 9.31
+  },
+  {
+    "id": "55c434d6-6487-4edc-8c3f-342d976de568",
+    "athlete": {
+      "id": "2de5dec3-e976-40fc-bf82-f00cab69f2f6",
+      "firstName": "Noureddine",
+      "lastName": "Pizzolato",
+      "gender": "M",
+      "year": 1988,
+      "category": "SENIOR",
+      "bibNumber": 225,
+      "sportsClub": "Atletica Milano",
+      "position": 125
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4225,
+    "gapSeconds": 2480,
+    "paceMinKm": 7.04
+  },
+  {
+    "id": "fc819e85-c5e6-4994-8d22-a0530762c87f",
+    "athlete": {
+      "id": "a62d8b78-9e18-4834-97e7-1ab3053579f3",
+      "firstName": "Stefano",
+      "lastName": "Kristiansen",
+      "gender": "M",
+      "year": 1997,
+      "category": "SENIOR",
+      "bibNumber": 226,
+      "sportsClub": "CUS Torino",
+      "position": 126
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5490,
+    "gapSeconds": 1375,
+    "paceMinKm": 9.15
+  },
+  {
+    "id": "e16a5444-d2c4-4816-b0c4-c1f6d6597e3a",
+    "athlete": {
+      "id": "490f2e10-45af-4c12-a419-ada25c0077d8",
+      "firstName": "Noureddine",
+      "lastName": "Mayr",
+      "gender": "M",
+      "year": 1969,
+      "category": "SENIOR",
+      "bibNumber": 227,
+      "sportsClub": "Running Roma",
+      "position": 127
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5632,
+    "gapSeconds": 1260,
+    "paceMinKm": 9.39
+  },
+  {
+    "id": "7ae71a52-d385-4416-ab60-6d11f91761ff",
+    "athlete": {
+      "id": "f8d5cd3c-f835-4e5b-b2b2-76f876a22411",
+      "firstName": "Gabriela",
+      "lastName": "Simeoni",
+      "gender": "F",
+      "year": 1988,
+      "category": "SENIOR",
+      "bibNumber": 228,
+      "sportsClub": "Atletica Milano",
+      "position": 128
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5648,
+    "gapSeconds": 1778,
+    "paceMinKm": 9.41
+  },
+  {
+    "id": "29408ed1-1d68-4557-b2c7-bb2afbcfa50d",
+    "athlete": {
+      "id": "15e47eae-9d74-4904-a934-4ee72c2e742f",
+      "firstName": "Fiona",
+      "lastName": "Cova",
+      "gender": "M",
+      "year": 1989,
+      "category": "SENIOR",
+      "bibNumber": 229,
+      "sportsClub": "CUS Torino",
+      "position": 129
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5019,
+    "gapSeconds": 2432,
+    "paceMinKm": 8.37
+  },
+  {
+    "id": "fb79ff33-7db1-46a1-a8dc-3d833b607577",
+    "athlete": {
+      "id": "98425c33-abf2-4d87-bb94-816f01875638",
+      "firstName": "Francesco",
+      "lastName": "Mei",
+      "gender": "F",
+      "year": 1980,
+      "category": "SENIOR",
+      "bibNumber": 230,
+      "sportsClub": "Marathon Napoli",
+      "position": 130
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5160,
+    "gapSeconds": 1548,
+    "paceMinKm": 8.6
+  },
+  {
+    "id": "5c2ed7d2-6568-421f-a433-549816479135",
+    "athlete": {
+      "id": "8e3ef3b3-b588-4047-b6b6-c7eb45dd60ae",
+      "firstName": "Usain",
+      "lastName": "Panetta",
+      "gender": "M",
+      "year": 1966,
+      "category": "SENIOR",
+      "bibNumber": 231,
+      "sportsClub": "Marathon Napoli",
+      "position": 131
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4648,
+    "gapSeconds": 2210,
+    "paceMinKm": 7.75
+  },
+  {
+    "id": "4bb1ce31-b9ca-43ac-8ed2-55527dc0fa8e",
+    "athlete": {
+      "id": "cd16b28c-bf16-4502-9ad9-97320deefe70",
+      "firstName": "Ingrid",
+      "lastName": "Mei",
+      "gender": "M",
+      "year": 2000,
+      "category": "SENIOR",
+      "bibNumber": 232,
+      "sportsClub": "Atletica Milano",
+      "position": 132
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6108,
+    "gapSeconds": 2096,
+    "paceMinKm": 10.18
+  },
+  {
+    "id": "676c0f2f-1ba9-4e05-a4dd-d0a381945638",
+    "athlete": {
+      "id": "787f75a5-7e0c-4bc5-a357-90e51debc1ee",
+      "firstName": "Usain",
+      "lastName": "ElGuerrouj",
+      "gender": "M",
+      "year": 1995,
+      "category": "SENIOR",
+      "bibNumber": 233,
+      "sportsClub": "Running Roma",
+      "position": 133
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4265,
+    "gapSeconds": 1980,
+    "paceMinKm": 7.11
+  },
+  {
+    "id": "c962fa54-0412-4f9d-9bf2-8ceeb34d222b",
+    "athlete": {
+      "id": "805e07ba-c90e-4186-a48f-1b508f38514a",
+      "firstName": "Paavo",
+      "lastName": "Gebrselassie",
+      "gender": "M",
+      "year": 1971,
+      "category": "SENIOR",
+      "bibNumber": 234,
+      "sportsClub": "Atletica Milano",
+      "position": 134
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4940,
+    "gapSeconds": 2527,
+    "paceMinKm": 8.23
+  },
+  {
+    "id": "a0ac01cf-9e05-4b13-8fb1-40990c8a3cc0",
+    "athlete": {
+      "id": "5a309e02-d86a-4d26-96d6-b8c4cde935d2",
+      "firstName": "Usain",
+      "lastName": "Coe",
+      "gender": "M",
+      "year": 1978,
+      "category": "SENIOR",
+      "bibNumber": 235,
+      "sportsClub": "Running Roma",
+      "position": 135
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5895,
+    "gapSeconds": 2412,
+    "paceMinKm": 9.82
+  },
+  {
+    "id": "54ee57a1-502d-4a5c-9a3f-12da53280cb1",
+    "athlete": {
+      "id": "b011a5a7-4058-4d6a-97b2-6abb2ca36d88",
+      "firstName": "Fiona",
+      "lastName": "Bordin",
+      "gender": "M",
+      "year": 1964,
+      "category": "SENIOR",
+      "bibNumber": 236,
+      "sportsClub": "Running Roma",
+      "position": 136
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5912,
+    "gapSeconds": 945,
+    "paceMinKm": 9.85
+  },
+  {
+    "id": "31ea399a-cc41-43dd-912c-b5c6c970d8bd",
+    "athlete": {
+      "id": "3156f366-ab21-4099-b929-d9e227a74e25",
+      "firstName": "Abebe",
+      "lastName": "Morceli",
+      "gender": "F",
+      "year": 1991,
+      "category": "SENIOR",
+      "bibNumber": 237,
+      "sportsClub": "Atletica Milano",
+      "position": 137
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6066,
+    "gapSeconds": 1632,
+    "paceMinKm": 10.11
+  },
+  {
+    "id": "1738576b-a602-4ea0-8f8a-f77fbeec60bf",
+    "athlete": {
+      "id": "e07891ce-a22c-43be-88aa-7db50354511e",
+      "firstName": "Sebastian",
+      "lastName": "Cova",
+      "gender": "M",
+      "year": 1976,
+      "category": "SENIOR",
+      "bibNumber": 238,
+      "sportsClub": "Marathon Napoli",
+      "position": 138
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4704,
+    "gapSeconds": 959,
+    "paceMinKm": 7.84
+  },
+  {
+    "id": "6ef0e7ef-93c6-4bc4-9ee3-aeacc628a7e2",
+    "athlete": {
+      "id": "3fcc4ab6-8493-462f-a198-4395bf4b9da0",
+      "firstName": "Ingrid",
+      "lastName": "ElGuerrouj",
+      "gender": "M",
+      "year": 1975,
+      "category": "SENIOR",
+      "bibNumber": 239,
+      "sportsClub": "Marathon Napoli",
+      "position": 139
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5546,
+    "gapSeconds": 1242,
+    "paceMinKm": 9.24
+  },
+  {
+    "id": "f596a215-a0d9-40fb-86bc-9683830fa1b9",
+    "athlete": {
+      "id": "a127b819-9561-4867-8cd1-6462c92d7618",
+      "firstName": "Francesco",
+      "lastName": "ElGuerrouj",
+      "gender": "F",
+      "year": 1999,
+      "category": "SENIOR",
+      "bibNumber": 240,
+      "sportsClub": "CUS Torino",
+      "position": 140
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4860,
+    "gapSeconds": 1390,
+    "paceMinKm": 8.1
+  },
+  {
+    "id": "d8648150-cea8-402b-8343-0562e839f75b",
+    "athlete": {
+      "id": "4de16a16-5aef-4ee5-b6fd-673f1f04a305",
+      "firstName": "Orlando",
+      "lastName": "Panetta",
+      "gender": "F",
+      "year": 1968,
+      "category": "SENIOR",
+      "bibNumber": 241,
+      "sportsClub": "Running Roma",
+      "position": 141
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4869,
+    "gapSeconds": 2800,
+    "paceMinKm": 8.12
+  },
+  {
+    "id": "30cf0437-2655-4e8a-98b2-d3440944a75b",
+    "athlete": {
+      "id": "5de2839c-a721-4cfe-839d-e078f166602b",
+      "firstName": "Francesco",
+      "lastName": "Szabo",
+      "gender": "M",
+      "year": 1978,
+      "category": "SENIOR",
+      "bibNumber": 242,
+      "sportsClub": "Marathon Napoli",
+      "position": 142
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4878,
+    "gapSeconds": 2256,
+    "paceMinKm": 8.13
+  },
+  {
+    "id": "7e819692-e206-4690-ad7e-603adf78df7c",
+    "athlete": {
+      "id": "07ef0d8d-331c-4b43-a0d8-8866245186ad",
+      "firstName": "Gabriela",
+      "lastName": "Coe",
+      "gender": "M",
+      "year": 1993,
+      "category": "SENIOR",
+      "bibNumber": 243,
+      "sportsClub": "Atletica Milano",
+      "position": 143
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4744,
+    "gapSeconds": 1846,
+    "paceMinKm": 7.91
+  },
+  {
+    "id": "cede063e-4ed3-4fdb-b6d9-f1018ae6a57f",
+    "athlete": {
+      "id": "fd476bb8-22e2-4986-a92c-08598f6ea4e3",
+      "firstName": "Stefano",
+      "lastName": "Simeoni",
+      "gender": "M",
+      "year": 1974,
+      "category": "SENIOR",
+      "bibNumber": 244,
+      "sportsClub": "Running Roma",
+      "position": 144
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4608,
+    "gapSeconds": 1001,
+    "paceMinKm": 7.68
+  },
+  {
+    "id": "f22c0c84-fe40-421d-9ea2-42e182f164de",
+    "athlete": {
+      "id": "0eec278e-c0ee-4c40-b806-a55e2b8429a3",
+      "firstName": "Hicham",
+      "lastName": "Lewis",
+      "gender": "F",
+      "year": 1988,
+      "category": "SENIOR",
+      "bibNumber": 245,
+      "sportsClub": "Marathon Napoli",
+      "position": 145
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5775,
+    "gapSeconds": 2448,
+    "paceMinKm": 9.62
+  },
+  {
+    "id": "48ced52b-90e1-4c38-9026-21607d732a24",
+    "athlete": {
+      "id": "e27cdfcf-06d6-4f17-88c4-635ccdca87e7",
+      "firstName": "Alberto",
+      "lastName": "Mayr",
+      "gender": "F",
+      "year": 1977,
+      "category": "SENIOR",
+      "bibNumber": 246,
+      "sportsClub": "CUS Torino",
+      "position": 146
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5206,
+    "gapSeconds": 1305,
+    "paceMinKm": 8.68
+  },
+  {
+    "id": "f71529eb-24bc-40ce-9835-9c671ba62365",
+    "athlete": {
+      "id": "64225837-9f6c-4814-a5d6-c3ee82fd0608",
+      "firstName": "Vincenzo",
+      "lastName": "Pizzolato",
+      "gender": "F",
+      "year": 1987,
+      "category": "SENIOR",
+      "bibNumber": 247,
+      "sportsClub": "Atletica Milano",
+      "position": 147
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5511,
+    "gapSeconds": 730,
+    "paceMinKm": 9.19
+  },
+  {
+    "id": "049df90f-e2f9-4319-ae0d-444a33a96263",
+    "athlete": {
+      "id": "1b6ca38a-23e3-4fcf-9976-e0b64a0d01c7",
+      "firstName": "Gabriela",
+      "lastName": "Nurmi",
+      "gender": "F",
+      "year": 1970,
+      "category": "SENIOR",
+      "bibNumber": 248,
+      "sportsClub": "CUS Torino",
+      "position": 148
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5968,
+    "gapSeconds": 2058,
+    "paceMinKm": 9.95
+  },
+  {
+    "id": "b30ed8c2-4cbe-4c8f-bd9d-11fe5c4df65b",
+    "athlete": {
+      "id": "ed3c3723-539b-4c68-9dd6-c29d0394fcd8",
+      "firstName": "Alberto",
+      "lastName": "Pizzolato",
+      "gender": "M",
+      "year": 1962,
+      "category": "SENIOR",
+      "bibNumber": 249,
+      "sportsClub": "Atletica Milano",
+      "position": 149
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4345,
+    "gapSeconds": 2960,
+    "paceMinKm": 7.24
+  },
+  {
+    "id": "94fb11dd-fb70-4403-9eed-47c78f224295",
+    "athlete": {
+      "id": "cc3cdab7-925d-4851-b4f4-1694d6d4187a",
+      "firstName": "Usain",
+      "lastName": "Cova",
+      "gender": "M",
+      "year": 1966,
+      "category": "SENIOR",
+      "bibNumber": 250,
+      "sportsClub": "Atletica Milano",
+      "position": 150
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4350,
+    "gapSeconds": 894,
+    "paceMinKm": 7.25
+  },
+  {
+    "id": "5609b168-f47b-48d8-8127-abff778a91eb",
+    "athlete": {
+      "id": "a6c1d0a7-caa1-4e9f-a7e0-83fd7309ab91",
+      "firstName": "Haile",
+      "lastName": "Nurmi",
+      "gender": "M",
+      "year": 1970,
+      "category": "SENIOR",
+      "bibNumber": 251,
+      "sportsClub": "Atletica Milano",
+      "position": 151
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6620,
+    "gapSeconds": 1950,
+    "paceMinKm": 11.03
+  },
+  {
+    "id": "41da90e3-5f9e-49de-86fd-563d35c153b4",
+    "athlete": {
+      "id": "7601768e-6d73-44c6-828e-867d14bdbf73",
+      "firstName": "Orlando",
+      "lastName": "Panetta",
+      "gender": "M",
+      "year": 1980,
+      "category": "SENIOR",
+      "bibNumber": 252,
+      "sportsClub": "Atletica Milano",
+      "position": 152
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5272,
+    "gapSeconds": 1812,
+    "paceMinKm": 8.79
+  },
+  {
+    "id": "cbff3af3-5e07-4e71-8ad3-77ddc9f7e6b7",
+    "athlete": {
+      "id": "347876f9-4444-4a85-82d5-59f50a206781",
+      "firstName": "Carl",
+      "lastName": "Zatopek",
+      "gender": "M",
+      "year": 1990,
+      "category": "SENIOR",
+      "bibNumber": 253,
+      "sportsClub": "Marathon Napoli",
+      "position": 153
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6660,
+    "gapSeconds": 1672,
+    "paceMinKm": 11.1
+  },
+  {
+    "id": "da15761c-8b98-47d8-9ac1-9f572bae12c0",
+    "athlete": {
+      "id": "644327cb-12bd-4f01-8a6d-7935534a15ee",
+      "firstName": "Orlando",
+      "lastName": "Zatopek",
+      "gender": "F",
+      "year": 1979,
+      "category": "SENIOR",
+      "bibNumber": 254,
+      "sportsClub": "CUS Torino",
+      "position": 154
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4678,
+    "gapSeconds": 2295,
+    "paceMinKm": 7.8
+  },
+  {
+    "id": "b35e9b6e-d996-442c-8a83-92d8d342b86d",
+    "athlete": {
+      "id": "e376c1c8-a182-413a-874e-239be7188155",
+      "firstName": "Emil",
+      "lastName": "Gebrselassie",
+      "gender": "F",
+      "year": 1998,
+      "category": "SENIOR",
+      "bibNumber": 255,
+      "sportsClub": "Marathon Napoli",
+      "position": 155
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6545,
+    "gapSeconds": 1540,
+    "paceMinKm": 10.91
+  },
+  {
+    "id": "de395def-d196-494f-bc9c-ee428db60c7c",
+    "athlete": {
+      "id": "441f5839-b5c8-413a-8b1d-9c0468e68dbe",
+      "firstName": "Stefano",
+      "lastName": "Nurmi",
+      "gender": "F",
+      "year": 1995,
+      "category": "SENIOR",
+      "bibNumber": 256,
+      "sportsClub": "Marathon Napoli",
+      "position": 156
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4536,
+    "gapSeconds": 2015,
+    "paceMinKm": 7.56
+  },
+  {
+    "id": "9a67b948-ec8b-41a7-b989-0937ba464406",
+    "athlete": {
+      "id": "57a05112-f8ba-42d9-8e1f-8ee833ab1317",
+      "firstName": "Emil",
+      "lastName": "Gebrselassie",
+      "gender": "M",
+      "year": 1978,
+      "category": "SENIOR",
+      "bibNumber": 257,
+      "sportsClub": "Atletica Milano",
+      "position": 157
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4385,
+    "gapSeconds": 2340,
+    "paceMinKm": 7.31
+  },
+  {
+    "id": "5ef27a6f-5e2c-4a5d-9308-4bb5c086a424",
+    "athlete": {
+      "id": "49edeef1-cc4a-49d3-a37e-a68856c1d9d4",
+      "firstName": "Alberto",
+      "lastName": "Panetta",
+      "gender": "F",
+      "year": 1991,
+      "category": "SENIOR",
+      "bibNumber": 258,
+      "sportsClub": "Atletica Milano",
+      "position": 158
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4864,
+    "gapSeconds": 2198,
+    "paceMinKm": 8.11
+  },
+  {
+    "id": "4a3763ac-94d8-4494-ad6b-b2cbf74e8848",
+    "athlete": {
+      "id": "23e6ba95-1040-4e5a-a281-6e8afec3b0e6",
+      "firstName": "Usain",
+      "lastName": "Modica",
+      "gender": "F",
+      "year": 1997,
+      "category": "SENIOR",
+      "bibNumber": 259,
+      "sportsClub": "CUS Torino",
+      "position": 159
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6462,
+    "gapSeconds": 1264,
+    "paceMinKm": 10.77
+  },
+  {
+    "id": "d50098d5-8715-444e-8023-8bdde393cbcd",
+    "athlete": {
+      "id": "1861735d-2d94-4ede-bc5e-72aad64680d4",
+      "firstName": "Kenenisa",
+      "lastName": "Bikila",
+      "gender": "F",
+      "year": 1969,
+      "category": "SENIOR",
+      "bibNumber": 260,
+      "sportsClub": "Running Roma",
+      "position": 160
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5520,
+    "gapSeconds": 2862,
+    "paceMinKm": 9.2
+  },
+  {
+    "id": "78167cac-f0ab-4398-8769-ae5ab4c31ba1",
+    "athlete": {
+      "id": "e2c4e198-70dc-42de-a695-10f2ca5fa9ca",
+      "firstName": "Ingrid",
+      "lastName": "Cova",
+      "gender": "F",
+      "year": 1991,
+      "category": "SENIOR",
+      "bibNumber": 261,
+      "sportsClub": "Atletica Milano",
+      "position": 161
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6498,
+    "gapSeconds": 2400,
+    "paceMinKm": 10.83
+  },
+  {
+    "id": "84661657-f9fe-44aa-8799-0c42773e1ee5",
+    "athlete": {
+      "id": "d728d395-63ab-43e0-b17f-5e400ca99cee",
+      "firstName": "Abebe",
+      "lastName": "Panetta",
+      "gender": "M",
+      "year": 1976,
+      "category": "SENIOR",
+      "bibNumber": 262,
+      "sportsClub": "Atletica Milano",
+      "position": 162
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6192,
+    "gapSeconds": 3059,
+    "paceMinKm": 10.32
+  },
+  {
+    "id": "06f65f05-7dc2-4b09-856d-32703c82fb74",
+    "athlete": {
+      "id": "832c98ff-7cb4-4a1c-a5a4-c913f304c711",
+      "firstName": "Paavo",
+      "lastName": "Szabo",
+      "gender": "F",
+      "year": 1990,
+      "category": "SENIOR",
+      "bibNumber": 263,
+      "sportsClub": "Atletica Milano",
+      "position": 163
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6045,
+    "gapSeconds": 972,
+    "paceMinKm": 10.07
+  },
+  {
+    "id": "c34c563f-a575-46fb-b0aa-ae244a1872e6",
+    "athlete": {
+      "id": "08b5c19d-d1d5-450f-adba-ff7a5b7e9d12",
+      "firstName": "Francesco",
+      "lastName": "Bekele",
+      "gender": "M",
+      "year": 1972,
+      "category": "SENIOR",
+      "bibNumber": 264,
+      "sportsClub": "Atletica Milano",
+      "position": 164
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6388,
+    "gapSeconds": 2608,
+    "paceMinKm": 10.65
+  },
+  {
+    "id": "d41e6ce6-8946-4c11-b9fa-fde696abe1d6",
+    "athlete": {
+      "id": "b5f9c58b-b6bd-4732-b658-1660becd9259",
+      "firstName": "Sebastian",
+      "lastName": "Bikila",
+      "gender": "M",
+      "year": 1988,
+      "category": "SENIOR",
+      "bibNumber": 265,
+      "sportsClub": "CUS Torino",
+      "position": 165
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5580,
+    "gapSeconds": 2296,
+    "paceMinKm": 9.3
+  },
+  {
+    "id": "612d9ac7-8df6-47e2-97cd-ef2fb2a33d58",
+    "athlete": {
+      "id": "47054c1a-ca67-441d-80a2-5f03c32df425",
+      "firstName": "Noureddine",
+      "lastName": "Gebrselassie",
+      "gender": "M",
+      "year": 1990,
+      "category": "SENIOR",
+      "bibNumber": 266,
+      "sportsClub": "Atletica Milano",
+      "position": 166
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6256,
+    "gapSeconds": 2970,
+    "paceMinKm": 10.43
+  },
+  {
+    "id": "1f8ffea3-3d3f-48ee-97c4-053c04acd05f",
+    "athlete": {
+      "id": "1f5e7368-2968-4bc0-99dc-83dd64870d83",
+      "firstName": "Emil",
+      "lastName": "Coe",
+      "gender": "M",
+      "year": 2000,
+      "category": "SENIOR",
+      "bibNumber": 267,
+      "sportsClub": "CUS Torino",
+      "position": 167
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5604,
+    "gapSeconds": 1660,
+    "paceMinKm": 9.34
+  },
+  {
+    "id": "8888db8f-88b9-4a0e-91b2-61f50495075a",
+    "athlete": {
+      "id": "21d71a68-f7de-4ff0-9c0b-f015379e97ba",
+      "firstName": "Sebastian",
+      "lastName": "Nurmi",
+      "gender": "M",
+      "year": 1992,
+      "category": "SENIOR",
+      "bibNumber": 268,
+      "sportsClub": "Marathon Napoli",
+      "position": 168
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5784,
+    "gapSeconds": 3006,
+    "paceMinKm": 9.64
+  },
+  {
+    "id": "40e9e667-7881-4920-bbe8-ee846f9868ac",
+    "athlete": {
+      "id": "a549b47a-cfcd-4b62-a3d0-28d97173dd1a",
+      "firstName": "Kenenisa",
+      "lastName": "Kristiansen",
+      "gender": "M",
+      "year": 1979,
+      "category": "SENIOR",
+      "bibNumber": 269,
+      "sportsClub": "CUS Torino",
+      "position": 169
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4952,
+    "gapSeconds": 2520,
+    "paceMinKm": 8.25
+  },
+  {
+    "id": "d89a6d0f-5cea-41ba-ac5b-4e0ecaef75ca",
+    "athlete": {
+      "id": "4fe61146-4e7f-49b0-a994-78dc77a0f129",
+      "firstName": "Orlando",
+      "lastName": "Cova",
+      "gender": "F",
+      "year": 1996,
+      "category": "SENIOR",
+      "bibNumber": 270,
+      "sportsClub": "Running Roma",
+      "position": 170
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5470,
+    "gapSeconds": 2535,
+    "paceMinKm": 9.12
+  },
+  {
+    "id": "fd313ec7-c622-4462-b6fe-6c126b8b8461",
+    "athlete": {
+      "id": "a997e9ee-d19d-4e64-a65e-86039e4ee7a9",
+      "firstName": "Fiona",
+      "lastName": "Bekele",
+      "gender": "F",
+      "year": 1976,
+      "category": "SENIOR",
+      "bibNumber": 271,
+      "sportsClub": "Marathon Napoli",
+      "position": 171
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5823,
+    "gapSeconds": 2380,
+    "paceMinKm": 9.71
+  },
+  {
+    "id": "3a442fa1-aeae-4d16-8a74-0dd915a678b3",
+    "athlete": {
+      "id": "5571ed30-73b0-44b1-8b44-e6eff19616b8",
+      "firstName": "Sara",
+      "lastName": "Cova",
+      "gender": "M",
+      "year": 1994,
+      "category": "SENIOR",
+      "bibNumber": 272,
+      "sportsClub": "CUS Torino",
+      "position": 172
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5836,
+    "gapSeconds": 1026,
+    "paceMinKm": 9.73
+  },
+  {
+    "id": "25eb1c36-d94d-4ec1-a91d-c9ac75076106",
+    "athlete": {
+      "id": "e38b5f90-3097-4b61-9dba-ce1b4adbdb91",
+      "firstName": "Stefano",
+      "lastName": "Coe",
+      "gender": "M",
+      "year": 1974,
+      "category": "SENIOR",
+      "bibNumber": 273,
+      "sportsClub": "Atletica Milano",
+      "position": 173
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6022,
+    "gapSeconds": 2408,
+    "paceMinKm": 10.04
+  },
+  {
+    "id": "04df1e19-be0e-49ec-86a5-811bb310ff4e",
+    "athlete": {
+      "id": "b4b8de72-6ec4-41df-8a01-3fe8288476e9",
+      "firstName": "Sara",
+      "lastName": "Morceli",
+      "gender": "M",
+      "year": 1960,
+      "category": "SENIOR",
+      "bibNumber": 274,
+      "sportsClub": "Marathon Napoli",
+      "position": 174
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6384,
+    "gapSeconds": 2768,
+    "paceMinKm": 10.64
+  },
+  {
+    "id": "b96ed448-342c-4818-801a-5207d5c7350b",
+    "athlete": {
+      "id": "8f7283a6-fa2d-493a-bbcf-fbea6b7e143b",
+      "firstName": "Francesco",
+      "lastName": "Lewis",
+      "gender": "F",
+      "year": 1965,
+      "category": "SENIOR",
+      "bibNumber": 275,
+      "sportsClub": "CUS Torino",
+      "position": 175
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6750,
+    "gapSeconds": 870,
+    "paceMinKm": 11.25
+  },
+  {
+    "id": "ff67a942-814e-4804-9ade-ffd91bfb3c66",
+    "athlete": {
+      "id": "ea026199-d025-4f01-a653-7e37f14261e2",
+      "firstName": "Gabriela",
+      "lastName": "Pizzolato",
+      "gender": "F",
+      "year": 1985,
+      "category": "SENIOR",
+      "bibNumber": 276,
+      "sportsClub": "CUS Torino",
+      "position": 176
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6592,
+    "gapSeconds": 2625,
+    "paceMinKm": 10.99
+  },
+  {
+    "id": "fafcca88-b5a2-4bb5-a5d4-2706deafc4c3",
+    "athlete": {
+      "id": "4fe888e5-2b68-438e-8d53-9cde7e343f18",
+      "firstName": "Ingrid",
+      "lastName": "Szabo",
+      "gender": "F",
+      "year": 1991,
+      "category": "SENIOR",
+      "bibNumber": 277,
+      "sportsClub": "Atletica Milano",
+      "position": 177
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5370,
+    "gapSeconds": 1408,
+    "paceMinKm": 8.95
+  },
+  {
+    "id": "bba3a6ef-4788-493b-9c27-febb7b7b6113",
+    "athlete": {
+      "id": "a7fbacbd-38c4-44ec-8257-6dde95882748",
+      "firstName": "Kenenisa",
+      "lastName": "Lewis",
+      "gender": "F",
+      "year": 1975,
+      "category": "SENIOR",
+      "bibNumber": 278,
+      "sportsClub": "Running Roma",
+      "position": 178
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4490,
+    "gapSeconds": 2124,
+    "paceMinKm": 7.48
+  },
+  {
+    "id": "e60cc850-7e1a-4279-9ea5-b8255b4a56cc",
+    "athlete": {
+      "id": "449baa62-293d-47c5-a79c-44ca82d87ae9",
+      "firstName": "Sara",
+      "lastName": "Cova",
+      "gender": "F",
+      "year": 1982,
+      "category": "SENIOR",
+      "bibNumber": 279,
+      "sportsClub": "Running Roma",
+      "position": 179
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6643,
+    "gapSeconds": 1068,
+    "paceMinKm": 11.07
+  },
+  {
+    "id": "9ec4f177-ea40-40c3-8634-6dd726fb2884",
+    "athlete": {
+      "id": "f2a849fe-274a-44dc-a5f3-8e5aad1926bb",
+      "firstName": "Haile",
+      "lastName": "Mei",
+      "gender": "M",
+      "year": 1975,
+      "category": "SENIOR",
+      "bibNumber": 280,
+      "sportsClub": "Running Roma",
+      "position": 180
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5940,
+    "gapSeconds": 1611,
+    "paceMinKm": 9.9
+  },
+  {
+    "id": "8ca815d3-3fbc-4354-b913-1abc90ce0971",
+    "athlete": {
+      "id": "26587c64-7593-43fc-83a8-4ea3a61cfe55",
+      "firstName": "Gabriela",
+      "lastName": "Lewis",
+      "gender": "F",
+      "year": 1963,
+      "category": "SENIOR",
+      "bibNumber": 281,
+      "sportsClub": "CUS Torino",
+      "position": 181
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6315,
+    "gapSeconds": 900,
+    "paceMinKm": 10.53
+  },
+  {
+    "id": "cca93ede-ef08-436b-865a-94a21fabeefd",
+    "athlete": {
+      "id": "99b58c58-2591-420b-b238-b50132e83f36",
+      "firstName": "Noureddine",
+      "lastName": "Szabo",
+      "gender": "M",
+      "year": 1975,
+      "category": "SENIOR",
+      "bibNumber": 282,
+      "sportsClub": "Running Roma",
+      "position": 182
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6694,
+    "gapSeconds": 3077,
+    "paceMinKm": 11.16
+  },
+  {
+    "id": "a688b4c2-b98a-4216-94a6-700b8ec0b6ba",
+    "athlete": {
+      "id": "24217fbc-e377-4d50-9dea-6ee59571d8eb",
+      "firstName": "Haile",
+      "lastName": "Bekele",
+      "gender": "F",
+      "year": 1976,
+      "category": "SENIOR",
+      "bibNumber": 283,
+      "sportsClub": "Marathon Napoli",
+      "position": 183
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7077,
+    "gapSeconds": 2912,
+    "paceMinKm": 11.79
+  },
+  {
+    "id": "2bbabcad-5711-4911-b8b4-0ba2fd9a0893",
+    "athlete": {
+      "id": "fe016ff1-d8d1-4a45-89aa-3ea26c225b55",
+      "firstName": "Kenenisa",
+      "lastName": "Morceli",
+      "gender": "M",
+      "year": 1985,
+      "category": "SENIOR",
+      "bibNumber": 284,
+      "sportsClub": "Marathon Napoli",
+      "position": 184
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5992,
+    "gapSeconds": 1098,
+    "paceMinKm": 9.99
+  },
+  {
+    "id": "9e74619e-7721-4964-9d4c-15a444edfc74",
+    "athlete": {
+      "id": "69e354ac-8e3d-4690-b9fc-b0f25c6c1120",
+      "firstName": "Fiona",
+      "lastName": "Kristiansen",
+      "gender": "F",
+      "year": 1998,
+      "category": "SENIOR",
+      "bibNumber": 285,
+      "sportsClub": "Atletica Milano",
+      "position": 185
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6930,
+    "gapSeconds": 920,
+    "paceMinKm": 11.55
+  },
+  {
+    "id": "19c320b4-5fe1-40e1-b5b5-e337af42a607",
+    "athlete": {
+      "id": "f7542f9b-a241-4c6f-8f20-72efd8e73e47",
+      "firstName": "Ingrid",
+      "lastName": "Simeoni",
+      "gender": "M",
+      "year": 1969,
+      "category": "SENIOR",
+      "bibNumber": 286,
+      "sportsClub": "Atletica Milano",
+      "position": 186
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5088,
+    "gapSeconds": 3515,
+    "paceMinKm": 8.48
+  },
+  {
+    "id": "2ca5d57b-9298-4a33-a877-afd2548736fa",
+    "athlete": {
+      "id": "d0b5b896-f70f-4279-aad3-130d6cbfc7d2",
+      "firstName": "Francesco",
+      "lastName": "Morceli",
+      "gender": "F",
+      "year": 1993,
+      "category": "SENIOR",
+      "bibNumber": 287,
+      "sportsClub": "Running Roma",
+      "position": 187
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6031,
+    "gapSeconds": 2232,
+    "paceMinKm": 10.05
+  },
+  {
+    "id": "bc58b3ac-dbff-4899-b543-00fe9b07e15d",
+    "athlete": {
+      "id": "8ce7152a-31d6-4a99-ab48-5825528362fa",
+      "firstName": "Emil",
+      "lastName": "Bordin",
+      "gender": "M",
+      "year": 1994,
+      "category": "SENIOR",
+      "bibNumber": 288,
+      "sportsClub": "Running Roma",
+      "position": 188
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4916,
+    "gapSeconds": 3366,
+    "paceMinKm": 8.19
+  },
+  {
+    "id": "e0013157-fe41-48a6-b0f8-0fb8430f36e9",
+    "athlete": {
+      "id": "b0c798e5-5c3a-4e0b-9f7b-ff1a00577b2a",
+      "firstName": "Sebastian",
+      "lastName": "Bordin",
+      "gender": "F",
+      "year": 1996,
+      "category": "SENIOR",
+      "bibNumber": 289,
+      "sportsClub": "Running Roma",
+      "position": 189
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4734,
+    "gapSeconds": 940,
+    "paceMinKm": 7.89
+  },
+  {
+    "id": "9a6fa6b5-86eb-4d9b-94df-8c0c8a0b201d",
+    "athlete": {
+      "id": "e091741d-24d5-439a-a21f-375206990138",
+      "firstName": "Fiona",
+      "lastName": "Panetta",
+      "gender": "F",
+      "year": 1982,
+      "category": "SENIOR",
+      "bibNumber": 290,
+      "sportsClub": "Running Roma",
+      "position": 190
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5880,
+    "gapSeconds": 2268,
+    "paceMinKm": 9.8
+  },
+  {
+    "id": "9f9b9921-627b-4ae6-8fc8-682c5253485d",
+    "athlete": {
+      "id": "3a57cc7d-d304-4686-9f15-7409f2b85b42",
+      "firstName": "Fiona",
+      "lastName": "Simeoni",
+      "gender": "M",
+      "year": 1989,
+      "category": "SENIOR",
+      "bibNumber": 291,
+      "sportsClub": "Atletica Milano",
+      "position": 191
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4746,
+    "gapSeconds": 2470,
+    "paceMinKm": 7.91
+  },
+  {
+    "id": "9ebeb789-753b-4a41-8c56-c84c73ee0dc2",
+    "athlete": {
+      "id": "3ecf5bb1-9848-4bf3-84c6-bc08f94eea7c",
+      "firstName": "Paavo",
+      "lastName": "Pizzolato",
+      "gender": "F",
+      "year": 1962,
+      "category": "SENIOR",
+      "bibNumber": 292,
+      "sportsClub": "Running Roma",
+      "position": 192
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5520,
+    "gapSeconds": 1146,
+    "paceMinKm": 9.2
+  },
+  {
+    "id": "0164e617-a61d-488e-af6c-fd799cbb6572",
+    "athlete": {
+      "id": "4b3e7949-34e2-45e4-b8bd-76ebac266320",
+      "firstName": "Abebe",
+      "lastName": "Bekele",
+      "gender": "M",
+      "year": 1992,
+      "category": "SENIOR",
+      "bibNumber": 293,
+      "sportsClub": "Atletica Milano",
+      "position": 193
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5916,
+    "gapSeconds": 2688,
+    "paceMinKm": 9.86
+  },
+  {
+    "id": "a0c8cbe0-7025-422d-90ec-b175b0f4f2b6",
+    "athlete": {
+      "id": "e0242402-1e4a-480c-b37c-151fa63f0d45",
+      "firstName": "Emil",
+      "lastName": "Mei",
+      "gender": "F",
+      "year": 1980,
+      "category": "SENIOR",
+      "bibNumber": 294,
+      "sportsClub": "Running Roma",
+      "position": 194
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4958,
+    "gapSeconds": 965,
+    "paceMinKm": 8.26
+  },
+  {
+    "id": "4fab4d0e-0c9d-4834-9052-57bf19188268",
+    "athlete": {
+      "id": "4e231a3b-66c5-4b5a-ba32-ef1cbdce38fe",
+      "firstName": "Abebe",
+      "lastName": "Gebrselassie",
+      "gender": "F",
+      "year": 1985,
+      "category": "SENIOR",
+      "bibNumber": 295,
+      "sportsClub": "Running Roma",
+      "position": 195
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5550,
+    "gapSeconds": 2134,
+    "paceMinKm": 9.25
+  },
+  {
+    "id": "c0bb340b-5eb4-4acb-9f74-6a006dea2aa8",
+    "athlete": {
+      "id": "cf8a326e-dea0-487e-bd96-b8757754559e",
+      "firstName": "Alberto",
+      "lastName": "Bolt",
+      "gender": "M",
+      "year": 1987,
+      "category": "SENIOR",
+      "bibNumber": 296,
+      "sportsClub": "CUS Torino",
+      "position": 196
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6148,
+    "gapSeconds": 3705,
+    "paceMinKm": 10.25
+  },
+  {
+    "id": "e7568339-3a45-4f40-8739-0259a1944246",
+    "athlete": {
+      "id": "a27b5c22-5537-4e85-a940-45d47d534504",
+      "firstName": "Usain",
+      "lastName": "ElGuerrouj",
+      "gender": "M",
+      "year": 1985,
+      "category": "SENIOR",
+      "bibNumber": 297,
+      "sportsClub": "Running Roma",
+      "position": 197
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5373,
+    "gapSeconds": 3724,
+    "paceMinKm": 8.96
+  },
+  {
+    "id": "2843483f-6eac-494a-ada7-2a707cf765e7",
+    "athlete": {
+      "id": "b8e52886-6e91-4439-9885-6e755b9f9680",
+      "firstName": "Gabriela",
+      "lastName": "Simeoni",
+      "gender": "F",
+      "year": 1978,
+      "category": "SENIOR",
+      "bibNumber": 298,
+      "sportsClub": "Marathon Napoli",
+      "position": 198
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4986,
+    "gapSeconds": 1970,
+    "paceMinKm": 8.31
+  },
+  {
+    "id": "62bed2f6-c9a0-4015-9f59-7af6f3c281ab",
+    "athlete": {
+      "id": "596e3e3a-0d18-448b-aa36-696dfdefc581",
+      "firstName": "Orlando",
+      "lastName": "Cova",
+      "gender": "M",
+      "year": 1986,
+      "category": "SENIOR",
+      "bibNumber": 299,
+      "sportsClub": "CUS Torino",
+      "position": 199
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6386,
+    "gapSeconds": 2178,
+    "paceMinKm": 10.64
+  },
+  {
+    "id": "33951855-8511-4466-95ed-652f63d60a5f",
+    "athlete": {
+      "id": "550b6624-9f01-4971-bdc0-20612646cb62",
+      "firstName": "Stefano",
+      "lastName": "Kristiansen",
+      "gender": "M",
+      "year": 1963,
+      "category": "SENIOR",
+      "bibNumber": 300,
+      "sportsClub": "CUS Torino",
+      "position": 200
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5800,
+    "gapSeconds": 1592,
+    "paceMinKm": 9.67
+  },
+  {
+    "id": "6c1b2b98-f101-41e1-9999-724d6bd01770",
+    "athlete": {
+      "id": "0b1c9946-e965-45d2-9f58-890e331a166b",
+      "firstName": "Abebe",
+      "lastName": "ElGuerrouj",
+      "gender": "M",
+      "year": 1963,
+      "category": "SENIOR",
+      "bibNumber": 301,
+      "sportsClub": "Marathon Napoli",
+      "position": 201
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5811,
+    "gapSeconds": 3000,
+    "paceMinKm": 9.69
+  },
+  {
+    "id": "03c5c51a-0d11-42ea-82ca-16672e5cdaf7",
+    "athlete": {
+      "id": "263250df-b2bd-463b-8d1f-8414d981ff0e",
+      "firstName": "Ingrid",
+      "lastName": "Cova",
+      "gender": "F",
+      "year": 1969,
+      "category": "SENIOR",
+      "bibNumber": 302,
+      "sportsClub": "Atletica Milano",
+      "position": 202
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7640,
+    "gapSeconds": 1608,
+    "paceMinKm": 12.73
+  },
+  {
+    "id": "df6fcab1-79a8-4b68-88e1-3dbaf0b37cea",
+    "athlete": {
+      "id": "35b06be7-99a2-4307-a354-c44c32827cab",
+      "firstName": "Sara",
+      "lastName": "Coe",
+      "gender": "F",
+      "year": 1991,
+      "category": "SENIOR",
+      "bibNumber": 303,
+      "sportsClub": "Marathon Napoli",
+      "position": 203
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7660,
+    "gapSeconds": 1414,
+    "paceMinKm": 12.77
+  },
+  {
+    "id": "311850af-2da0-48d5-97f7-50ac48add07b",
+    "athlete": {
+      "id": "b2d45d77-0162-4d08-b2e4-ad20daca1c1b",
+      "firstName": "Emil",
+      "lastName": "Mei",
+      "gender": "M",
+      "year": 1976,
+      "category": "SENIOR",
+      "bibNumber": 304,
+      "sportsClub": "Atletica Milano",
+      "position": 204
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7476,
+    "gapSeconds": 3857,
+    "paceMinKm": 12.46
+  },
+  {
+    "id": "3380d68b-fff1-4195-adda-b2155057d550",
+    "athlete": {
+      "id": "75e2a69a-63a3-44f0-a712-2c4d75c684e9",
+      "firstName": "Gelindo",
+      "lastName": "Zatopek",
+      "gender": "F",
+      "year": 1995,
+      "category": "SENIOR",
+      "bibNumber": 305,
+      "sportsClub": "CUS Torino",
+      "position": 205
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6265,
+    "gapSeconds": 2448,
+    "paceMinKm": 10.44
+  },
+  {
+    "id": "7af81987-dae7-45e8-b4c8-10463faa34f7",
+    "athlete": {
+      "id": "80e2caa4-447b-4c4c-b477-39f908e8d461",
+      "firstName": "Noureddine",
+      "lastName": "Zatopek",
+      "gender": "F",
+      "year": 1968,
+      "category": "SENIOR",
+      "bibNumber": 306,
+      "sportsClub": "Running Roma",
+      "position": 206
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5248,
+    "gapSeconds": 1230,
+    "paceMinKm": 8.75
+  },
+  {
+    "id": "d479ac96-5e7d-43e8-8174-247acf411117",
+    "athlete": {
+      "id": "5f333397-1be3-4c34-ae97-123f6851f6aa",
+      "firstName": "Usain",
+      "lastName": "Morceli",
+      "gender": "M",
+      "year": 1966,
+      "category": "SENIOR",
+      "bibNumber": 307,
+      "sportsClub": "CUS Torino",
+      "position": 207
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7119,
+    "gapSeconds": 3914,
+    "paceMinKm": 11.87
+  },
+  {
+    "id": "50d40d76-1962-49ec-ae56-235526293706",
+    "athlete": {
+      "id": "22ceaebe-058b-47dc-a73e-dcda1fa44dda",
+      "firstName": "Stefano",
+      "lastName": "Bordin",
+      "gender": "F",
+      "year": 1979,
+      "category": "SENIOR",
+      "bibNumber": 308,
+      "sportsClub": "CUS Torino",
+      "position": 208
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6720,
+    "gapSeconds": 3933,
+    "paceMinKm": 11.2
+  },
+  {
+    "id": "d0e29019-aec9-49ca-aa68-62bf1b6cd1f5",
+    "athlete": {
+      "id": "37cff287-f235-4ce3-bb4b-a59569c7e164",
+      "firstName": "Gelindo",
+      "lastName": "Morceli",
+      "gender": "F",
+      "year": 1989,
+      "category": "SENIOR",
+      "bibNumber": 309,
+      "sportsClub": "Atletica Milano",
+      "position": 209
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6735,
+    "gapSeconds": 1456,
+    "paceMinKm": 11.22
+  },
+  {
+    "id": "1fd11f4d-3cb7-4d02-a8e0-83d754e34fe4",
+    "athlete": {
+      "id": "94bd097f-1aeb-40b4-b770-74fef137260a",
+      "firstName": "Sara",
+      "lastName": "Bolt",
+      "gender": "M",
+      "year": 1967,
+      "category": "SENIOR",
+      "bibNumber": 310,
+      "sportsClub": "Running Roma",
+      "position": 210
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5490,
+    "gapSeconds": 1672,
+    "paceMinKm": 9.15
+  },
+  {
+    "id": "98857ce8-32c1-4f96-ba8c-277cbb653ef1",
+    "athlete": {
+      "id": "3a40ae93-7f41-4b98-8ad2-39eaa5effb90",
+      "firstName": "Sara",
+      "lastName": "Bolt",
+      "gender": "F",
+      "year": 1989,
+      "category": "SENIOR",
+      "bibNumber": 311,
+      "sportsClub": "Marathon Napoli",
+      "position": 211
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7820,
+    "gapSeconds": 1470,
+    "paceMinKm": 13.03
+  },
+  {
+    "id": "7059917b-e17c-45ca-ac9d-9d7516be6f50",
+    "athlete": {
+      "id": "212027de-b909-42bf-85e2-5868ca804ec9",
+      "firstName": "Paavo",
+      "lastName": "Modica",
+      "gender": "M",
+      "year": 1963,
+      "category": "SENIOR",
+      "bibNumber": 312,
+      "sportsClub": "CUS Torino",
+      "position": 212
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5296,
+    "gapSeconds": 2743,
+    "paceMinKm": 8.83
+  },
+  {
+    "id": "90252bd7-6827-428a-8e87-f7829bb583db",
+    "athlete": {
+      "id": "17d11740-d82f-47e3-a85b-25cc27fac0d3",
+      "firstName": "Noureddine",
+      "lastName": "Zatopek",
+      "gender": "F",
+      "year": 1971,
+      "category": "SENIOR",
+      "bibNumber": 313,
+      "sportsClub": "Atletica Milano",
+      "position": 213
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6369,
+    "gapSeconds": 2120,
+    "paceMinKm": 10.62
+  },
+  {
+    "id": "8c807f80-9bac-45f0-a5b0-82d66e809ee6",
+    "athlete": {
+      "id": "ee1dbee0-e601-498b-8879-3ef40af17837",
+      "firstName": "Haile",
+      "lastName": "Morceli",
+      "gender": "F",
+      "year": 1967,
+      "category": "SENIOR",
+      "bibNumber": 314,
+      "sportsClub": "Running Roma",
+      "position": 214
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7024,
+    "gapSeconds": 2130,
+    "paceMinKm": 11.71
+  },
+  {
+    "id": "95e2b461-055c-4fbb-99c8-cdd0c1c7f79f",
+    "athlete": {
+      "id": "49b9d776-1178-4d98-a6df-4458b4eed369",
+      "firstName": "Gelindo",
+      "lastName": "Panetta",
+      "gender": "M",
+      "year": 1993,
+      "category": "SENIOR",
+      "bibNumber": 315,
+      "sportsClub": "Atletica Milano",
+      "position": 215
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5750,
+    "gapSeconds": 4066,
+    "paceMinKm": 9.58
+  },
+  {
+    "id": "39dba427-d71e-4829-8386-b213714f2032",
+    "athlete": {
+      "id": "18244aca-e711-4318-9421-3243c7ac96a1",
+      "firstName": "Noureddine",
+      "lastName": "Bordin",
+      "gender": "F",
+      "year": 1987,
+      "category": "SENIOR",
+      "bibNumber": 316,
+      "sportsClub": "CUS Torino",
+      "position": 216
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6840,
+    "gapSeconds": 2150,
+    "paceMinKm": 11.4
+  },
+  {
+    "id": "e59c30ae-929e-4e20-a5bb-12e0033e1750",
+    "athlete": {
+      "id": "ae9b4256-f23b-4bf7-830a-336297f58631",
+      "firstName": "Orlando",
+      "lastName": "Kristiansen",
+      "gender": "F",
+      "year": 1975,
+      "category": "SENIOR",
+      "bibNumber": 317,
+      "sportsClub": "Marathon Napoli",
+      "position": 217
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4685,
+    "gapSeconds": 3456,
+    "paceMinKm": 7.81
+  },
+  {
+    "id": "990349e0-fe97-418a-9921-520a5eb2bb27",
+    "athlete": {
+      "id": "567e2d39-aa31-499d-8662-ded075b568f8",
+      "firstName": "Gelindo",
+      "lastName": "Simeoni",
+      "gender": "M",
+      "year": 1965,
+      "category": "SENIOR",
+      "bibNumber": 318,
+      "sportsClub": "Marathon Napoli",
+      "position": 218
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6652,
+    "gapSeconds": 2170,
+    "paceMinKm": 11.09
+  },
+  {
+    "id": "9feedb53-9743-4d9e-a0d4-887e4aae5c8b",
+    "athlete": {
+      "id": "18f56db7-03c9-4a69-9bea-34c79a0d6e44",
+      "firstName": "Ingrid",
+      "lastName": "Nurmi",
+      "gender": "M",
+      "year": 1970,
+      "category": "SENIOR",
+      "bibNumber": 319,
+      "sportsClub": "Running Roma",
+      "position": 219
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6666,
+    "gapSeconds": 3706,
+    "paceMinKm": 11.11
+  },
+  {
+    "id": "ba2dcea1-f235-4f18-b747-bb1da31a50a2",
+    "athlete": {
+      "id": "68be6a92-c773-4d7d-9804-a050bc5e8764",
+      "firstName": "Sara",
+      "lastName": "Kristiansen",
+      "gender": "F",
+      "year": 1961,
+      "category": "SENIOR",
+      "bibNumber": 320,
+      "sportsClub": "Marathon Napoli",
+      "position": 220
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5580,
+    "gapSeconds": 3285,
+    "paceMinKm": 9.3
+  },
+  {
+    "id": "da254982-b6ae-45d0-ac53-5739fcf5cf71",
+    "athlete": {
+      "id": "0f29bedd-f395-4c47-86b6-feaccdfa4e91",
+      "firstName": "Alberto",
+      "lastName": "Mei",
+      "gender": "F",
+      "year": 1989,
+      "category": "SENIOR",
+      "bibNumber": 321,
+      "sportsClub": "Atletica Milano",
+      "position": 221
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7799,
+    "gapSeconds": 2640,
+    "paceMinKm": 13.0
+  },
+  {
+    "id": "b2478591-4af7-4e2b-a052-118892c831dc",
+    "athlete": {
+      "id": "fc0aca25-0325-48d6-840c-546d46f9e8dd",
+      "firstName": "Ingrid",
+      "lastName": "Morceli",
+      "gender": "M",
+      "year": 1967,
+      "category": "SENIOR",
+      "bibNumber": 322,
+      "sportsClub": "CUS Torino",
+      "position": 222
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6264,
+    "gapSeconds": 1105,
+    "paceMinKm": 10.44
+  },
+  {
+    "id": "02126cd7-ec88-49b7-b1a8-be4c9ff87f3d",
+    "athlete": {
+      "id": "4025210b-59cb-47db-b669-16c4105b3bd0",
+      "firstName": "Emil",
+      "lastName": "Pizzolato",
+      "gender": "M",
+      "year": 1967,
+      "category": "SENIOR",
+      "bibNumber": 323,
+      "sportsClub": "Atletica Milano",
+      "position": 223
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6722,
+    "gapSeconds": 4218,
+    "paceMinKm": 11.2
+  },
+  {
+    "id": "96b476b3-8d21-4054-a7a3-b4232433f9f9",
+    "athlete": {
+      "id": "daaad7c9-162e-44c3-b2fe-7fefe2005c84",
+      "firstName": "Paavo",
+      "lastName": "ElGuerrouj",
+      "gender": "M",
+      "year": 1981,
+      "category": "SENIOR",
+      "bibNumber": 324,
+      "sportsClub": "Marathon Napoli",
+      "position": 224
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5616,
+    "gapSeconds": 1338,
+    "paceMinKm": 9.36
+  },
+  {
+    "id": "87a89ca8-e0b7-44c8-a30e-cbb045f394eb",
+    "athlete": {
+      "id": "1efeb796-9261-4f37-a5dc-3b5bc97fffde",
+      "firstName": "Fiona",
+      "lastName": "Zatopek",
+      "gender": "F",
+      "year": 1996,
+      "category": "SENIOR",
+      "bibNumber": 325,
+      "sportsClub": "Atletica Milano",
+      "position": 225
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7200,
+    "gapSeconds": 1120,
+    "paceMinKm": 12.0
+  },
+  {
+    "id": "7a415c2d-72b2-48a0-a8ab-2aeaac5e1abf",
+    "athlete": {
+      "id": "31dfb879-27f7-4a92-bb9f-dd2d7bfa1e66",
+      "firstName": "Orlando",
+      "lastName": "Nurmi",
+      "gender": "M",
+      "year": 1999,
+      "category": "SENIOR",
+      "bibNumber": 326,
+      "sportsClub": "Marathon Napoli",
+      "position": 226
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5860,
+    "gapSeconds": 2250,
+    "paceMinKm": 9.77
+  },
+  {
+    "id": "0e88af99-f24d-47ac-b43e-c24779700037",
+    "athlete": {
+      "id": "5196c2a9-18a5-47ca-8c45-2ef64f494194",
+      "firstName": "Carl",
+      "lastName": "Mei",
+      "gender": "F",
+      "year": 1986,
+      "category": "SENIOR",
+      "bibNumber": 327,
+      "sportsClub": "Running Roma",
+      "position": 227
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5870,
+    "gapSeconds": 4520,
+    "paceMinKm": 9.78
+  },
+  {
+    "id": "81754c1c-6cff-4dc3-952d-03c34f382a78",
+    "athlete": {
+      "id": "1019525b-fd92-4d12-9a0e-c893c62a55c7",
+      "firstName": "Kenenisa",
+      "lastName": "Szabo",
+      "gender": "F",
+      "year": 1992,
+      "category": "SENIOR",
+      "bibNumber": 328,
+      "sportsClub": "Running Roma",
+      "position": 228
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5880,
+    "gapSeconds": 3632,
+    "paceMinKm": 9.8
+  },
+  {
+    "id": "878881f0-4df3-4386-ab1c-0d39c5b31b43",
+    "athlete": {
+      "id": "32ef3572-6180-4d3e-9638-60255e1702f8",
+      "firstName": "Usain",
+      "lastName": "Gebrselassie",
+      "gender": "F",
+      "year": 1984,
+      "category": "SENIOR",
+      "bibNumber": 329,
+      "sportsClub": "CUS Torino",
+      "position": 229
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7951,
+    "gapSeconds": 2736,
+    "paceMinKm": 13.25
+  },
+  {
+    "id": "c2bc12bd-d0b7-48f9-bb79-5dca69f4ea9f",
+    "athlete": {
+      "id": "e7b85525-3bc2-4f0f-a091-7e6ee29ff871",
+      "firstName": "Noureddine",
+      "lastName": "Bekele",
+      "gender": "M",
+      "year": 1993,
+      "category": "SENIOR",
+      "bibNumber": 330,
+      "sportsClub": "Marathon Napoli",
+      "position": 230
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7050,
+    "gapSeconds": 2748,
+    "paceMinKm": 11.75
+  },
+  {
+    "id": "4749604b-1524-4b81-adaa-45f4f0bafd39",
+    "athlete": {
+      "id": "adacde29-4d7b-4554-a101-992dea48a7d0",
+      "firstName": "Kenenisa",
+      "lastName": "Cova",
+      "gender": "F",
+      "year": 1983,
+      "category": "SENIOR",
+      "bibNumber": 331,
+      "sportsClub": "Running Roma",
+      "position": 231
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7758,
+    "gapSeconds": 1380,
+    "paceMinKm": 12.93
+  },
+  {
+    "id": "179434bc-fd11-437f-8674-4798f9092666",
+    "athlete": {
+      "id": "ce36b745-2113-4ae0-a317-8b99e732de05",
+      "firstName": "Orlando",
+      "lastName": "Cova",
+      "gender": "M",
+      "year": 1974,
+      "category": "SENIOR",
+      "bibNumber": 332,
+      "sportsClub": "Atletica Milano",
+      "position": 232
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6384,
+    "gapSeconds": 2310,
+    "paceMinKm": 10.64
+  },
+  {
+    "id": "742b8e5e-771f-445c-af5c-06760e98498d",
+    "athlete": {
+      "id": "e7bc3cf0-f1eb-4297-b162-2a7d597bcb9d",
+      "firstName": "Sebastian",
+      "lastName": "Modica",
+      "gender": "F",
+      "year": 1990,
+      "category": "SENIOR",
+      "bibNumber": 333,
+      "sportsClub": "Atletica Milano",
+      "position": 233
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5464,
+    "gapSeconds": 1624,
+    "paceMinKm": 9.11
+  },
+  {
+    "id": "12563969-5c9a-49f7-bf45-925675f5bb0a",
+    "athlete": {
+      "id": "3bb24b8d-4bb6-4f4f-8798-8dc380fdfea8",
+      "firstName": "Sara",
+      "lastName": "Lewis",
+      "gender": "M",
+      "year": 1960,
+      "category": "SENIOR",
+      "bibNumber": 334,
+      "sportsClub": "CUS Torino",
+      "position": 234
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5004,
+    "gapSeconds": 1165,
+    "paceMinKm": 8.34
+  },
+  {
+    "id": "a7c4154f-95db-47b2-bab2-01955c468a34",
+    "athlete": {
+      "id": "83465a73-df9b-4b0a-b50d-19bae49b86a1",
+      "firstName": "Alberto",
+      "lastName": "Mayr",
+      "gender": "F",
+      "year": 1981,
+      "category": "SENIOR",
+      "bibNumber": 335,
+      "sportsClub": "Marathon Napoli",
+      "position": 235
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6185,
+    "gapSeconds": 2340,
+    "paceMinKm": 10.31
+  },
+  {
+    "id": "6c91cde4-c364-4551-88fe-240111437a75",
+    "athlete": {
+      "id": "56b834e7-8913-4cf7-af72-a1bbfca9e392",
+      "firstName": "Kenenisa",
+      "lastName": "Coe",
+      "gender": "M",
+      "year": 2000,
+      "category": "SENIOR",
+      "bibNumber": 336,
+      "sportsClub": "Running Roma",
+      "position": 236
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7848,
+    "gapSeconds": 4700,
+    "paceMinKm": 13.08
+  },
+  {
+    "id": "2eb4cad5-c673-4016-945b-8276234d29e6",
+    "athlete": {
+      "id": "93b45db9-6796-4420-89cb-1d01f38c7432",
+      "firstName": "Fiona",
+      "lastName": "Simeoni",
+      "gender": "F",
+      "year": 1969,
+      "category": "SENIOR",
+      "bibNumber": 337,
+      "sportsClub": "Marathon Napoli",
+      "position": 237
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7866,
+    "gapSeconds": 4248,
+    "paceMinKm": 13.11
+  },
+  {
+    "id": "471a0eb6-4746-4f10-b8e2-b125724dfb69",
+    "athlete": {
+      "id": "4222c6bd-a5fb-462d-bf1a-7feac0843525",
+      "firstName": "Paavo",
+      "lastName": "Bolt",
+      "gender": "M",
+      "year": 1980,
+      "category": "SENIOR",
+      "bibNumber": 338,
+      "sportsClub": "Atletica Milano",
+      "position": 238
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 8122,
+    "gapSeconds": 4503,
+    "paceMinKm": 13.54
+  },
+  {
+    "id": "c02bc160-7890-4efa-91f4-9affcb847f52",
+    "athlete": {
+      "id": "f563e0c8-9464-45a3-b0d4-12600c446661",
+      "firstName": "Gelindo",
+      "lastName": "Mayr",
+      "gender": "M",
+      "year": 1973,
+      "category": "SENIOR",
+      "bibNumber": 339,
+      "sportsClub": "CUS Torino",
+      "position": 239
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7185,
+    "gapSeconds": 3570,
+    "paceMinKm": 11.97
+  },
+  {
+    "id": "ac801d1a-b908-4d92-92be-9b85b4a5a73b",
+    "athlete": {
+      "id": "f5d6b11b-9cab-4676-a90d-f16275f56423",
+      "firstName": "Kenenisa",
+      "lastName": "Lewis",
+      "gender": "M",
+      "year": 1978,
+      "category": "SENIOR",
+      "bibNumber": 340,
+      "sportsClub": "CUS Torino",
+      "position": 240
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6720,
+    "gapSeconds": 1195,
+    "paceMinKm": 11.2
+  },
+  {
+    "id": "71c2984b-ce3f-482f-b636-a392c5e5b2ee",
+    "athlete": {
+      "id": "d484ee93-0b19-43af-8680-080f05852764",
+      "firstName": "Usain",
+      "lastName": "Zatopek",
+      "gender": "M",
+      "year": 1998,
+      "category": "SENIOR",
+      "bibNumber": 341,
+      "sportsClub": "Running Roma",
+      "position": 241
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5528,
+    "gapSeconds": 4320,
+    "paceMinKm": 9.21
+  },
+  {
+    "id": "ebf056d5-1aa4-47e3-8529-82db81151055",
+    "athlete": {
+      "id": "de1f26a3-e2e0-46e7-acca-a36462954372",
+      "firstName": "Usain",
+      "lastName": "Szabo",
+      "gender": "F",
+      "year": 1971,
+      "category": "SENIOR",
+      "bibNumber": 342,
+      "sportsClub": "Atletica Milano",
+      "position": 242
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7714,
+    "gapSeconds": 2169,
+    "paceMinKm": 12.86
+  },
+  {
+    "id": "71d48361-707d-48cd-bf41-c561d48a6959",
+    "athlete": {
+      "id": "195dc2a7-0fdc-4ae1-b5f1-7e81d5421c88",
+      "firstName": "Hicham",
+      "lastName": "Mei",
+      "gender": "M",
+      "year": 1973,
+      "category": "SENIOR",
+      "bibNumber": 343,
+      "sportsClub": "Marathon Napoli",
+      "position": 243
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7488,
+    "gapSeconds": 1694,
+    "paceMinKm": 12.48
+  },
+  {
+    "id": "d666e12f-0bae-431f-9ea4-761d14a9d21d",
+    "athlete": {
+      "id": "581df0ec-0ea7-4f5e-8771-1bf839640d9a",
+      "firstName": "Orlando",
+      "lastName": "Morceli",
+      "gender": "M",
+      "year": 1961,
+      "category": "SENIOR",
+      "bibNumber": 344,
+      "sportsClub": "Atletica Milano",
+      "position": 244
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 8236,
+    "gapSeconds": 3402,
+    "paceMinKm": 13.73
+  },
+  {
+    "id": "01f80c70-4591-4d65-9513-e16bc1f78bc1",
+    "athlete": {
+      "id": "75819211-007a-4318-b5f9-94694fcdc533",
+      "firstName": "Sebastian",
+      "lastName": "Bordin",
+      "gender": "M",
+      "year": 1974,
+      "category": "SENIOR",
+      "bibNumber": 345,
+      "sportsClub": "Marathon Napoli",
+      "position": 245
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6050,
+    "gapSeconds": 1464,
+    "paceMinKm": 10.08
+  },
+  {
+    "id": "c7eca7dd-b281-404b-a1fd-528b684ff3e4",
+    "athlete": {
+      "id": "0273f499-7e3f-41a9-b542-85d032faff23",
+      "firstName": "Francesco",
+      "lastName": "ElGuerrouj",
+      "gender": "M",
+      "year": 1995,
+      "category": "SENIOR",
+      "bibNumber": 346,
+      "sportsClub": "Marathon Napoli",
+      "position": 246
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6306,
+    "gapSeconds": 1470,
+    "paceMinKm": 10.51
+  },
+  {
+    "id": "cc6a11a2-44c8-4802-85cd-d55ef496779f",
+    "athlete": {
+      "id": "317dedbf-a649-4773-bd60-da1eb813f8ab",
+      "firstName": "Abebe",
+      "lastName": "Pizzolato",
+      "gender": "M",
+      "year": 1965,
+      "category": "SENIOR",
+      "bibNumber": 347,
+      "sportsClub": "CUS Torino",
+      "position": 247
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 8293,
+    "gapSeconds": 1968,
+    "paceMinKm": 13.82
+  },
+  {
+    "id": "c84ec13a-25b3-407d-b4a4-3893fe8a4026",
+    "athlete": {
+      "id": "c610ce4d-9c11-4975-914c-e8641c59221d",
+      "firstName": "Ingrid",
+      "lastName": "Szabo",
+      "gender": "M",
+      "year": 1991,
+      "category": "SENIOR",
+      "bibNumber": 348,
+      "sportsClub": "CUS Torino",
+      "position": 248
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 8560,
+    "gapSeconds": 2470,
+    "paceMinKm": 14.27
+  },
+  {
+    "id": "6df31e7f-bf11-4126-a047-f8e476aeadc8",
+    "athlete": {
+      "id": "df512e30-35b8-4b6b-98e3-3cfc0d6d6af0",
+      "firstName": "Gelindo",
+      "lastName": "Zatopek",
+      "gender": "M",
+      "year": 1992,
+      "category": "SENIOR",
+      "bibNumber": 349,
+      "sportsClub": "CUS Torino",
+      "position": 249
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5343,
+    "gapSeconds": 4216,
+    "paceMinKm": 8.9
+  },
+  {
+    "id": "cc9715f8-a3ef-4511-906a-d44a9479d35d",
+    "athlete": {
+      "id": "909b86aa-667b-4c51-9f0a-b4957d1122a8",
+      "firstName": "Carl",
+      "lastName": "Bolt",
+      "gender": "M",
+      "year": 1980,
+      "category": "SENIOR",
+      "bibNumber": 350,
+      "sportsClub": "Marathon Napoli",
+      "position": 250
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6350,
+    "gapSeconds": 4980,
+    "paceMinKm": 10.58
+  },
+  {
+    "id": "e30397fd-3c6a-4b8a-b4c1-0a6d1f769124",
+    "athlete": {
+      "id": "2e1e15cf-5dd3-4dba-8abc-7dc05320e04a",
+      "firstName": "Sebastian",
+      "lastName": "Pizzolato",
+      "gender": "M",
+      "year": 1976,
+      "category": "SENIOR",
+      "bibNumber": 351,
+      "sportsClub": "CUS Torino",
+      "position": 251
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6110,
+    "gapSeconds": 4500,
+    "paceMinKm": 10.18
+  },
+  {
+    "id": "38c24b25-690c-4409-89ea-3b680115aef2",
+    "athlete": {
+      "id": "e46759a3-b9a4-4907-80a6-86eed8d9c262",
+      "firstName": "Stefano",
+      "lastName": "Nurmi",
+      "gender": "F",
+      "year": 1992,
+      "category": "SENIOR",
+      "bibNumber": 352,
+      "sportsClub": "Running Roma",
+      "position": 252
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 8388,
+    "gapSeconds": 3765,
+    "paceMinKm": 13.98
+  },
+  {
+    "id": "456d8144-2ef5-447a-a50a-5b775a91a9e5",
+    "athlete": {
+      "id": "6e06f9f2-f724-43e1-96f7-22dc615501e8",
+      "firstName": "Stefano",
+      "lastName": "Lewis",
+      "gender": "M",
+      "year": 1988,
+      "category": "SENIOR",
+      "bibNumber": 353,
+      "sportsClub": "Atletica Milano",
+      "position": 253
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7395,
+    "gapSeconds": 1260,
+    "paceMinKm": 12.32
+  },
+  {
+    "id": "5a5431e4-da26-41ca-8f7c-cef84fe82f9d",
+    "athlete": {
+      "id": "995e3a80-5bdd-494d-ab3f-9137e6527ee2",
+      "firstName": "Orlando",
+      "lastName": "Mei",
+      "gender": "F",
+      "year": 1970,
+      "category": "SENIOR",
+      "bibNumber": 354,
+      "sportsClub": "CUS Torino",
+      "position": 254
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7664,
+    "gapSeconds": 4807,
+    "paceMinKm": 12.77
+  },
+  {
+    "id": "9f565849-08cb-49ec-b625-444c5b4a86ae",
+    "athlete": {
+      "id": "54dfa2bb-c236-49c3-b398-5ef2b631e012",
+      "firstName": "Ingrid",
+      "lastName": "Lewis",
+      "gender": "F",
+      "year": 1986,
+      "category": "SENIOR",
+      "bibNumber": 355,
+      "sportsClub": "CUS Torino",
+      "position": 255
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6150,
+    "gapSeconds": 2540,
+    "paceMinKm": 10.25
+  },
+  {
+    "id": "9603c4f8-303b-4f6b-a09b-6811311ae078",
+    "athlete": {
+      "id": "7550dfe2-4738-4d59-a027-c8fe7d617133",
+      "firstName": "Ingrid",
+      "lastName": "Nurmi",
+      "gender": "M",
+      "year": 1984,
+      "category": "SENIOR",
+      "bibNumber": 356,
+      "sportsClub": "Atletica Milano",
+      "position": 256
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4880,
+    "gapSeconds": 3315,
+    "paceMinKm": 8.13
+  },
+  {
+    "id": "6399e153-1438-4f3d-a88a-3c581c3cc8ed",
+    "athlete": {
+      "id": "2b5edd67-797e-46dd-85ae-3c02fe661f2b",
+      "firstName": "Stefano",
+      "lastName": "Nurmi",
+      "gender": "M",
+      "year": 1973,
+      "category": "SENIOR",
+      "bibNumber": 357,
+      "sportsClub": "Marathon Napoli",
+      "position": 257
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 8740,
+    "gapSeconds": 3840,
+    "paceMinKm": 14.57
+  },
+  {
+    "id": "11df389d-a227-4136-a0f0-12e70efd4455",
+    "athlete": {
+      "id": "ffd62b32-66a8-4f1f-b7eb-6b0f2b6ecf08",
+      "firstName": "Ingrid",
+      "lastName": "Mayr",
+      "gender": "M",
+      "year": 1998,
+      "category": "SENIOR",
+      "bibNumber": 358,
+      "sportsClub": "CUS Torino",
+      "position": 258
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6696,
+    "gapSeconds": 4369,
+    "paceMinKm": 11.16
+  },
+  {
+    "id": "bff801d4-42f7-4c52-86d4-aeca8a562da0",
+    "athlete": {
+      "id": "cbb5c6bd-c364-4c37-9792-b52e57c36370",
+      "firstName": "Sebastian",
+      "lastName": "Mayr",
+      "gender": "F",
+      "year": 1976,
+      "category": "SENIOR",
+      "bibNumber": 359,
+      "sportsClub": "Marathon Napoli",
+      "position": 259
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 8780,
+    "gapSeconds": 3096,
+    "paceMinKm": 14.63
+  },
+  {
+    "id": "a534903d-ab1a-4100-93d8-7ecba45a72ea",
+    "athlete": {
+      "id": "84b28873-8759-4b31-a633-61afc95f484c",
+      "firstName": "Francesco",
+      "lastName": "Bikila",
+      "gender": "F",
+      "year": 1989,
+      "category": "SENIOR",
+      "bibNumber": 360,
+      "sportsClub": "Running Roma",
+      "position": 260
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5940,
+    "gapSeconds": 1813,
+    "paceMinKm": 9.9
+  },
+  {
+    "id": "65b2c91a-e287-4476-94b6-0fa90d80e2f0",
+    "athlete": {
+      "id": "16151ff8-a16f-4e50-ac7d-dcf30be72fb5",
+      "firstName": "Stefano",
+      "lastName": "Szabo",
+      "gender": "M",
+      "year": 1994,
+      "category": "SENIOR",
+      "bibNumber": 361,
+      "sportsClub": "CUS Torino",
+      "position": 261
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6210,
+    "gapSeconds": 1560,
+    "paceMinKm": 10.35
+  },
+  {
+    "id": "fdb5fad3-358d-4e82-ba2e-7a691758c880",
+    "athlete": {
+      "id": "6b4b9cdb-839a-4488-a692-6005339c6c5e",
+      "firstName": "Gabriela",
+      "lastName": "Morceli",
+      "gender": "M",
+      "year": 1964,
+      "category": "SENIOR",
+      "bibNumber": 362,
+      "sportsClub": "Atletica Milano",
+      "position": 262
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6482,
+    "gapSeconds": 2088,
+    "paceMinKm": 10.8
+  },
+  {
+    "id": "93bc708d-4274-4fcf-8f51-26d22de527ac",
+    "athlete": {
+      "id": "d56fe56e-d681-4f2b-8bbe-b804994364a6",
+      "firstName": "Paavo",
+      "lastName": "Panetta",
+      "gender": "M",
+      "year": 1970,
+      "category": "SENIOR",
+      "bibNumber": 363,
+      "sportsClub": "Marathon Napoli",
+      "position": 263
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5967,
+    "gapSeconds": 1572,
+    "paceMinKm": 9.95
+  },
+  {
+    "id": "a2470843-2782-4d97-b297-9bbb30cced83",
+    "athlete": {
+      "id": "c15eeaab-3add-48b4-9b1f-3b47a43d9927",
+      "firstName": "Stefano",
+      "lastName": "Coe",
+      "gender": "M",
+      "year": 1990,
+      "category": "SENIOR",
+      "bibNumber": 364,
+      "sportsClub": "Running Roma",
+      "position": 264
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6240,
+    "gapSeconds": 3682,
+    "paceMinKm": 10.4
+  },
+  {
+    "id": "30eb10d0-a6b2-4300-82ac-691fdc1e5d4a",
+    "athlete": {
+      "id": "c5d501bb-1e93-4228-b005-8b447ed92df5",
+      "firstName": "Carl",
+      "lastName": "Bordin",
+      "gender": "M",
+      "year": 1997,
+      "category": "SENIOR",
+      "bibNumber": 365,
+      "sportsClub": "CUS Torino",
+      "position": 265
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6780,
+    "gapSeconds": 2640,
+    "paceMinKm": 11.3
+  },
+  {
+    "id": "6aa34b14-0665-4ef6-a23b-bbfd24b77375",
+    "athlete": {
+      "id": "59fe14f3-f525-47b9-ab97-dd3d203936f0",
+      "firstName": "Gabriela",
+      "lastName": "Mayr",
+      "gender": "F",
+      "year": 1990,
+      "category": "SENIOR",
+      "bibNumber": 366,
+      "sportsClub": "Marathon Napoli",
+      "position": 266
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7856,
+    "gapSeconds": 1325,
+    "paceMinKm": 13.09
+  },
+  {
+    "id": "b0452cc1-5006-450c-ab73-b1f67f038683",
+    "athlete": {
+      "id": "40d0a63f-5602-4a3e-9fe7-7a105d933a9c",
+      "firstName": "Stefano",
+      "lastName": "Mayr",
+      "gender": "F",
+      "year": 1970,
+      "category": "SENIOR",
+      "bibNumber": 367,
+      "sportsClub": "CUS Torino",
+      "position": 267
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7338,
+    "gapSeconds": 3990,
+    "paceMinKm": 12.23
+  },
+  {
+    "id": "b2782aa6-2796-4d20-940b-911dbcf4a4f0",
+    "athlete": {
+      "id": "9ce6617a-5094-4322-9d11-6aaf6cb1d475",
+      "firstName": "Kenenisa",
+      "lastName": "Gebrselassie",
+      "gender": "F",
+      "year": 1966,
+      "category": "SENIOR",
+      "bibNumber": 368,
+      "sportsClub": "CUS Torino",
+      "position": 268
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 8156,
+    "gapSeconds": 4806,
+    "paceMinKm": 13.59
+  },
+  {
+    "id": "2503f56a-8eda-474f-b185-917454cb8d82",
+    "athlete": {
+      "id": "59412e90-fedf-4363-bfc5-0879e53ae7dc",
+      "firstName": "Abebe",
+      "lastName": "Bordin",
+      "gender": "M",
+      "year": 1960,
+      "category": "SENIOR",
+      "bibNumber": 369,
+      "sportsClub": "CUS Torino",
+      "position": 269
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 4945,
+    "gapSeconds": 4556,
+    "paceMinKm": 8.24
+  },
+  {
+    "id": "82f05b5a-f5f6-4494-a91b-77aa3d980e37",
+    "athlete": {
+      "id": "719e8e90-99b7-4b9a-ae24-17f9013c417b",
+      "firstName": "Noureddine",
+      "lastName": "Pizzolato",
+      "gender": "M",
+      "year": 1965,
+      "category": "SENIOR",
+      "bibNumber": 370,
+      "sportsClub": "CUS Torino",
+      "position": 270
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7650,
+    "gapSeconds": 3766,
+    "paceMinKm": 12.75
+  },
+  {
+    "id": "b438805c-0a28-4106-b5de-f1b27d66fdb6",
+    "athlete": {
+      "id": "b528439f-e3d1-46f5-9f27-a3628c7b2839",
+      "firstName": "Francesco",
+      "lastName": "Kristiansen",
+      "gender": "F",
+      "year": 1993,
+      "category": "SENIOR",
+      "bibNumber": 371,
+      "sportsClub": "Atletica Milano",
+      "position": 271
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 9020,
+    "gapSeconds": 5400,
+    "paceMinKm": 15.03
+  },
+  {
+    "id": "f9a3c8b8-82f3-4967-9f13-63a83b34eda3",
+    "athlete": {
+      "id": "88f5ce39-e799-43c9-af73-ecbe1012ced1",
+      "firstName": "Sebastian",
+      "lastName": "Simeoni",
+      "gender": "M",
+      "year": 1971,
+      "category": "SENIOR",
+      "bibNumber": 372,
+      "sportsClub": "Atletica Milano",
+      "position": 272
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5232,
+    "gapSeconds": 2981,
+    "paceMinKm": 8.72
+  },
+  {
+    "id": "6ba79fa6-8d44-4d3a-900c-7e55987d6722",
+    "athlete": {
+      "id": "93d75e60-f2bd-41f9-af49-23a78e71ffab",
+      "firstName": "Sara",
+      "lastName": "Lewis",
+      "gender": "F",
+      "year": 1999,
+      "category": "SENIOR",
+      "bibNumber": 373,
+      "sportsClub": "Marathon Napoli",
+      "position": 273
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6876,
+    "gapSeconds": 4080,
+    "paceMinKm": 11.46
+  },
+  {
+    "id": "e525da55-9f84-4225-933f-0d4380ec111e",
+    "athlete": {
+      "id": "9b371d24-4346-4eec-bb87-6971461c96b5",
+      "firstName": "Sara",
+      "lastName": "Cova",
+      "gender": "M",
+      "year": 1960,
+      "category": "SENIOR",
+      "bibNumber": 374,
+      "sportsClub": "CUS Torino",
+      "position": 274
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 8258,
+    "gapSeconds": 3549,
+    "paceMinKm": 13.76
+  },
+  {
+    "id": "15f1fc52-144e-430f-ac15-850461de177a",
+    "athlete": {
+      "id": "62df6635-ad4a-4e16-bbfc-15800c083523",
+      "firstName": "Kenenisa",
+      "lastName": "Bolt",
+      "gender": "F",
+      "year": 1994,
+      "category": "SENIOR",
+      "bibNumber": 375,
+      "sportsClub": "Running Roma",
+      "position": 275
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 9100,
+    "gapSeconds": 4932,
+    "paceMinKm": 15.17
+  },
+  {
+    "id": "9694fe48-f381-4c20-a805-70ed0284cbfe",
+    "athlete": {
+      "id": "d8b9eb03-15c4-4b9c-a60c-36be4ca0e6e6",
+      "firstName": "Gabriela",
+      "lastName": "Szabo",
+      "gender": "F",
+      "year": 1974,
+      "category": "SENIOR",
+      "bibNumber": 376,
+      "sportsClub": "CUS Torino",
+      "position": 276
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7740,
+    "gapSeconds": 5500,
+    "paceMinKm": 12.9
+  },
+  {
+    "id": "e4f36ea5-5a43-4123-acc9-a2c9d3cc0f7c",
+    "athlete": {
+      "id": "b56f9411-7416-4416-8716-5112fc77ecc4",
+      "firstName": "Carl",
+      "lastName": "Szabo",
+      "gender": "F",
+      "year": 1981,
+      "category": "SENIOR",
+      "bibNumber": 377,
+      "sportsClub": "Running Roma",
+      "position": 277
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 8309,
+    "gapSeconds": 2760,
+    "paceMinKm": 13.85
+  },
+  {
+    "id": "9b0497b1-a197-4a44-8199-5bd64535fa45",
+    "athlete": {
+      "id": "7fcf9a47-a086-4320-bd82-8a33e4498714",
+      "firstName": "Fiona",
+      "lastName": "Cova",
+      "gender": "F",
+      "year": 1973,
+      "category": "SENIOR",
+      "bibNumber": 378,
+      "sportsClub": "Atletica Milano",
+      "position": 278
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7492,
+    "gapSeconds": 5263,
+    "paceMinKm": 12.49
+  },
+  {
+    "id": "9052b348-4772-4f46-bfa2-d8b55af531be",
+    "athlete": {
+      "id": "0c3f19e3-3129-472f-ba06-ff39a0d823db",
+      "firstName": "Usain",
+      "lastName": "Cova",
+      "gender": "M",
+      "year": 1970,
+      "category": "SENIOR",
+      "bibNumber": 379,
+      "sportsClub": "Marathon Napoli",
+      "position": 279
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7785,
+    "gapSeconds": 4726,
+    "paceMinKm": 12.97
+  },
+  {
+    "id": "b2989d56-b85b-470d-b4c9-c5300a803a7d",
+    "athlete": {
+      "id": "6fc90012-fa05-474f-87c8-2be0cdcc332b",
+      "firstName": "Hicham",
+      "lastName": "Simeoni",
+      "gender": "F",
+      "year": 1998,
+      "category": "SENIOR",
+      "bibNumber": 380,
+      "sportsClub": "Running Roma",
+      "position": 280
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5000,
+    "gapSeconds": 2511,
+    "paceMinKm": 8.33
+  },
+  {
+    "id": "0cc73484-bc1d-4b09-bd35-d0f774ae6510",
+    "athlete": {
+      "id": "433efe5c-ed5f-45cc-ab32-81ca2efa9a6d",
+      "firstName": "Francesco",
+      "lastName": "Lewis",
+      "gender": "M",
+      "year": 1964,
+      "category": "SENIOR",
+      "bibNumber": 381,
+      "sportsClub": "Running Roma",
+      "position": 281
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 9220,
+    "gapSeconds": 3920,
+    "paceMinKm": 15.37
+  },
+  {
+    "id": "c3b7b5db-e194-45da-b7c8-43c6caea7118",
+    "athlete": {
+      "id": "1ec574cb-6a00-4727-a6dc-1b39e8556b81",
+      "firstName": "Sara",
+      "lastName": "Pizzolato",
+      "gender": "F",
+      "year": 1992,
+      "category": "SENIOR",
+      "bibNumber": 382,
+      "sportsClub": "Atletica Milano",
+      "position": 282
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6138,
+    "gapSeconds": 5058,
+    "paceMinKm": 10.23
+  },
+  {
+    "id": "1fa961f1-cb7e-4e71-a200-41480881f9ea",
+    "athlete": {
+      "id": "7eadf286-f4b8-4990-b61b-e7ee579dc960",
+      "firstName": "Fiona",
+      "lastName": "Lewis",
+      "gender": "F",
+      "year": 1978,
+      "category": "SENIOR",
+      "bibNumber": 383,
+      "sportsClub": "Running Roma",
+      "position": 283
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5581,
+    "gapSeconds": 2820,
+    "paceMinKm": 9.3
+  },
+  {
+    "id": "60d28f37-bb19-4603-a9fe-324fc4352862",
+    "athlete": {
+      "id": "7518bb13-d2ee-4f2f-9cd5-db596b79ab03",
+      "firstName": "Vincenzo",
+      "lastName": "Bolt",
+      "gender": "F",
+      "year": 1966,
+      "category": "SENIOR",
+      "bibNumber": 384,
+      "sportsClub": "Atletica Milano",
+      "position": 284
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 8996,
+    "gapSeconds": 2830,
+    "paceMinKm": 14.99
+  },
+  {
+    "id": "8677e467-d7f9-4e76-823d-8493d06af17a",
+    "athlete": {
+      "id": "b6c90d36-d90c-4781-ba44-345cf56b69d2",
+      "firstName": "Abebe",
+      "lastName": "Lewis",
+      "gender": "M",
+      "year": 1976,
+      "category": "SENIOR",
+      "bibNumber": 385,
+      "sportsClub": "CUS Torino",
+      "position": 285
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6735,
+    "gapSeconds": 1704,
+    "paceMinKm": 11.22
+  },
+  {
+    "id": "d510e787-c844-4865-b471-32605a461c9a",
+    "athlete": {
+      "id": "fa8d0015-42e1-4927-ad0e-a950f295b1cd",
+      "firstName": "Ingrid",
+      "lastName": "Cova",
+      "gender": "F",
+      "year": 1986,
+      "category": "SENIOR",
+      "bibNumber": 386,
+      "sportsClub": "Running Roma",
+      "position": 286
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7318,
+    "gapSeconds": 3420,
+    "paceMinKm": 12.2
+  },
+  {
+    "id": "3a32a877-d6a2-4c7f-b330-ee3911d28293",
+    "athlete": {
+      "id": "d38ee56a-5325-42e5-b2f6-63f9a8554b30",
+      "firstName": "Hicham",
+      "lastName": "Bordin",
+      "gender": "F",
+      "year": 2000,
+      "category": "SENIOR",
+      "bibNumber": 387,
+      "sportsClub": "Marathon Napoli",
+      "position": 287
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7331,
+    "gapSeconds": 3146,
+    "paceMinKm": 12.22
+  },
+  {
+    "id": "f9d52ed0-1dca-4ff3-bb9a-30289dbd1c69",
+    "athlete": {
+      "id": "505dabcc-bd01-4125-902b-c5c70316c7cf",
+      "firstName": "Hicham",
+      "lastName": "Mayr",
+      "gender": "F",
+      "year": 1968,
+      "category": "SENIOR",
+      "bibNumber": 388,
+      "sportsClub": "Marathon Napoli",
+      "position": 288
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5904,
+    "gapSeconds": 2009,
+    "paceMinKm": 9.84
+  },
+  {
+    "id": "a746639b-8e5e-4f47-8c49-14e5bf7c8c2c",
+    "athlete": {
+      "id": "037eb12d-1380-4f5b-9fe8-5b2a4406a46c",
+      "firstName": "Francesco",
+      "lastName": "Nurmi",
+      "gender": "M",
+      "year": 1963,
+      "category": "SENIOR",
+      "bibNumber": 389,
+      "sportsClub": "Running Roma",
+      "position": 289
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5045,
+    "gapSeconds": 4032,
+    "paceMinKm": 8.41
+  },
+  {
+    "id": "9697d3a4-6658-492d-8513-301433e7a2b4",
+    "athlete": {
+      "id": "b6431827-7369-4792-8c05-46886138a53a",
+      "firstName": "Alberto",
+      "lastName": "Panetta",
+      "gender": "F",
+      "year": 1980,
+      "category": "SENIOR",
+      "bibNumber": 390,
+      "sportsClub": "Marathon Napoli",
+      "position": 290
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6210,
+    "gapSeconds": 4913,
+    "paceMinKm": 10.35
+  },
+  {
+    "id": "04645a2e-f0f2-4d35-8be5-56a17e3076c3",
+    "athlete": {
+      "id": "faee5061-6648-40c3-8259-ef10a27e9467",
+      "firstName": "Emil",
+      "lastName": "Gebrselassie",
+      "gender": "F",
+      "year": 1987,
+      "category": "SENIOR",
+      "bibNumber": 391,
+      "sportsClub": "Atletica Milano",
+      "position": 291
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7383,
+    "gapSeconds": 2320,
+    "paceMinKm": 12.3
+  },
+  {
+    "id": "ffb2e147-57c7-4325-bbc5-5a9fd579562b",
+    "athlete": {
+      "id": "80e84a1a-eccb-4409-a5ce-aaefcbda6660",
+      "firstName": "Haile",
+      "lastName": "Mayr",
+      "gender": "M",
+      "year": 1999,
+      "category": "SENIOR",
+      "bibNumber": 392,
+      "sportsClub": "CUS Torino",
+      "position": 292
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6228,
+    "gapSeconds": 2910,
+    "paceMinKm": 10.38
+  },
+  {
+    "id": "6153abf1-c622-4f24-b3f8-ec1ae1a01a94",
+    "athlete": {
+      "id": "5652d7ad-34f7-447a-b771-f0afb2c9e4ad",
+      "firstName": "Gabriela",
+      "lastName": "Panetta",
+      "gender": "M",
+      "year": 1971,
+      "category": "SENIOR",
+      "bibNumber": 393,
+      "sportsClub": "Running Roma",
+      "position": 293
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5651,
+    "gapSeconds": 2336,
+    "paceMinKm": 9.42
+  },
+  {
+    "id": "33ab97b4-2e6a-4ca6-b18d-074deefb6b7c",
+    "athlete": {
+      "id": "e2fd4c09-9e05-452b-b1ac-adcb48376c0b",
+      "firstName": "Orlando",
+      "lastName": "Cova",
+      "gender": "M",
+      "year": 1991,
+      "category": "SENIOR",
+      "bibNumber": 394,
+      "sportsClub": "Marathon Napoli",
+      "position": 294
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5070,
+    "gapSeconds": 3516,
+    "paceMinKm": 8.45
+  },
+  {
+    "id": "c6955683-5fd3-48a5-8e5e-75c157ca225f",
+    "athlete": {
+      "id": "a63900f6-2e56-476a-9a11-07590ee3a16e",
+      "firstName": "Noureddine",
+      "lastName": "Coe",
+      "gender": "F",
+      "year": 1970,
+      "category": "SENIOR",
+      "bibNumber": 395,
+      "sportsClub": "Running Roma",
+      "position": 295
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6255,
+    "gapSeconds": 3528,
+    "paceMinKm": 10.43
+  },
+  {
+    "id": "49f8c788-d48f-42de-9266-f0754439727c",
+    "athlete": {
+      "id": "c0c91e70-721a-4114-b262-c51753515856",
+      "firstName": "Hicham",
+      "lastName": "Gebrselassie",
+      "gender": "F",
+      "year": 1964,
+      "category": "SENIOR",
+      "bibNumber": 396,
+      "sportsClub": "Atletica Milano",
+      "position": 296
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 5376,
+    "gapSeconds": 2360,
+    "paceMinKm": 8.96
+  },
+  {
+    "id": "cf6b82d0-a2fd-411e-b3c8-111e473b394e",
+    "athlete": {
+      "id": "8491576d-7899-4e22-a60c-cecdbf156319",
+      "firstName": "Emil",
+      "lastName": "Modica",
+      "gender": "M",
+      "year": 1977,
+      "category": "SENIOR",
+      "bibNumber": 397,
+      "sportsClub": "Marathon Napoli",
+      "position": 297
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6570,
+    "gapSeconds": 3552,
+    "paceMinKm": 10.95
+  },
+  {
+    "id": "debee3b3-ccf5-45a9-b91f-3bcad49162f1",
+    "athlete": {
+      "id": "e6435cb9-9d24-46b9-a263-73a78f01ddd7",
+      "firstName": "Francesco",
+      "lastName": "Szabo",
+      "gender": "M",
+      "year": 1983,
+      "category": "SENIOR",
+      "bibNumber": 398,
+      "sportsClub": "Running Roma",
+      "position": 298
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7772,
+    "gapSeconds": 5643,
+    "paceMinKm": 12.95
+  },
+  {
+    "id": "ac82fe2e-d000-44ca-ad0e-7604f5a754b4",
+    "athlete": {
+      "id": "a823bb87-9a31-47d6-b533-b1df76de2a98",
+      "firstName": "Paavo",
+      "lastName": "Bordin",
+      "gender": "M",
+      "year": 1980,
+      "category": "SENIOR",
+      "bibNumber": 399,
+      "sportsClub": "Atletica Milano",
+      "position": 299
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 7188,
+    "gapSeconds": 5364,
+    "paceMinKm": 11.98
+  },
+  {
+    "id": "c333bee4-0331-4df9-9bc0-d2bd8f9cf583",
+    "athlete": {
+      "id": "c1b1bf11-4e57-4f9b-ae9d-9809d0783678",
+      "firstName": "Emil",
+      "lastName": "Gebrselassie",
+      "gender": "F",
+      "year": 1990,
+      "category": "SENIOR",
+      "bibNumber": 400,
+      "sportsClub": "Atletica Milano",
+      "position": 300
+    },
+    "race": {
+      "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
+      "name": "Gara Storica",
+      "location": "Roma",
+      "date": "2025-01-22"
+    },
+    "timeSeconds": 6600,
+    "gapSeconds": 3887,
+    "paceMinKm": 11.0
+  }
+]
