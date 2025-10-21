@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { fetchWithRetry } from "./fetch-with-retry";
 
+const MAX_RETRIES = 3;
+const DELAY_MS = 1000;
+
 type InitialState = {
   data: null;
   loading: false;
@@ -46,7 +49,7 @@ export const useFetchData = <T>(
     setLoading(true);
     setError(false);
 
-    fetchWithRetry<T>(url, searchString)
+    fetchWithRetry<T>(url, searchString, MAX_RETRIES, DELAY_MS)
       .then((d) => {
         if (mounted) setData(d);
       })
