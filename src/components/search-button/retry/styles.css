@@ -1,0 +1,12 @@
+.search-button.retry-search-button {
+  background-color: var(--color-error);
+  color: var(--color-text);
+}
+
+.search-button.retry-search-button:hover {
+  transform: scale(1.1);
+}
+
+.search-button.retry-search-button:active {
+  transform: scale(0.9);
+}

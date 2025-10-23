@@ -17,6 +17,7 @@
   width: 100%;
   padding: 10px 12px 10px 36px;
   font-size: var(--font-size);
+  font-family: var(--font-family-base);
   border: 2px solid var(--color-primary);
   border-radius: 4px;
   outline: none;

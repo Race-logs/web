@@ -1,0 +1,27 @@
+.search-button.disabled-search-button {
+  background-color: var(--color-disabled);
+  color: var(--color-text-disabled);
+  cursor: not-allowed;
+}
+
+.search-button.disabled-search-button:hover {
+  animation: horizontal-shaking 0.4s linear infinite;
+}
+
+@keyframes horizontal-shaking {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

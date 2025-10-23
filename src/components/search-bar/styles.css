@@ -1,0 +1,25 @@
+.search-container {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin: var(--spacing-sm) auto;
+  flex-wrap: wrap;
+}
+
+.search-container > .textbox,
+.search-container > .button {
+  flex: 1 1 100%;
+}
+
+@media (min-width: 768px) {
+  .search-container {
+    width: 60%;
+    flex-wrap: nowrap;
+  }
+  .search-container > .textbox {
+    flex: 6 1 0;
+    min-width: 0;
+  }
+  .search-container > .button {
+    flex: 1 0 0;
+  }
+}
