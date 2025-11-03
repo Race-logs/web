@@ -5,6 +5,8 @@
 !.yarn/cache
 !.yarn/versions
 
+coverage/
+
 .vscode
 
 node_modules

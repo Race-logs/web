@@ -18,6 +18,7 @@ Author React components and hooks in TypeScript (`.tsx`/`.ts`) using 2-space ind
 - Practice clean code: prefer clear names, limit component responsibilities, and delete unused helpers instead of leaving dead code behind.
 - Keep the dependency graph lean: rely on TypeScript, React, and existing utilities before adding packages, and remove any library that no longer provides value.
 - Document any new dependency in the PR description with a short justification so reviewers can assess long-term maintenance impact.
+- Reach for mocks sparingly: prefer exercising real component interactions and reserve heavy mocking for truly external boundaries.
 
 ## Testing Guidelines
 Vitest with Testing Library powers unit and interaction tests, configured through `vitest.config.ts` and the `happy-dom` environment. Place test files next to the code under test using the `.test.ts` or `.test.tsx` suffix (e.g., `src/components/search-bar/search-bar.test.tsx`). Prefer behavior-focused assertions (`screen.getByRole`) over implementation details. Execute `yarn test` and ensure any new asynchronous logic has loading and error states covered. Use the mock server or fixture helpers instead of real network calls.

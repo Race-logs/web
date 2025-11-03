@@ -52,6 +52,17 @@ describe("SearchBar", () => {
     expect(button).toBeDisabled();
   });
 
+  it("prevents Enter submissions while loading", async () => {
+    render(<SearchBar onSearch={handleSearch} status="loading" />);
+
+    const input = screen.getByPlaceholderText(/cerca/i);
+
+    await user.type(input, "Valmalenco");
+    await user.type(input, "{enter}");
+
+    expect(handleSearch).not.toHaveBeenCalled();
+  });
+
   it("shows a retry button labeled 'Riprova' and calls onSearch when clicked", async () => {
     render(<SearchBar onSearch={handleSearch} status="error" />);
 

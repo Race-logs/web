@@ -85,4 +85,79 @@ describe("useFetchData", () => {
       });
     });
   });
+
+  it("ignores late responses once the component unmounts", async () => {
+    const mockFetch = vi.mocked(fetchWithRetry);
+    const mockData = [{ id: 1, firstName: "Eliud", lastName: "Kipchoge" }];
+    let resolveFetch: (value: typeof mockData) => void = () => {};
+    mockFetch.mockReset();
+    mockFetch.mockReturnValue(
+      new Promise<typeof mockData>((resolve) => {
+        resolveFetch = resolve;
+      }),
+    );
+
+    const { result, rerender, unmount } = renderHook(
+      ({ query }) => useFetchData<typeof mockData>("https://api.test", query),
+      { initialProps: { query: "" } },
+    );
+
+    rerender({ query: "test" });
+
+    await waitFor(() => {
+      expect(result.current).toEqual({
+        data: null,
+        loading: true,
+        error: false,
+      });
+    });
+
+    unmount();
+    resolveFetch(mockData);
+    await Promise.resolve();
+
+    expect(mockFetch).toHaveBeenCalledWith("https://api.test", "test", 3, 1000);
+    expect(result.current).toEqual({
+      data: null,
+      loading: true,
+      error: false,
+    });
+  });
+
+  it("ignores late errors once the component unmounts", async () => {
+    const mockFetch = vi.mocked(fetchWithRetry);
+    let rejectFetch: (reason?: unknown) => void = () => {};
+    mockFetch.mockReset();
+    mockFetch.mockReturnValue(
+      new Promise((_, reject) => {
+        rejectFetch = reject;
+      }),
+    );
+
+    const { result, rerender, unmount } = renderHook(
+      ({ query }) => useFetchData<[]>("https://api.test", query),
+      { initialProps: { query: "" } },
+    );
+
+    rerender({ query: "test" });
+
+    await waitFor(() => {
+      expect(result.current).toEqual({
+        data: null,
+        loading: true,
+        error: false,
+      });
+    });
+
+    unmount();
+    rejectFetch(new Error("network down"));
+    await Promise.resolve();
+
+    expect(mockFetch).toHaveBeenCalledWith("https://api.test", "test", 3, 1000);
+    expect(result.current).toEqual({
+      data: null,
+      loading: true,
+      error: false,
+    });
+  });
 });

@@ -11,10 +11,11 @@
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.1",
     "@vitejs/plugin-react": "^5.0.4",
+    "@vitest/coverage-v8": "^4.0.6",
     "happy-dom": "^20.0.10",
     "typescript": "^5.9.2",
     "vite": "^7.1.7",
-    "vitest": "^3.2.4"
+    "vitest": "^4.0.6"
   },
   "dependencies": {
     "react": "^19.1.1",
@@ -27,6 +28,7 @@
     "dev": "vite",
     "mock-server": "node ./mock-server/index.js",
     "test": "vitest run",
+    "coverage": "vitest run --coverage",
     "build": "vite build"
   }
 }
