@@ -17,7 +17,6 @@ export const SearchButton = ({ onClick, status }: SearchButtonProps) => {
       return <LoadingSearchButton key="loading" />;
     case "retry":
       return <RetrySearchButton key="retry" onClick={onClick} />;
-    case "ready":
     default:
       return <ReadySearchButton key="ready" onClick={onClick} />;
   }

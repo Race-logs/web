@@ -15,7 +15,7 @@ describe("fetchWithRetry", () => {
       json: async () => ({ id: 1, firstName: "Eliud", lastName: "Kipchoge" }),
     };
     const mockFetch = vi.fn().mockResolvedValue(mockResponse);
-    global.fetch = mockFetch as any;
+    global.fetch = mockFetch;
 
     const result = await fetchWithRetry<typeof mockResponse>(
       url,
@@ -42,7 +42,7 @@ describe("fetchWithRetry", () => {
       .fn()
       .mockRejectedValueOnce(firstError)
       .mockResolvedValueOnce(mockResponse);
-    global.fetch = mockFetch as any;
+    global.fetch = mockFetch;
 
     const result = await fetchWithRetry<typeof mockResponse>(
       url,
@@ -61,7 +61,7 @@ describe("fetchWithRetry", () => {
 
   it("fails after two retries with maxRetries = 2", async () => {
     const mockFetch = vi.fn().mockRejectedValue(new Error("Permanent failure"));
-    global.fetch = mockFetch as any;
+    global.fetch = mockFetch;
 
     await expect(fetchWithRetry(url, searchString, 2, 5)).rejects.toThrow(
       "Permanent failure",
@@ -72,7 +72,7 @@ describe("fetchWithRetry", () => {
   it("retries when fetch resolves with non-OK status", async () => {
     const badResponse = { ok: false, status: 500, json: async () => ({}) };
     const mockFetch = vi.fn().mockResolvedValue(badResponse);
-    global.fetch = mockFetch as any;
+    global.fetch = mockFetch;
 
     await expect(fetchWithRetry(url, searchString, 1, 5)).rejects.toThrow(
       "HTTP 500",
@@ -83,7 +83,7 @@ describe("fetchWithRetry", () => {
   it("escapes and appends searchString to URL", async () => {
     const mockResponse = { ok: true, json: async () => null };
     const mockFetch = vi.fn().mockResolvedValue(mockResponse);
-    global.fetch = mockFetch as any;
+    global.fetch = mockFetch;
 
     await fetchWithRetry(url, "Haile & Bekele", 0, 5);
 
@@ -92,7 +92,11 @@ describe("fetchWithRetry", () => {
     const calledArgs = mockFetch.mock.calls[0];
     expect(calledArgs).toBeDefined();
 
-    const calledUrl = new URL(calledArgs![0]);
+    if (!Array.isArray(calledArgs) || calledArgs.length === 0) {
+      expect.fail();
+    }
+
+    const calledUrl = new URL(calledArgs[0]);
     expect(calledUrl.searchParams.get("searchString")).toBe("Haile & Bekele");
   });
 });

@@ -14,11 +14,8 @@ export const App = () => {
   return (
     <div className="main-container">
       <SearchBar
-        onSearch={(query) => {
-          setSearchString(query);
-        }}
-        loading={loading}
-        error={error}
+        onSearch={setSearchString}
+        status={loading ? "loading" : error ? "error" : "idle"}
       />
       <ResultsTable results={results} />
     </div>

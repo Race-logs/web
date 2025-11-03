@@ -5,6 +5,8 @@ export const SearchIcon = () => (
     width={24}
     height={24}
     fill="none"
+    role="img"
+    aria-label="search"
     xmlns="http://www.w3.org/2000/svg"
   >
     <circle cx="11" cy="11" r="9" stroke="currentColor" strokeWidth="2" />
