@@ -4,6 +4,7 @@
 }
 
 .search-button.retry-search-button:hover {
+  background-color: var(--color-error-strong);
   transform: scale(1.1);
 }
 

@@ -4,67 +4,15 @@
   justify-content: center;
   padding: 10px 20px;
   border: none;
-  border-radius: 6px;
-  font-family: var(--font-family-base, "Poppins", sans-serif);
-  font-size: 16px;
+  border-radius: var(--radius-md);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
   font-weight: 500;
   cursor: pointer;
   transition:
     background-color 0.25s ease,
     transform 0.2s ease 0.05s,
     opacity 0.25s ease;
-  height: 56px;
+  height: var(--control-height);
   min-width: 120px;
-}
-/*
-.button.loading {
-  background-color: #222;
-  opacity: 0.8;
-  cursor: wait;
-  position: relative;
-  color: #fff;
-}
-
-.button.loading::after {
-  content: "";
-  width: 16px;
-  height: 16px;
-  border: 2px solid #fff;
-  border-top-color: transparent;
-  border-radius: 50%;
-  animation: vertical-shaking 0.8s linear infinite;
-}
-
-@keyframes vertical-shaking {
-  0% {
-    transform: translateY(0);
-  }
-  25% {
-    transform: translateY(15px);
-  }
-  50% {
-    transform: translateY(-15px);
-  }
- 75% {
-    transform: translateY(15px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-*/
-
-/* ERROR */
-.button.error {
-  background-color: var(--color-error, #e63946);
-}
-
-.button.error:hover {
-  background-color: #c62828;
-  transform: scale(1.03);
-}
-
-.button.error:active {
-  transform: scale(0.97);
-  transition-delay: 0s;
 }
