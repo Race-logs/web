@@ -7,4 +7,4 @@ const baseUrl = import.meta.env.VITE_API_URL;
 export const useAthleteRaceResults = (
   searchString: string,
 ): UseFetchResultType<AthleteRaceResult[]> =>
-  useFetchData<AthleteRaceResult[]>(`${baseUrl}/race-resultss`, searchString);
+  useFetchData<AthleteRaceResult[]>(`${baseUrl}/race-results`, searchString);

@@ -1,13 +1,15 @@
-import { PButton } from "@porsche-design-system/components-react";
 import { useState } from "react";
 import "./styles.css";
 import { SearchInput } from "../search-input/search-input";
 import { SearchButton } from "../search-button/search-button";
 
-export type SearchBarProps = {
+type SearchBarState =
+  | { loading: true; error: false }
+  | { loading: false; error: true }
+  | { loading: false; error: false };
+
+export type SearchBarProps = SearchBarState & {
   onSearch: (searchString: string) => void;
-  loading: boolean;
-  error: boolean;
 };
 
 export const SearchBar = ({ onSearch, loading, error }: SearchBarProps) => {

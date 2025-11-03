@@ -10,7 +10,7 @@ export const fetchWithRetry = async <T>(
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
     try {
       const res = await fetch(fullUrl.toString(), {
-        method: "POST",
+        method: "GET",
       });
 
       if (!res.ok) throw new Error(`HTTP ${res.status}`);

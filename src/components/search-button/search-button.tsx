@@ -10,17 +10,15 @@ type SearchButtonProps = {
 };
 
 export const SearchButton = ({ onClick, status }: SearchButtonProps) => {
-  if (status === "disabled") {
-    return <DisabledSearchButton />;
+  switch (status) {
+    case "disabled":
+      return <DisabledSearchButton key="disabled" />;
+    case "loading":
+      return <LoadingSearchButton key="loading" />;
+    case "retry":
+      return <RetrySearchButton key="retry" onClick={onClick} />;
+    case "ready":
+    default:
+      return <ReadySearchButton key="ready" onClick={onClick} />;
   }
-
-  if (status === "loading") {
-    return <LoadingSearchButton />;
-  }
-
-  if (status === "retry") {
-    return <RetrySearchButton onClick={onClick} />;
-  }
-
-  return <ReadySearchButton onClick={onClick} />;
 };
