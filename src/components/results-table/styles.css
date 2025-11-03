@@ -1,0 +1,32 @@
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.results-table th,
+.results-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  white-space: nowrap;
+}
+
+.results-table th {
+  font-weight: 600;
+  font-size: 13px;
+  color: #444;
+}
+
+.results-table tbody tr:hover {
+  background-color: #fafafa;
+}
+
+.results-table td:first-child,
+.results-table th:first-child {
+  padding-left: 0.5rem;
+}
+
+.results-table td:last-child,
+.results-table th:last-child {
+  padding-right: 0.5rem;
+}

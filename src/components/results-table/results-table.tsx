@@ -1,13 +1,5 @@
-import {
-  PTable,
-  PTableBody,
-  PTableCell,
-  PTableHead,
-  PTableHeadCell,
-  PTableHeadRow,
-  PTableRow,
-} from "@porsche-design-system/components-react";
 import type { AthleteRaceResult } from "../../entities/athlete-race-result";
+import "./styles.css";
 
 type ResultsListProps = {
   results: AthleteRaceResult[];
@@ -15,22 +7,22 @@ type ResultsListProps = {
 
 export const ResultsTable = ({ results }: ResultsListProps) => {
   return (
-    <PTable caption="Some caption">
-      <PTableHead>
-        <PTableHeadRow>
-          <PTableHeadCell>Pos</PTableHeadCell>
-          <PTableHeadCell>N°</PTableHeadCell>
-          <PTableHeadCell>Cognome, nome</PTableHeadCell>
-          <PTableHeadCell>Società</PTableHeadCell>
-          <PTableHeadCell>Cat</PTableHeadCell>
-          <PTableHeadCell>S</PTableHeadCell>
-          <PTableHeadCell>Anno</PTableHeadCell>
-          <PTableHeadCell>Tempo</PTableHeadCell>
-          <PTableHeadCell>Dist</PTableHeadCell>
-          <PTableHeadCell>Ritmo</PTableHeadCell>
-        </PTableHeadRow>
-      </PTableHead>
-      <PTableBody>
+    <table className="results-table">
+      <thead>
+        <tr>
+          <th>Pos</th>
+          <th>N°</th>
+          <th>Cognome, nome</th>
+          <th>Società</th>
+          <th>Cat</th>
+          <th>S</th>
+          <th>Anno</th>
+          <th>Tempo</th>
+          <th>Dist</th>
+          <th>Ritmo</th>
+        </tr>
+      </thead>
+      <tbody>
         {results.map(
           ({
             athlete: {
@@ -48,21 +40,21 @@ export const ResultsTable = ({ results }: ResultsListProps) => {
             paceMinKm,
             id,
           }) => (
-            <PTableRow key={id}>
-              <PTableCell>{position}</PTableCell>
-              <PTableCell>{bibNumber}</PTableCell>
-              <PTableCell>{`${lastName} ${firstName}`}</PTableCell>
-              <PTableCell>{sportsClub}</PTableCell>
-              <PTableCell>{category}</PTableCell>
-              <PTableCell>{gender}</PTableCell>
-              <PTableCell>{year}</PTableCell>
-              <PTableCell>{timeSeconds}</PTableCell>
-              <PTableCell>{gapSeconds}</PTableCell>
-              <PTableCell>{paceMinKm}</PTableCell>
-            </PTableRow>
+            <tr key={id}>
+              <td>{position}</td>
+              <td>{bibNumber}</td>
+              <td>{`${lastName} ${firstName}`}</td>
+              <td>{sportsClub}</td>
+              <td>{category}</td>
+              <td>{gender}</td>
+              <td>{year}</td>
+              <td>{timeSeconds}</td>
+              <td>{gapSeconds}</td>
+              <td>{paceMinKm}</td>
+            </tr>
           ),
         )}
-      </PTableBody>
-    </PTable>
+      </tbody>
+    </table>
   );
 };
