@@ -11,7 +11,7 @@ const port = 3001;
 const normalizePath = (p) =>
   p.endsWith("/") && p !== "/" ? p.slice(0, -1) : p;
 
-const server = createServer((req, res) => {
+const server = createServer(async (req, res) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Methods", "GET,OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "*");
@@ -26,6 +26,8 @@ const server = createServer((req, res) => {
   const pathname = normalizePath(parsed.pathname);
 
   if (req.method === "GET" && pathname === "/race-results") {
+    const delay = (ms) => new Promise((r) => setTimeout(r, ms));
+    await delay(2000);
     res.writeHead(200, { "Content-Type": "application/json" });
     res.end(JSON.stringify(raceResults));
     return;

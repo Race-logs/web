@@ -1,6 +1,6 @@
 import type { AthleteRaceResult } from "./entities/athlete-race-result";
 
-export const initialResults: AthleteRaceResult[] = [
+export const initialData: AthleteRaceResult[] = [
   {
     id: "97904f49-3d6d-4ed6-9f6c-c1800e0f63cb",
     athlete: {

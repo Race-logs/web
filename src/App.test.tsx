@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { App } from "./App";
-import { initialResults } from "./initial-results";
+import { initialData } from "./initial-data";
 import { useAthleteRaceResults } from "./hooks/use-athlete-race-results";
 import type { AthleteRaceResult } from "./entities/athlete-race-result";
 
@@ -19,14 +19,14 @@ afterEach(() => {
 describe("App", () => {
   it("shows the seeded results before any search is submitted", () => {
     mockUseAthleteRaceResults.mockReturnValue({
-      data: null,
+      data: initialData,
       loading: false,
       error: false,
     });
 
     render(<App />);
 
-    const firstSeed = initialResults[0];
+    const firstSeed = initialData[0];
     if (!firstSeed)
       throw new Error("initialResults must contain at least one entry.");
     const seededName = `${firstSeed.athlete.lastName} ${firstSeed.athlete.firstName}`;
@@ -36,7 +36,7 @@ describe("App", () => {
   it("displays the loading button state while data is fetching", async () => {
     const user = userEvent.setup();
     mockUseAthleteRaceResults.mockReturnValue({
-      data: null,
+      data: initialData,
       loading: true,
       error: false,
     });
@@ -53,7 +53,7 @@ describe("App", () => {
   it("shows the retry button style when the last request failed", async () => {
     const user = userEvent.setup();
     mockUseAthleteRaceResults.mockReturnValue({
-      data: null,
+      data: initialData,
       loading: false,
       error: true,
     });
@@ -94,10 +94,11 @@ describe("App", () => {
       },
     ];
 
-    mockUseAthleteRaceResults.mockImplementation((searchString: string) =>
-      searchString
-        ? { data: fetchedResults, loading: false, error: false }
-        : { data: null, loading: false, error: false },
+    mockUseAthleteRaceResults.mockImplementation(
+      (searchString: string, seed: AthleteRaceResult[]) =>
+        searchString
+          ? { data: fetchedResults, loading: false, error: false }
+          : { data: seed, loading: false, error: false },
     );
 
     render(<App />);
@@ -105,7 +106,7 @@ describe("App", () => {
     await user.type(screen.getByPlaceholderText("Cerca..."), "brigid");
     await user.click(screen.getByRole("button", { name: "Cerca" }));
 
-    const firstSeed = initialResults[0];
+    const firstSeed = initialData[0];
     if (!firstSeed)
       throw new Error("initialResults must contain at least one entry.");
     const seededAthleteName = `${firstSeed.athlete.lastName} ${firstSeed.athlete.firstName}`;

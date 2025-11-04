@@ -19,11 +19,36 @@ afterEach(() => {
   vi.resetModules();
 });
 
+const seedResults: AthleteRaceResult[] = [
+  {
+    id: "seed",
+    timeSeconds: 1,
+    gapSeconds: 0,
+    paceMinKm: 1,
+    athlete: {
+      id: "athlete-seed",
+      firstName: "Seed",
+      lastName: "Runner",
+      gender: "M",
+      year: 2000,
+      category: "SM",
+      bibNumber: 1,
+      sportsClub: "Club",
+      position: 1,
+    },
+    race: {
+      id: "race-seed",
+      name: "Seed Race",
+      date: new Date("2024-01-01"),
+    },
+  },
+];
+
 describe("useAthleteRaceResults", () => {
   it("composes the race results endpoint with the configured API URL", async () => {
     vi.resetModules();
     const expectedResult: UseFetchResultType<AthleteRaceResult[]> = {
-      data: null,
+      data: seedResults,
       loading: false,
       error: false,
     };
@@ -31,11 +56,14 @@ describe("useAthleteRaceResults", () => {
     vi.stubEnv("VITE_API_URL", "https://api.example.com");
 
     const useAthleteRaceResults = await loadHook();
-    const { result } = renderHook(() => useAthleteRaceResults("kip"));
+    const { result } = renderHook(() =>
+      useAthleteRaceResults("kip", seedResults),
+    );
 
     expect(mockUseFetchData).toHaveBeenCalledWith(
       "https://api.example.com/race-results",
       "kip",
+      seedResults,
     );
     expect(result.current).toBe(expectedResult);
   });
@@ -43,7 +71,7 @@ describe("useAthleteRaceResults", () => {
   it("passes through the search string unchanged", async () => {
     vi.resetModules();
     const expectedResult: UseFetchResultType<AthleteRaceResult[]> = {
-      data: null,
+      data: seedResults,
       loading: false,
       error: false,
     };
@@ -51,11 +79,12 @@ describe("useAthleteRaceResults", () => {
     vi.stubEnv("VITE_API_URL", "https://api.example.com");
 
     const useAthleteRaceResults = await loadHook();
-    renderHook(() => useAthleteRaceResults("  mixed Case Query "));
+    renderHook(() => useAthleteRaceResults("  mixed Case Query ", seedResults));
 
     expect(mockUseFetchData).toHaveBeenCalledWith(
       "https://api.example.com/race-results",
       "  mixed Case Query ",
+      seedResults,
     );
   });
 });

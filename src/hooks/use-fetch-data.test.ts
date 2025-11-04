@@ -1,5 +1,5 @@
 import { renderHook, waitFor } from "@testing-library/react";
-import { describe, it, expect, vi } from "vitest";
+import { beforeEach, describe, expect, it, vi } from "vitest";
 import { useFetchData } from "./use-fetch-data";
 import { fetchWithRetry } from "./fetch-with-retry";
 
@@ -7,157 +7,192 @@ vi.mock("./fetch-with-retry", () => ({
   fetchWithRetry: vi.fn(),
 }));
 
+type MockResult = Array<{ id: number; label: string }>;
+
+const API_URL = "https://api.test";
+
 describe("useFetchData", () => {
-  it("handles the full workflow: initial -> loading -> success", async () => {
-    const mockData = [{ id: 1, firstName: "Eliud", lastName: "Kipchoge" }];
-    const mockFetch = vi.mocked(fetchWithRetry);
-    mockFetch.mockResolvedValueOnce(mockData);
+  beforeEach(() => {
+    vi.mocked(fetchWithRetry).mockReset();
+  });
 
-    const { result, rerender } = renderHook(
-      ({ query }) => useFetchData<typeof mockData>("https://api.test", query),
-      { initialProps: { query: "" } },
-    );
+  const renderUseFetchData = (query: string, initialData: MockResult) =>
+    renderHook(({ search, seed }) => useFetchData(API_URL, search, seed), {
+      initialProps: { search: query, seed: initialData },
+    });
 
-    // Initial state
+  it("returns the initial data when no search has started", () => {
+    const seed: MockResult = [{ id: 1, label: "Seed" }];
+    const { result } = renderUseFetchData("", seed);
+
     expect(result.current).toEqual({
-      data: null,
+      data: seed,
       loading: false,
       error: false,
     });
+    expect(fetchWithRetry).not.toHaveBeenCalled();
+  });
 
-    // Trigger fetch by setting query
-    rerender({ query: "test" });
+  it("transitions through loading and success, replacing the data", async () => {
+    const seed: MockResult = [{ id: 1, label: "Seed" }];
+    const fetched: MockResult = [{ id: 2, label: "Fetched" }];
+    const mockFetch = vi.mocked(fetchWithRetry);
+    mockFetch.mockResolvedValueOnce(fetched);
 
-    // After rerender, loading state should appear
+    const { result, rerender } = renderUseFetchData("", seed);
+
+    rerender({ search: "query", seed });
+
     await waitFor(() => {
       expect(result.current).toEqual({
-        data: null,
+        data: seed,
         loading: true,
         error: false,
       });
     });
 
-    // Wait until success
     await waitFor(() => {
       expect(result.current).toEqual({
-        data: mockData,
+        data: fetched,
         loading: false,
         error: false,
       });
     });
   });
 
-  it("handles the full workflow: initial -> loading -> error", async () => {
-    const mockData = [{ id: 1, firstName: "Eliud", lastName: "Kipchoge" }];
+  it("keeps the last successful data when the next request fails", async () => {
+    const seed: MockResult = [{ id: 1, label: "Seed" }];
+    const fetched: MockResult = [{ id: 2, label: "Fetched" }];
     const mockFetch = vi.mocked(fetchWithRetry);
-    mockFetch.mockRejectedValueOnce(new Error("Generic error"));
+    mockFetch
+      .mockResolvedValueOnce(fetched)
+      .mockRejectedValueOnce(new Error("boom"));
 
-    const { result, rerender } = renderHook(
-      ({ query }) => useFetchData<typeof mockData>("https://api.test", query),
-      { initialProps: { query: "" } },
-    );
+    const { result, rerender } = renderUseFetchData("first", seed);
 
-    // Initial state
-    expect(result.current).toEqual({
-      data: null,
-      loading: false,
-      error: false,
-    });
-
-    // Trigger fetch by setting query
-    rerender({ query: "test" });
-
-    // After rerender, loading state should appear
     await waitFor(() => {
       expect(result.current).toEqual({
-        data: null,
-        loading: true,
+        data: fetched,
+        loading: false,
         error: false,
       });
     });
 
-    // Wait until success
+    rerender({ search: "second", seed });
+
     await waitFor(() => {
       expect(result.current).toEqual({
-        data: null,
+        data: fetched,
         loading: false,
         error: true,
       });
     });
   });
 
-  it("ignores late responses once the component unmounts", async () => {
+  it("retains the last data while a new request is in flight", async () => {
+    const seed: MockResult = [{ id: 1, label: "Seed" }];
+    const first: MockResult = [{ id: 2, label: "First" }];
+    const second: MockResult = [{ id: 3, label: "Second" }];
     const mockFetch = vi.mocked(fetchWithRetry);
-    const mockData = [{ id: 1, firstName: "Eliud", lastName: "Kipchoge" }];
-    let resolveFetch: (value: typeof mockData) => void = () => {};
-    mockFetch.mockReset();
-    mockFetch.mockReturnValue(
-      new Promise<typeof mockData>((resolve) => {
-        resolveFetch = resolve;
+    let resolveSecond: (value: MockResult) => void = () => {};
+
+    mockFetch.mockResolvedValueOnce(first).mockReturnValueOnce(
+      new Promise<MockResult>((resolve) => {
+        resolveSecond = resolve;
       }),
     );
 
-    const { result, rerender, unmount } = renderHook(
-      ({ query }) => useFetchData<typeof mockData>("https://api.test", query),
-      { initialProps: { query: "" } },
-    );
-
-    rerender({ query: "test" });
+    const { result, rerender } = renderUseFetchData("first", seed);
 
     await waitFor(() => {
       expect(result.current).toEqual({
-        data: null,
+        data: first,
+        loading: false,
+        error: false,
+      });
+    });
+
+    rerender({ search: "second", seed });
+
+    await waitFor(() => {
+      expect(result.current).toEqual({
+        data: first,
         loading: true,
         error: false,
       });
     });
 
-    unmount();
-    resolveFetch(mockData);
-    await Promise.resolve();
+    resolveSecond(second);
 
-    expect(mockFetch).toHaveBeenCalledWith("https://api.test", "test", 3, 1000);
-    expect(result.current).toEqual({
-      data: null,
-      loading: true,
-      error: false,
+    await waitFor(() => {
+      expect(result.current).toEqual({
+        data: second,
+        loading: false,
+        error: false,
+      });
     });
   });
 
-  it("ignores late errors once the component unmounts", async () => {
+  it("ignores late successes after unmount", async () => {
+    const seed: MockResult = [{ id: 1, label: "Seed" }];
+    const pending: MockResult = [{ id: 2, label: "Pending" }];
     const mockFetch = vi.mocked(fetchWithRetry);
-    let rejectFetch: (reason?: unknown) => void = () => {};
-    mockFetch.mockReset();
+    let resolvePending: (value: MockResult) => void = () => {};
+
     mockFetch.mockReturnValue(
-      new Promise((_, reject) => {
-        rejectFetch = reject;
+      new Promise<MockResult>((resolve) => {
+        resolvePending = resolve;
       }),
     );
 
-    const { result, rerender, unmount } = renderHook(
-      ({ query }) => useFetchData<[]>("https://api.test", query),
-      { initialProps: { query: "" } },
-    );
+    const { result, rerender, unmount } = renderUseFetchData("", seed);
 
-    rerender({ query: "test" });
+    rerender({ search: "go", seed });
 
     await waitFor(() => {
       expect(result.current).toEqual({
-        data: null,
+        data: seed,
         loading: true,
         error: false,
       });
     });
 
     unmount();
-    rejectFetch(new Error("network down"));
+    resolvePending(pending);
+
     await Promise.resolve();
 
-    expect(mockFetch).toHaveBeenCalledWith("https://api.test", "test", 3, 1000);
-    expect(result.current).toEqual({
-      data: null,
-      loading: true,
-      error: false,
+    expect(mockFetch).toHaveBeenCalledWith(API_URL, "go", 3, 1000);
+  });
+
+  it("ignores late errors after unmount", async () => {
+    const seed: MockResult = [{ id: 1, label: "Seed" }];
+    const mockFetch = vi.mocked(fetchWithRetry);
+    let rejectPending: (reason?: unknown) => void = () => {};
+
+    mockFetch.mockReturnValue(
+      new Promise((_, reject) => {
+        rejectPending = reject;
+      }),
+    );
+
+    const { result, rerender, unmount } = renderUseFetchData("", seed);
+
+    rerender({ search: "go", seed });
+
+    await waitFor(() => {
+      expect(result.current).toEqual({
+        data: seed,
+        loading: true,
+        error: false,
+      });
     });
+
+    unmount();
+    rejectPending(new Error("network"));
+
+    await Promise.resolve();
+
+    expect(mockFetch).toHaveBeenCalledWith(API_URL, "go", 3, 1000);
   });
 });

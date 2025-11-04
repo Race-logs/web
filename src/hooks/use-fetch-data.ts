@@ -4,20 +4,20 @@ import { fetchWithRetry } from "./fetch-with-retry";
 const MAX_RETRIES = 3;
 const DELAY_MS = 1000;
 
-type InitialState = {
-  data: null;
+type InitialState<T> = {
+  data: T;
   loading: false;
   error: false;
 };
 
-type LoadingState = {
-  data: null;
+type LoadingState<T> = {
+  data: T;
   loading: true;
   error: false;
 };
 
-type ErrorState = {
-  data: null;
+type ErrorState<T> = {
+  data: T;
   loading: false;
   error: true;
 };
@@ -29,21 +29,27 @@ type SuccessState<T> = {
 };
 
 export type UseFetchResultType<T> =
-  | InitialState
-  | LoadingState
-  | ErrorState
+  | InitialState<T>
+  | LoadingState<T>
+  | ErrorState<T>
   | SuccessState<T>;
 
 export const useFetchData = <T>(
   url: string,
   searchString: string,
+  initialData: T,
 ): UseFetchResultType<T> => {
-  const [data, setData] = useState<T | null>(null);
-  const [error, setError] = useState(false);
+  const [currentData, setCurrentData] = useState<T>(initialData);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
+  const [hasFetched, setHasFetched] = useState(false);
 
   useEffect(() => {
-    if (!searchString) return;
+    if (!searchString) {
+      setLoading(false);
+      setError(false);
+      return;
+    }
 
     let mounted = true;
     setLoading(true);
@@ -51,7 +57,10 @@ export const useFetchData = <T>(
 
     fetchWithRetry<T>(url, searchString, MAX_RETRIES, DELAY_MS)
       .then((d) => {
-        if (mounted) setData(d);
+        if (mounted) {
+          setCurrentData(d);
+          setHasFetched(true);
+        }
       })
       .catch(() => {
         if (mounted) setError(true);
@@ -65,14 +74,14 @@ export const useFetchData = <T>(
     };
   }, [url, searchString]);
 
+  if (!hasFetched && !loading && !error) {
+    return { data: currentData, loading: false, error: false };
+  }
   if (loading) {
-    return { data: null, loading: true, error: false };
+    return { data: currentData, loading: true, error: false };
   }
   if (error) {
-    return { data: null, loading: false, error: true };
+    return { data: currentData, loading: false, error: true };
   }
-  if (data) {
-    return { data: data, loading: false, error: false };
-  }
-  return { data: null, loading: false, error: false };
+  return { data: currentData, loading: false, error: false };
 };
