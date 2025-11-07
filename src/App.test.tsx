@@ -43,7 +43,10 @@ describe("App", () => {
 
     render(<App />);
 
-    await user.type(screen.getByPlaceholderText("Cerca..."), "kip");
+    await user.type(
+      screen.getByPlaceholderText("Cerca il tuo nome o il nome di una gara"),
+      "kip",
+    );
 
     const button = screen.getByRole("button", { name: "Cerca" });
     expect(button).toHaveClass("loading-search-button");
@@ -60,7 +63,10 @@ describe("App", () => {
 
     render(<App />);
 
-    await user.type(screen.getByPlaceholderText("Cerca..."), "kip");
+    await user.type(
+      screen.getByPlaceholderText("Cerca il tuo nome o il nome di una gara"),
+      "kip",
+    );
 
     const button = screen.getByRole("button", { name: "Riprova" });
     expect(button).toHaveClass("retry-search-button");
@@ -103,7 +109,10 @@ describe("App", () => {
 
     render(<App />);
 
-    await user.type(screen.getByPlaceholderText("Cerca..."), "brigid");
+    await user.type(
+      screen.getByPlaceholderText("Cerca il tuo nome o il nome di una gara"),
+      "brigid",
+    );
     await user.click(screen.getByRole("button", { name: "Cerca" }));
 
     const firstSeed = initialData[0];

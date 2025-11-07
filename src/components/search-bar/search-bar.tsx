@@ -29,7 +29,7 @@ export const SearchBar = ({ onSearch, status }: SearchBarProps) => {
     <div className="search-container">
       <div className="textbox">
         <SearchInput
-          placeholder="Cerca..."
+          placeholder="Cerca il tuo nome o il nome di una gara"
           value={searchString}
           onChange={setSearchString}
           onSubmit={handleSearch}
