@@ -4,7 +4,6 @@ import type { Race } from "./race";
 export type Gender = "M" | "F";
 
 export type Athlete = GenericEntity & {
-  id: string;
   firstName: string;
   lastName: string;
   gender: Gender;
@@ -16,7 +15,6 @@ export type Athlete = GenericEntity & {
 };
 
 export type AthleteRaceResult = GenericEntity & {
-  id: string;
   athlete: Athlete;
   race: Race;
   timeSeconds: number;
