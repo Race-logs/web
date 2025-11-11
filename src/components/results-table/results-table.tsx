@@ -24,7 +24,7 @@ export const ResultsTable = ({ results }: ResultsListProps) => {
         </tr>
       </thead>
       <tbody>
-        {results.map((result, index) => {
+        {results.map((result) => {
           const {
             athlete: {
               firstName,

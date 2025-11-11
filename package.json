@@ -24,7 +24,7 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "format": "biome format --write ./src",
-    "check": "biome lint ./src && biome format ./src",
+    "check": "biome lint ./src --error-on-warnings && biome format ./src --error-on-warnings",
     "dev": "vite",
     "mock-server": "node ./mock-server/index.js",
     "test": "vitest run",
