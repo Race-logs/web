@@ -23,6 +23,8 @@
 
 .results-table td .athlete-name {
   font-weight: 600;
+  display: flex;
+  gap: var(--spacing-sm);
 }
 
 .results-table th {
@@ -48,4 +50,8 @@
 .results-table tr.race-header {
   background-color: #f7f7f7;
   font-style: italic;
+}
+.results-table tr.race-header .race-name {
+  display: flex;
+  gap: var(--spacing-sm);
 }

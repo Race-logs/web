@@ -12,13 +12,14 @@ export const App = () => {
     initialData,
   );
 
+  console.log("AAA", searchString);
   return (
     <div className="main-container">
       <SearchBar
         onSearch={setSearchString}
         status={loading ? "loading" : error ? "error" : "idle"}
       />
-      <ResultsTable results={data} />
+      <ResultsTable results={data} onRedirect={setSearchString} />
     </div>
   );
 };

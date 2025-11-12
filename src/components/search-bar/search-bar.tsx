@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./styles.css";
 import { SearchInput } from "../search-input/search-input";
 import { SearchButton } from "../search-button/search-button";
+
 type SearchBarProps = {
   onSearch: (s: string) => void;
   status: "loading" | "error" | "idle";

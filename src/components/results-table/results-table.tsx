@@ -2,13 +2,23 @@ import type { AthleteRaceResult } from "../../entities/athlete-race-result";
 import React from "react";
 import "./styles.css";
 import { formatTime } from "./format-time";
+import { RedirectButton } from "../redirect-button/redirect-button";
 
 type ResultsListProps = {
   results: AthleteRaceResult[];
+  onRedirect: (s: string) => void;
 };
 
-export const ResultsTable = ({ results }: ResultsListProps) => {
+export const ResultsTable = ({ results, onRedirect }: ResultsListProps) => {
   let lastRace = "";
+
+  const handleRaceDetailRedirect = (raceId: string) => {
+    onRedirect(raceId);
+  };
+
+  const handleAthleteDetailRedirect = (athleteId: string) => {
+    onRedirect(athleteId);
+  };
 
   return (
     <table className="results-table">
@@ -27,6 +37,7 @@ export const ResultsTable = ({ results }: ResultsListProps) => {
         {results.map((result) => {
           const {
             athlete: {
+              id: athleteId,
               firstName,
               lastName,
               gender,
@@ -40,7 +51,7 @@ export const ResultsTable = ({ results }: ResultsListProps) => {
             gapSeconds,
             paceMinKm,
             id,
-            race: { name: raceName },
+            race: { name: raceName, id: raceId },
           } = result;
 
           const showRaceHeader = raceName !== lastRace;
@@ -50,14 +61,33 @@ export const ResultsTable = ({ results }: ResultsListProps) => {
             <React.Fragment key={id}>
               {showRaceHeader && (
                 <tr className="race-header">
-                  <td colSpan={10}>{raceName}</td>
+                  <td colSpan={10}>
+                    <div className="race-name">
+                      {raceName}
+                      <RedirectButton
+                        onClick={() =>
+                          handleRaceDetailRedirect(`race id is ${raceId}`)
+                        }
+                      />
+                    </div>
+                  </td>
                 </tr>
               )}
               <tr>
                 <td>{position}</td>
                 <td>{bibNumber}</td>
                 <td className="stacked-rows">
-                  <span className="athlete-name">{`${lastName} ${firstName}`}</span>
+                  <span className="athlete-name">
+                    {`${lastName} ${firstName}`}
+                    <RedirectButton
+                      onClick={() =>
+                        handleAthleteDetailRedirect(
+                          `athlete id is ${athleteId}`,
+                        )
+                      }
+                    />
+                  </span>
+
                   <span>{sportsClub}</span>
                 </td>
                 <td className="race-time">{formatTime(timeSeconds)}</td>
