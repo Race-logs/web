@@ -6,5 +6,5 @@ export type Athlete = GenericEntity & {
   firstName: string;
   lastName: string;
   gender: Gender;
-  year: number;
+  yearOfBirth: number;
 };

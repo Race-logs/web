@@ -36,7 +36,13 @@ export const ResultsTable = ({ results, onRedirect }: ResultsListProps) => {
       <tbody>
         {results.map((result) => {
           const {
-            athlete: { id: athleteId, firstName, lastName, gender, year },
+            athlete: {
+              id: athleteId,
+              firstName,
+              lastName,
+              gender,
+              yearOfBirth,
+            },
             category,
             bibNumber,
             sportsClub,
@@ -87,7 +93,7 @@ export const ResultsTable = ({ results, onRedirect }: ResultsListProps) => {
                 <td className="race-time">{formatTime(timeSeconds)}</td>
                 <td className="stacked-rows">
                   <span>{`${category}${category ? "-" : ""}${gender}`}</span>
-                  <span>{year}</span>
+                  <span>{yearOfBirth}</span>
                 </td>
                 <td>
                   {gapSeconds === 0

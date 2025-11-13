@@ -30,7 +30,7 @@ const seedResults: AthleteRaceResult[] = [
       firstName: "Seed",
       lastName: "Runner",
       gender: "M",
-      year: 2000,
+      yearOfBirth: 2000,
     },
     race: {
       id: "race-seed",

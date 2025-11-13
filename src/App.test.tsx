@@ -86,7 +86,7 @@ describe("App", () => {
           firstName: "Brigid",
           lastName: "Kosgei",
           gender: "F",
-          year: 1994,
+          yearOfBirth: 1994,
         },
         race: {
           id: "race-id",

@@ -6,7 +6,7 @@
       "firstName": "Haile",
       "lastName": "Panetta",
       "gender": "M",
-      "year": 1971
+      "yearOfBirth": 1971
     },
     "race": {
       "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
@@ -29,7 +29,7 @@
       "firstName": "Ingrid",
       "lastName": "Bordin",
       "gender": "M",
-      "year": 1987
+      "yearOfBirth": 1987
     },
     "race": {
       "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",
@@ -52,7 +52,7 @@
       "firstName": "Ingrid",
       "lastName": "Simeoni",
       "gender": "F",
-      "year": 1981
+      "yearOfBirth": 1981
     },
     "race": {
       "id": "5afc7b75-bacb-4d1c-94c8-50d69da39822",

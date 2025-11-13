@@ -8,7 +8,7 @@ export const initialData: AthleteRaceResult[] = [
       firstName: "Giovanni",
       lastName: "Panetta",
       gender: "M",
-      year: 1971,
+      yearOfBirth: 1971,
     },
     race: {
       id: "5afc7b75-bacb-4d1c-94c8-50d69da39822",
@@ -30,7 +30,7 @@ export const initialData: AthleteRaceResult[] = [
       firstName: "Luca",
       lastName: "Bianchi",
       gender: "M",
-      year: 1988,
+      yearOfBirth: 1988,
     },
     race: {
       id: "5afc7b75-bacb-4d1c-94c8-50d69da39822",
@@ -52,7 +52,7 @@ export const initialData: AthleteRaceResult[] = [
       firstName: "Andrea",
       lastName: "Rossi",
       gender: "M",
-      year: 1994,
+      yearOfBirth: 1994,
     },
     race: {
       id: "5afc7b75-bacb-4d1c-94c8-50d69da39822",
@@ -74,7 +74,7 @@ export const initialData: AthleteRaceResult[] = [
       firstName: "Stefano",
       lastName: "Negri",
       gender: "M",
-      year: 1982,
+      yearOfBirth: 1982,
     },
     race: {
       id: "5afc7b75-bacb-4d1c-94c8-50d69da39822",
@@ -96,7 +96,7 @@ export const initialData: AthleteRaceResult[] = [
       firstName: "Marco",
       lastName: "Colombo",
       gender: "M",
-      year: 1979,
+      yearOfBirth: 1979,
     },
     race: {
       id: "5afc7b75-bacb-4d1c-94c8-50d69da39822",
@@ -118,7 +118,7 @@ export const initialData: AthleteRaceResult[] = [
       firstName: "Francesca",
       lastName: "Villa",
       gender: "F",
-      year: 1990,
+      yearOfBirth: 1990,
     },
     race: {
       id: "5afc7b75-bacb-4d1c-94c8-50d69da39822",
@@ -140,7 +140,7 @@ export const initialData: AthleteRaceResult[] = [
       firstName: "Giulia",
       lastName: "Rinaldi",
       gender: "F",
-      year: 1996,
+      yearOfBirth: 1996,
     },
     race: {
       id: "5afc7b75-bacb-4d1c-94c8-50d69da39822",
@@ -162,7 +162,7 @@ export const initialData: AthleteRaceResult[] = [
       firstName: "Chiara",
       lastName: "Locatelli",
       gender: "F",
-      year: 1987,
+      yearOfBirth: 1987,
     },
     race: {
       id: "5afc7b75-bacb-4d1c-94c8-50d69da39822",
@@ -184,7 +184,7 @@ export const initialData: AthleteRaceResult[] = [
       firstName: "Paolo",
       lastName: "Sertori",
       gender: "M",
-      year: 1975,
+      yearOfBirth: 1975,
     },
     race: {
       id: "5afc7b75-bacb-4d1c-94c8-50d69da39822",
@@ -206,7 +206,7 @@ export const initialData: AthleteRaceResult[] = [
       firstName: "Matteo",
       lastName: "Fumagalli",
       gender: "M",
-      year: 2001,
+      yearOfBirth: 2001,
     },
     race: {
       id: "5afc7b75-bacb-4d1c-94c8-50d69da39822",
@@ -228,7 +228,7 @@ export const initialData: AthleteRaceResult[] = [
       firstName: "Sara",
       lastName: "Corti",
       gender: "F",
-      year: 2000,
+      yearOfBirth: 2000,
     },
     race: {
       id: "5afc7b75-bacb-4d1c-94c8-50d69da39822",
@@ -250,7 +250,7 @@ export const initialData: AthleteRaceResult[] = [
       firstName: "Luca",
       lastName: "Bianchi",
       gender: "M",
-      year: 1988,
+      yearOfBirth: 1988,
     },
     race: {
       id: "5afc7b75-bacb-4d1c-94c8-50d69da39823",
@@ -272,7 +272,7 @@ export const initialData: AthleteRaceResult[] = [
       firstName: "Luca",
       lastName: "Bianchi",
       gender: "M",
-      year: 1988,
+      yearOfBirth: 1988,
     },
     race: {
       id: "5afc7b75-bacb-4d1c-94c8-50d69da39824",
