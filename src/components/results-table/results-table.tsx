@@ -54,8 +54,8 @@ export const ResultsTable = ({ results, onRedirect }: ResultsListProps) => {
             race: { name: raceName, id: raceId },
           } = result;
 
-          const showRaceHeader = raceName !== lastRace;
-          lastRace = raceName;
+          const showRaceHeader = raceId !== lastRace;
+          lastRace = raceId;
 
           return (
             <React.Fragment key={id}>
