@@ -133,6 +133,71 @@ describe("useFetchData", () => {
     });
   });
 
+  it("ignores stale responses from previous searches", async () => {
+    const seed: MockResult = [{ id: 1, label: "Seed" }];
+    const stale: MockResult = [{ id: 2, label: "Stale" }];
+    const fresh: MockResult = [{ id: 3, label: "Fresh" }];
+    const mockFetch = vi.mocked(fetchWithRetry);
+    let resolveStale: (value: MockResult) => void = () => {};
+    let resolveFresh: (value: MockResult) => void = () => {};
+
+    mockFetch
+      .mockReturnValueOnce(
+        new Promise<MockResult>((resolve) => {
+          resolveStale = resolve;
+        }),
+      )
+      .mockReturnValueOnce(
+        new Promise<MockResult>((resolve) => {
+          resolveFresh = resolve;
+        }),
+      );
+
+    const { result, rerender } = renderUseFetchData("", seed);
+
+    rerender({ search: "first", seed });
+
+    await waitFor(() => {
+      expect(result.current).toEqual({
+        data: seed,
+        loading: true,
+        error: false,
+      });
+    });
+
+    rerender({ search: "second", seed });
+
+    await waitFor(() => {
+      expect(result.current).toEqual({
+        data: seed,
+        loading: true,
+        error: false,
+      });
+    });
+
+    resolveFresh(fresh);
+
+    await waitFor(() => {
+      expect(result.current).toEqual({
+        data: fresh,
+        loading: false,
+        error: false,
+      });
+    });
+
+    resolveStale(stale);
+
+    await waitFor(() => {
+      expect(result.current).toEqual({
+        data: fresh,
+        loading: false,
+        error: false,
+      });
+    });
+
+    expect(mockFetch).toHaveBeenCalledTimes(2);
+  });
+
   it("ignores late successes after unmount", async () => {
     const seed: MockResult = [{ id: 1, label: "Seed" }];
     const pending: MockResult = [{ id: 2, label: "Pending" }];

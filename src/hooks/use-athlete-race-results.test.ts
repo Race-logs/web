@@ -31,16 +31,16 @@ const seedResults: AthleteRaceResult[] = [
       lastName: "Runner",
       gender: "M",
       year: 2000,
-      category: "SM",
-      bibNumber: 1,
-      sportsClub: "Club",
-      position: 1,
     },
     race: {
       id: "race-seed",
       name: "Seed Race",
       date: new Date("2024-01-01"),
     },
+    category: "SM",
+    bibNumber: 1,
+    sportsClub: "Club",
+    position: 1,
   },
 ];
 

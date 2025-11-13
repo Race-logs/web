@@ -87,16 +87,16 @@ describe("App", () => {
           lastName: "Kosgei",
           gender: "F",
           year: 1994,
-          category: "SF",
-          bibNumber: 100,
-          sportsClub: "Nike Run Club",
-          position: 1,
         },
         race: {
           id: "race-id",
           name: "City Marathon",
           date: new Date("2024-01-01"),
         },
+        category: "SF",
+        bibNumber: 100,
+        sportsClub: "Nike Run Club",
+        position: 1,
       },
     ];
 

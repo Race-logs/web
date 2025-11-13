@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { fetchWithRetry } from "./fetch-with-retry";
 
 const MAX_RETRIES = 3;
@@ -43,6 +43,7 @@ export const useFetchData = <T>(
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const [hasFetched, setHasFetched] = useState(false);
+  const latestRequestId = useRef(0);
 
   useEffect(() => {
     if (!searchString) {
@@ -52,21 +53,23 @@ export const useFetchData = <T>(
     }
 
     let mounted = true;
+    const requestId = ++latestRequestId.current;
     setLoading(true);
     setError(false);
 
     fetchWithRetry<T>(url, searchString, MAX_RETRIES, DELAY_MS)
       .then((d) => {
-        if (mounted) {
-          setCurrentData(d);
-          setHasFetched(true);
-        }
+        if (!mounted || requestId !== latestRequestId.current) return;
+        setCurrentData(d);
+        setHasFetched(true);
       })
       .catch(() => {
-        if (mounted) setError(true);
+        if (!mounted || requestId !== latestRequestId.current) return;
+        setError(true);
       })
       .finally(() => {
-        if (mounted) setLoading(false);
+        if (!mounted || requestId !== latestRequestId.current) return;
+        setLoading(false);
       });
 
     return () => {

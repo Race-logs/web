@@ -36,17 +36,11 @@ export const ResultsTable = ({ results, onRedirect }: ResultsListProps) => {
       <tbody>
         {results.map((result) => {
           const {
-            athlete: {
-              id: athleteId,
-              firstName,
-              lastName,
-              gender,
-              year,
-              category,
-              bibNumber,
-              sportsClub,
-              position,
-            },
+            athlete: { id: athleteId, firstName, lastName, gender, year },
+            category,
+            bibNumber,
+            sportsClub,
+            position,
             timeSeconds,
             gapSeconds,
             paceMinKm,

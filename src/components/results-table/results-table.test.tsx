@@ -18,11 +18,11 @@ const baseResult: AthleteRaceResult = {
     lastName: "Rossi",
     gender: "M",
     year: 1990,
-    category: "SM",
-    bibNumber: 1,
-    sportsClub: "Team Rocket",
-    position: 1,
   },
+  category: "SM",
+  bibNumber: 1,
+  sportsClub: "Team Rocket",
+  position: 1,
   timeSeconds: 3600,
   gapSeconds: 0,
   paceMinKm: 4,
@@ -84,9 +84,9 @@ describe("ResultsTable", () => {
           id: "athlete-1",
           lastName: "Bianchi",
           firstName: "Luisa",
-          position: 1,
-          bibNumber: 11,
         },
+        position: 1,
+        bibNumber: 11,
       },
       {
         ...baseResult,
@@ -102,9 +102,9 @@ describe("ResultsTable", () => {
           id: "athlete-2",
           lastName: "Verdi",
           firstName: "Marco",
-          position: 2,
-          bibNumber: 12,
         },
+        position: 2,
+        bibNumber: 12,
       },
       {
         ...baseResult,
@@ -120,9 +120,9 @@ describe("ResultsTable", () => {
           id: "athlete-3",
           lastName: "Neri",
           firstName: "Giulia",
-          position: 1,
-          bibNumber: 21,
         },
+        position: 1,
+        bibNumber: 21,
       },
     ];
 
@@ -153,9 +153,9 @@ describe("ResultsTable", () => {
           id: "athlete-4",
           lastName: "Fumagalli",
           firstName: "Sara",
-          position: 1,
-          bibNumber: 31,
         },
+        position: 1,
+        bibNumber: 31,
       },
       {
         ...baseResult,
@@ -171,9 +171,9 @@ describe("ResultsTable", () => {
           id: "athlete-5",
           lastName: "Santi",
           firstName: "Luca",
-          position: 2,
-          bibNumber: 32,
         },
+        position: 2,
+        bibNumber: 32,
       },
     ];
 
@@ -200,9 +200,9 @@ describe("ResultsTable", () => {
           id: "athlete-6",
           lastName: "Sala",
           firstName: "Chiara",
-          position: 1,
-          bibNumber: 41,
         },
+        position: 1,
+        bibNumber: 41,
       },
     ];
 
@@ -237,10 +237,10 @@ describe("ResultsTable", () => {
           id: "athlete-7",
           lastName: "Rusconi",
           firstName: "Paolo",
-          position: 3,
-          bibNumber: 51,
-          sportsClub: "Sky Team",
         },
+        position: 3,
+        bibNumber: 51,
+        sportsClub: "Sky Team",
       },
     ];
 
@@ -278,13 +278,13 @@ describe("ResultsTable", () => {
         id: "athlete-8",
         lastName: "Ruggeri",
         firstName: "Luca",
-        sportsClub: "Skyrunners Bergamo",
-        position: 3,
-        bibNumber: 101,
-        category: "SM",
         year: 1988,
         gender: "F",
       },
+      sportsClub: "Skyrunners Bergamo",
+      position: 3,
+      bibNumber: 101,
+      category: "SM",
     };
 
     render(<ResultsTable results={[result]} onRedirect={handleRedirect} />);
@@ -326,10 +326,10 @@ describe("ResultsTable", () => {
         id: "athlete-9",
         lastName: "Bertolini",
         firstName: "Anna",
-        category: "",
         gender: "F",
         year: 1995,
       },
+      category: "",
     };
 
     render(<ResultsTable results={[result]} onRedirect={handleRedirect} />);
