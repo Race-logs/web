@@ -9,6 +9,7 @@
   text-align: left;
   border-bottom: 1px solid var(--color-border-subtle);
   white-space: nowrap;
+  height: 48px;
 }
 
 .results-table td.athlete-name,
