@@ -95,8 +95,12 @@ export const ResultsTable = ({ results, onRedirect }: ResultsListProps) => {
                   <span>{`${category}${category ? "-" : ""}${gender}`}</span>
                   <span>{year}</span>
                 </td>
-                <td>{formatTime(gapSeconds)}</td>
-                <td>{`+${paceMinKm}`}</td>
+                <td>
+                  {gapSeconds === 0
+                    ? formatTime(gapSeconds)
+                    : `+${formatTime(gapSeconds)}`}
+                </td>
+                <td>{paceMinKm}</td>
               </tr>
             </React.Fragment>
           );
