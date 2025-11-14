@@ -17,6 +17,12 @@
   gap: var(--spacing-sm);
 }
 
+.results-cards__race-title {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
 .results-cards__race-header h2 {
   margin: 0;
   font-size: 1rem;
@@ -26,7 +32,7 @@
 .results-cards__race-grid {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-md);
+  gap: var(--spacing-sm);
 }
 
 .results-card {
@@ -36,7 +42,7 @@
   background-color: var(--color-surface-muted);
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-md);
+  gap: var(--spacing-sm);
 }
 
 .results-card__header {
@@ -67,25 +73,26 @@
   color: var(--color-primary);
 }
 
-.results-card__athlete {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: var(--spacing-md);
-}
-
-.results-card__athlete button {
-  flex-shrink: 0;
-}
-
 .results-card__name {
   margin: 0;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.results-card__name button {
+  flex-shrink: 0;
 }
 
 .results-card__club {
   margin: 0;
   color: var(--color-text-muted);
+}
+.results-card__athlete {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
 }
 
 .results-card__meta {
@@ -93,6 +100,16 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--spacing-md);
   margin: 0;
+}
+
+.results-card__toggle {
+  align-self: flex-start;
+  border: none;
+  background: none;
+  color: var(--color-primary);
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
 }
 
 .results-card__meta div {

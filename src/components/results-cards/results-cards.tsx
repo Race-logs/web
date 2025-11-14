@@ -1,4 +1,5 @@
 import type { AthleteRaceResult } from "../../entities/athlete-race-result";
+import { useState } from "react";
 import { RedirectButton } from "../redirect-button/redirect-button";
 import { formatTime } from "../results-table/format-time";
 import "./styles.css";
@@ -38,11 +39,21 @@ const groupResultsByRace = (results: AthleteRaceResult[]) => {
 };
 
 export const ResultsCards = ({ results, onRedirect }: ResultsCardsProps) => {
+  const [expandedCards, setExpandedCards] = useState<Record<string, boolean>>(
+    {},
+  );
   const raceGroups = groupResultsByRace(results);
 
   if (raceGroups.length === 0) {
     return null;
   }
+
+  const toggleCardDetails = (key: string) => {
+    setExpandedCards((previous) => ({
+      ...previous,
+      [key]: !previous[key],
+    }));
+  };
 
   return (
     <div className="results-cards">
@@ -50,10 +61,12 @@ export const ResultsCards = ({ results, onRedirect }: ResultsCardsProps) => {
         ({ id: raceId, name: raceName, results: raceResults }) => (
           <section className="results-cards__race" key={raceId}>
             <header className="results-cards__race-header">
-              <h2>{raceName}</h2>
-              <RedirectButton
-                onClick={() => onRedirect(`race id is ${raceId}`)}
-              />
+              <div className="results-cards__race-title">
+                <h2>{raceName}</h2>
+                <RedirectButton
+                  onClick={() => onRedirect(`race id is ${raceId}`)}
+                />
+              </div>
             </header>
             <div className="results-cards__race-grid">
               {raceResults.map((result) => {
@@ -75,6 +88,7 @@ export const ResultsCards = ({ results, onRedirect }: ResultsCardsProps) => {
                   },
                 } = result;
                 const resultKey = `${id}-${position}-${bibNumber}`;
+                const isExpanded = Boolean(expandedCards[resultKey]);
 
                 return (
                   <article className="results-card" key={resultKey}>
@@ -83,45 +97,57 @@ export const ResultsCards = ({ results, onRedirect }: ResultsCardsProps) => {
                         <span className="results-card__position">
                           #{position}
                         </span>
-                        <span className="results-card__bib">
-                          N° {bibNumber}
-                        </span>
                       </div>
                       <span className="results-card__time">
                         {formatTime(timeSeconds)}
                       </span>
                     </header>
                     <div className="results-card__athlete">
-                      <div>
-                        <p className="results-card__name">{`${lastName} ${firstName}`}</p>
-                        <p className="results-card__club">{sportsClub}</p>
-                      </div>
-                      <RedirectButton
-                        onClick={() => onRedirect(`athlete id is ${athleteId}`)}
-                      />
+                      <p className="results-card__name">
+                        <span className="results-card__bib">
+                          N° {bibNumber}
+                        </span>
+                        <span>{`${lastName} ${firstName}`}</span>
+                        <RedirectButton
+                          onClick={() =>
+                            onRedirect(`athlete id is ${athleteId}`)
+                          }
+                        />
+                      </p>
+                      <p className="results-card__club">{sportsClub}</p>
                     </div>
-                    <dl className="results-card__meta">
-                      <div>
-                        <dt>Categoria</dt>
-                        <dd>{`${category}${category ? "-" : ""}${gender}`}</dd>
-                      </div>
-                      <div>
-                        <dt>Anno</dt>
-                        <dd>{yearOfBirth}</dd>
-                      </div>
-                      <div>
-                        <dt>Gap</dt>
-                        <dd>
-                          {gapSeconds === 0
-                            ? formatTime(gapSeconds)
-                            : `+${formatTime(gapSeconds)}`}
-                        </dd>
-                      </div>
-                      <div>
-                        <dt>min/km</dt>
-                        <dd>{paceMinKm}</dd>
-                      </div>
-                    </dl>
+                    <button
+                      className="results-card__toggle"
+                      onClick={() => toggleCardDetails(resultKey)}
+                      type="button"
+                      aria-expanded={isExpanded}
+                    >
+                      {isExpanded ? "Nascondi dettagli" : "Mostra dettagli"}
+                    </button>
+                    {isExpanded && (
+                      <dl className="results-card__meta">
+                        <div>
+                          <dt>Categoria</dt>
+                          <dd>{`${category}${category ? "-" : ""}${gender}`}</dd>
+                        </div>
+                        <div>
+                          <dt>Anno</dt>
+                          <dd>{yearOfBirth}</dd>
+                        </div>
+                        <div>
+                          <dt>Gap</dt>
+                          <dd>
+                            {gapSeconds === 0
+                              ? formatTime(gapSeconds)
+                              : `+${formatTime(gapSeconds)}`}
+                          </dd>
+                        </div>
+                        <div>
+                          <dt>min/km</dt>
+                          <dd>{paceMinKm}</dd>
+                        </div>
+                      </dl>
+                    )}
                   </article>
                 );
               })}

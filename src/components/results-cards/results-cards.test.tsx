@@ -46,7 +46,7 @@ describe("ResultsCards", () => {
     vi.clearAllMocks();
   });
 
-  it("groups results by race and renders the athlete info inside cards", () => {
+  it("groups results by race and renders the athlete info inside cards", async () => {
     const results: AthleteRaceResult[] = [
       {
         ...baseResult,
@@ -90,13 +90,22 @@ describe("ResultsCards", () => {
     expect(screen.getByText("Rossi Luca")).toBeInTheDocument();
     expect(screen.getByText("Verdi Luca")).toBeInTheDocument();
     expect(screen.getByText("Neri Luca")).toBeInTheDocument();
-    expect(screen.getAllByText("Categoria")).toHaveLength(results.length);
     const firstCard = getRequiredElement(
       container.querySelector(".results-card") as HTMLElement | null,
       "results card",
     );
     expect(within(firstCard).getByText("#1")).toBeInTheDocument();
     expect(within(firstCard).getByText("N° 11")).toBeInTheDocument();
+    expect(within(firstCard).queryByText("Categoria")).not.toBeInTheDocument();
+
+    const toggleButton = within(firstCard).getByRole("button", {
+      name: "Mostra dettagli",
+    });
+    await user.click(toggleButton);
+
+    expect(
+      within(firstCard).getByText("Categoria", { exact: false }),
+    ).toBeInTheDocument();
   });
 
   it("redirects to race and athlete details when the corresponding buttons are clicked", async () => {
