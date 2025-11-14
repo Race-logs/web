@@ -1,24 +1,35 @@
 .search-container {
   display: flex;
+  flex-direction: column;
   gap: var(--spacing-sm);
   margin: var(--spacing-sm) auto;
-  flex-wrap: wrap;
+  width: 100%;
 }
 
 .search-container > .textbox,
 .search-container > .button {
-  flex: 1 1 100%;
+  width: 100%;
 }
 
-@media (min-width: 768px) {
+.search-container > .button {
+  display: flex;
+}
+
+.search-container > .button .search-button {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
   .search-container {
     width: 60%;
-    flex-wrap: nowrap;
+    flex-direction: row;
   }
+
   .search-container > .textbox {
     flex: 6 1 0;
     min-width: 0;
   }
+
   .search-container > .button {
     flex: 1 0 0;
   }

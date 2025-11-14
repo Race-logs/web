@@ -36,7 +36,9 @@ export const SearchBar = ({ onSearch, status }: SearchBarProps) => {
           onSubmit={handleSearch}
         />
       </div>
-      <SearchButton onClick={handleSearch} status={buttonStatus} />
+      <div className="button">
+        <SearchButton onClick={handleSearch} status={buttonStatus} />
+      </div>
     </div>
   );
 };

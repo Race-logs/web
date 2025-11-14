@@ -1,5 +1,5 @@
 .search-button {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px 20px;
@@ -15,4 +15,12 @@
     opacity 0.25s ease;
   height: var(--control-height);
   min-width: 120px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .search-button {
+    display: inline-flex;
+    width: auto;
+  }
 }
