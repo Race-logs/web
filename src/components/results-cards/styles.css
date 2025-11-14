@@ -1,0 +1,121 @@
+.results-cards {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.results-cards__race {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.results-cards__race-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.results-cards__race-header h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.results-cards__race-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.results-card {
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  background-color: var(--color-surface-muted);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.results-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-weight: 600;
+}
+
+.results-card__placement {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  color: var(--color-text-strong);
+}
+
+.results-card__position {
+  font-size: 1.25rem;
+}
+
+.results-card__bib {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.results-card__time {
+  font-size: 1.25rem;
+  color: var(--color-primary);
+}
+
+.results-card__athlete {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+}
+
+.results-card__athlete button {
+  flex-shrink: 0;
+}
+
+.results-card__name {
+  margin: 0;
+  font-weight: 600;
+}
+
+.results-card__club {
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+.results-card__meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--spacing-md);
+  margin: 0;
+}
+
+.results-card__meta div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.results-card__meta dt {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+}
+
+.results-card__meta dd {
+  margin: 0;
+  font-weight: 600;
+  color: var(--color-text-strong);
+}
+
+@media (min-width: 768px) {
+  .results-cards {
+    display: none;
+  }
+}
