@@ -4,9 +4,9 @@ import { RedirectButton } from "./redirect-button";
 
 describe("RedirectButton", () => {
   it("renders a styled button with the arrow icon", () => {
-    render(<RedirectButton onClick={() => {}} />);
+    render(<RedirectButton onClick={() => {}} label="Vai al dettaglio" />);
 
-    const button = screen.getByRole("button");
+    const button = screen.getByRole("button", { name: "Vai al dettaglio" });
 
     expect(button).toHaveClass("redirect-button");
     expect(button).toHaveAttribute("type", "button");
@@ -19,9 +19,9 @@ describe("RedirectButton", () => {
   it("calls onClick when pressed", () => {
     const handleClick = vi.fn();
 
-    render(<RedirectButton onClick={handleClick} />);
+    render(<RedirectButton onClick={handleClick} label="Apri risorsa" />);
 
-    fireEvent.click(screen.getByRole("button"));
+    fireEvent.click(screen.getByRole("button", { name: "Apri risorsa" }));
 
     expect(handleClick).toHaveBeenCalledTimes(1);
   });

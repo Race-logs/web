@@ -13,6 +13,7 @@ The Vite-powered React app lives in `src`, with `main.tsx` bootstrapping `App.ts
 
 ## Coding Style & Naming Conventions
 Author React components and hooks in TypeScript (`.tsx`/`.ts`) using 2-space indentation, double quotes, and arrow-function components. Use PascalCase for exported React components (`ResultsTable`), camelCase for variables, and prefix hooks with `use` (`useAthleteRaceResults`). Keep feature folders kebab-cased (`search-bar`) and colocate module-specific styles or tests inside them. Run Biome (`yarn check`) before committing so spacing, imports, and stylistic rules stay consistent.
+CSS class names follow a Component-scoped BEM variant: use a kebab-cased component name followed by a double underscore and the element (e.g., `CardsList` with an `item` element becomes `cards-list__item`); keep these names consistent in `.css` and JSX.
 
 ## Engineering Principles
 - Practice clean code: prefer clear names, limit component responsibilities, and delete unused helpers instead of leaving dead code behind.

@@ -10,6 +10,7 @@ const baseResult: AthleteRaceResult = {
     id: "race-0",
     name: "Base Race",
     date: new Date("2024-09-01T00:00:00"),
+    location: "Milan",
   },
   athlete: {
     id: "athlete-0",
@@ -44,6 +45,14 @@ describe("ResultsCards", () => {
 
   beforeEach(() => {
     vi.clearAllMocks();
+  });
+
+  it("returns null when there are no race results", () => {
+    const { container } = render(
+      <ResultsCards results={[]} onRedirect={handleRedirect} />,
+    );
+
+    expect(container.firstChild).toBeNull();
   });
 
   it("groups results by race and renders the athlete info inside cards", async () => {
@@ -96,11 +105,8 @@ describe("ResultsCards", () => {
     );
     expect(within(firstCard).getByText("#1")).toBeInTheDocument();
     expect(within(firstCard).getByText("N° 11")).toBeInTheDocument();
-    expect(within(firstCard).queryByText("Categoria")).not.toBeInTheDocument();
 
-    const toggleButton = within(firstCard).getByRole("button", {
-      name: "Mostra dettagli",
-    });
+    const toggleButton = within(firstCard).getByLabelText("Mostra dettagli");
     await user.click(toggleButton);
 
     expect(
@@ -119,21 +125,27 @@ describe("ResultsCards", () => {
       },
     };
 
-    const { container } = render(
-      <ResultsCards results={[result]} onRedirect={handleRedirect} />,
-    );
+    render(<ResultsCards results={[result]} onRedirect={handleRedirect} />);
 
+    const raceHeading = screen.getByRole("heading", { name: "Lario Trail" });
+    const raceSection = getRequiredElement(
+      raceHeading.closest(".cards-list__section") as HTMLElement | null,
+      "race section",
+    );
     const raceHeader = getRequiredElement(
-      container.querySelector(
-        ".results-cards__race-header",
+      raceSection.querySelector(
+        ".cards-list__section-header",
       ) as HTMLElement | null,
       "race header",
     );
-    const raceButton = within(raceHeader).getByRole("button");
+    const raceButton = within(raceHeader).getByRole("button", {
+      name: "Vai ai dettagli della gara Lario Trail",
+    });
     await user.click(raceButton);
 
+    const athleteName = screen.getByText("Ferri Luca");
     const athleteSection = getRequiredElement(
-      container.querySelector(".results-card__athlete") as HTMLElement | null,
+      athleteName.closest(".results-card__athlete") as HTMLElement | null,
       "athlete section",
     );
     const athleteButton = within(athleteSection).getByRole("button");

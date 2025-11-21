@@ -30,7 +30,8 @@ describe("App", () => {
     if (!firstSeed)
       throw new Error("initialResults must contain at least one entry.");
     const seededName = `${firstSeed.athlete.lastName} ${firstSeed.athlete.firstName}`;
-    expect(screen.getByText(seededName)).toBeInTheDocument();
+    const seededNameOccurrences = screen.getAllByText(seededName);
+    expect(seededNameOccurrences.length).toBeGreaterThan(0);
   });
 
   it("displays the loading button state while data is fetching", async () => {
@@ -92,6 +93,7 @@ describe("App", () => {
           id: "race-id",
           name: "City Marathon",
           date: new Date("2024-01-01"),
+          location: "Milan",
         },
         category: "SF",
         bibNumber: 100,

@@ -1,40 +1,3 @@
-.results-cards {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-lg);
-}
-
-.results-cards__race {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-md);
-}
-
-.results-cards__race-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: var(--spacing-sm);
-}
-
-.results-cards__race-title {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-xs);
-}
-
-.results-cards__race-header h2 {
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-.results-cards__race-grid {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-sm);
-}
-
 .results-card {
   border: 1px solid var(--color-border-subtle);
   border-radius: var(--radius-md);
@@ -73,6 +36,12 @@
   color: var(--color-primary);
 }
 
+.results-card__athlete {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
 .results-card__name {
   margin: 0;
   font-weight: 600;
@@ -89,10 +58,27 @@
   margin: 0;
   color: var(--color-text-muted);
 }
-.results-card__athlete {
+
+.results-card__toggle {
+  align-self: center;
+  border: none;
+  background: none;
+  color: var(--color-primary);
+  cursor: pointer;
+  padding: var(--spacing-xs);
   display: flex;
-  flex-direction: column;
-  gap: var(--spacing-xs);
+  align-items: center;
+  justify-content: center;
+}
+
+.results-card__toggle-icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.2s ease;
+}
+
+.results-card__toggle.expanded .results-card__toggle-icon {
+  transform: rotate(180deg);
 }
 
 .results-card__meta {
@@ -100,16 +86,6 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--spacing-md);
   margin: 0;
-}
-
-.results-card__toggle {
-  align-self: flex-start;
-  border: none;
-  background: none;
-  color: var(--color-primary);
-  font-weight: 600;
-  cursor: pointer;
-  padding: 0;
 }
 
 .results-card__meta div {
@@ -129,10 +105,4 @@
   margin: 0;
   font-weight: 600;
   color: var(--color-text-strong);
-}
-
-@media (min-width: 768px) {
-  .results-cards {
-    display: none;
-  }
 }

@@ -11,6 +11,7 @@ const baseResult: AthleteRaceResult = {
     id: "race-0",
     name: "Base Race",
     date: new Date("01/01/2025"),
+    location: "Milan",
   },
   athlete: {
     id: "athlete-0",
@@ -213,7 +214,9 @@ describe("ResultsTable", () => {
       raceHeader.closest(".race-name") as HTMLElement | null,
       "race header container",
     );
-    const raceButton = within(raceHeaderContainer).getByRole("button");
+    const raceButton = within(raceHeaderContainer).getByRole("button", {
+      name: "Vai ai dettagli della gara Valtellina Skyrace",
+    });
 
     await user.click(raceButton);
 
@@ -252,7 +255,9 @@ describe("ResultsTable", () => {
         (athleteName.parentElement as HTMLElement | null),
       "athlete container",
     );
-    const athleteButton = within(athleteContainer).getByRole("button");
+    const athleteButton = within(athleteContainer).getByRole("button", {
+      name: "Vai ai dettagli di Rusconi Paolo",
+    });
 
     await user.click(athleteButton);
 

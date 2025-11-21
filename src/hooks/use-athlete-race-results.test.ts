@@ -36,6 +36,7 @@ const seedResults: AthleteRaceResult[] = [
       id: "race-seed",
       name: "Seed Race",
       date: new Date("2024-01-01"),
+      location: "Milan",
     },
     category: "SM",
     bibNumber: 1,

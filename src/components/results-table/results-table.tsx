@@ -65,6 +65,7 @@ export const ResultsTable = ({ results, onRedirect }: ResultsListProps) => {
                     <div className="race-name">
                       {raceName}
                       <RedirectButton
+                        label={`Vai ai dettagli della gara ${raceName}`}
                         onClick={() =>
                           handleRaceDetailRedirect(`race id is ${raceId}`)
                         }
@@ -80,6 +81,7 @@ export const ResultsTable = ({ results, onRedirect }: ResultsListProps) => {
                   <span className="athlete-name">
                     {`${lastName} ${firstName}`}
                     <RedirectButton
+                      label={`Vai ai dettagli di ${lastName} ${firstName}`}
                       onClick={() =>
                         handleAthleteDetailRedirect(
                           `athlete id is ${athleteId}`,
