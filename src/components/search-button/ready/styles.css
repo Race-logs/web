@@ -1,12 +1,12 @@
-.search-button.ready-search-button {
+.search-button.search-button__ready {
   background-color: var(--color-primary);
   color: var(--color-text);
 }
 
-.search-button.ready-search-button:hover {
+.search-button.search-button__ready:hover {
   transform: scale(1.1);
 }
 
-.search-button.ready-search-button:active {
+.search-button.search-button__ready:active {
   transform: scale(0.9);
 }

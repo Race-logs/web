@@ -7,7 +7,7 @@ type RetrySearchButtonProps = {
 export const RetrySearchButton = ({ onClick }: RetrySearchButtonProps) => (
   <button
     type="button"
-    className="search-button retry-search-button"
+    className="search-button search-button__retry"
     onClick={onClick}
   >
     {"Riprova"}

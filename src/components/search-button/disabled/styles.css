@@ -1,10 +1,10 @@
-.search-button.disabled-search-button {
+.search-button.search-button__disabled {
   background-color: var(--color-disabled);
   color: var(--color-text-disabled);
   cursor: not-allowed;
 }
 
-.search-button.disabled-search-button:hover {
+.search-button.search-button__disabled:hover {
   animation: horizontal-shaking 0.4s linear infinite;
 }
 

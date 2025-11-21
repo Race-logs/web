@@ -12,18 +12,17 @@
   height: 48px;
 }
 
-.results-table td.athlete-name,
-.race-time {
+.results-table__athlete-name,
+.results-table__race-time {
   font-weight: 600;
 }
 
-.results-table td.stacked-rows {
+.results-table__stacked-rows {
   display: flex;
   flex-direction: column;
 }
 
-.results-table td .athlete-name {
-  font-weight: 600;
+.results-table__athlete-name {
   display: flex;
   gap: var(--spacing-sm);
 }
@@ -48,11 +47,12 @@
   padding-right: 0.5rem;
 }
 
-.results-table tr.race-header {
+.results-table__race-header {
   background-color: #f7f7f7;
   font-style: italic;
 }
-.results-table tr.race-header .race-name {
+
+.results-table__race-name {
   display: flex;
   gap: var(--spacing-sm);
 }

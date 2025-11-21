@@ -100,7 +100,7 @@ describe("ResultsCards", () => {
     expect(screen.getByText("Verdi Luca")).toBeInTheDocument();
     expect(screen.getByText("Neri Luca")).toBeInTheDocument();
     const firstCard = getRequiredElement(
-      container.querySelector(".results-card") as HTMLElement | null,
+      container.querySelector(".result-card") as HTMLElement | null,
       "results card",
     );
     expect(within(firstCard).getByText("#1")).toBeInTheDocument();
@@ -145,7 +145,7 @@ describe("ResultsCards", () => {
 
     const athleteName = screen.getByText("Ferri Luca");
     const athleteSection = getRequiredElement(
-      athleteName.closest(".results-card__athlete") as HTMLElement | null,
+      athleteName.closest(".result-card__athlete") as HTMLElement | null,
       "athlete section",
     );
     const athleteButton = within(athleteSection).getByRole("button");

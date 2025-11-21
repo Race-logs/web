@@ -7,7 +7,7 @@ type ReadySearchButtonProps = {
 export const ReadySearchButton = ({ onClick }: ReadySearchButtonProps) => (
   <button
     type="button"
-    className="search-button ready-search-button"
+    className="search-button search-button__ready"
     onClick={onClick}
   >
     {"Cerca"}

@@ -1,4 +1,4 @@
-.search-button.loading-search-button {
+.search-button.search-button__loading {
   background-color: var(--color-primary);
   color: var(--color-text);
   cursor: wait;

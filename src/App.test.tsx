@@ -50,7 +50,7 @@ describe("App", () => {
     );
 
     const button = screen.getByRole("button", { name: "Cerca" });
-    expect(button).toHaveClass("loading-search-button");
+    expect(button).toHaveClass("search-button__loading");
     expect(button).toBeDisabled();
   });
 
@@ -70,7 +70,7 @@ describe("App", () => {
     );
 
     const button = screen.getByRole("button", { name: "Riprova" });
-    expect(button).toHaveClass("retry-search-button");
+    expect(button).toHaveClass("search-button__retry");
     expect(button).toBeEnabled();
   });
 

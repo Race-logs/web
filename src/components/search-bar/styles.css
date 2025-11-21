@@ -1,4 +1,4 @@
-.search-container {
+.search-bar {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-sm);
@@ -6,31 +6,31 @@
   width: 100%;
 }
 
-.search-container > .textbox,
-.search-container > .button {
+.search-bar__textbox,
+.search-bar__button {
   width: 100%;
 }
 
-.search-container > .button {
+.search-bar__button {
   display: flex;
 }
 
-.search-container > .button .search-button {
+.search-bar__button .search-button {
   width: 100%;
 }
 
 @media (min-width: 1024px) {
-  .search-container {
+  .search-bar {
     width: 60%;
     flex-direction: row;
   }
 
-  .search-container > .textbox {
+  .search-bar__textbox {
     flex: 6 1 0;
     min-width: 0;
   }
 
-  .search-container > .button {
+  .search-bar__button {
     flex: 1 0 0;
   }
 }

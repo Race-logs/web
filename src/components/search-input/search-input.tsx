@@ -24,11 +24,11 @@ export const SearchInput = ({
   };
 
   return (
-    <div className="search-input-container">
+    <div className="search-input">
       <SearchIcon />
       <input
         type="search"
-        className="search-input"
+        className="search-input__input"
         value={value}
         onChange={(e) => onChange(e.target.value)}
         onKeyDown={handleKeyDown}

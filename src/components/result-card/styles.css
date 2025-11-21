@@ -1,4 +1,4 @@
-.results-card {
+.result-card {
   border: 1px solid var(--color-border-subtle);
   border-radius: var(--radius-md);
   padding: var(--spacing-md);
@@ -8,41 +8,41 @@
   gap: var(--spacing-sm);
 }
 
-.results-card__header {
+.result-card__header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   font-weight: 600;
 }
 
-.results-card__placement {
+.result-card__placement {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-xs);
   color: var(--color-text-strong);
 }
 
-.results-card__position {
+.result-card__position {
   font-size: 1.25rem;
 }
 
-.results-card__bib {
+.result-card__bib {
   font-size: 0.9rem;
   color: var(--color-text-muted);
 }
 
-.results-card__time {
+.result-card__time {
   font-size: 1.25rem;
   color: var(--color-primary);
 }
 
-.results-card__athlete {
+.result-card__athlete {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-xs);
 }
 
-.results-card__name {
+.result-card__name {
   margin: 0;
   font-weight: 600;
   display: flex;
@@ -50,16 +50,16 @@
   gap: var(--spacing-sm);
 }
 
-.results-card__name button {
+.result-card__name button {
   flex-shrink: 0;
 }
 
-.results-card__club {
+.result-card__club {
   margin: 0;
   color: var(--color-text-muted);
 }
 
-.results-card__toggle {
+.result-card__toggle {
   align-self: center;
   border: none;
   background: none;
@@ -71,37 +71,37 @@
   justify-content: center;
 }
 
-.results-card__toggle-icon {
+.result-card__toggle-icon {
   width: 20px;
   height: 20px;
   transition: transform 0.2s ease;
 }
 
-.results-card__toggle.expanded .results-card__toggle-icon {
+.result-card__toggle.result-card__toggle--expanded .result-card__toggle-icon {
   transform: rotate(180deg);
 }
 
-.results-card__meta {
+.result-card__meta {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: var(--spacing-md);
   margin: 0;
 }
 
-.results-card__meta div {
+.result-card__meta div {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-xs);
 }
 
-.results-card__meta dt {
+.result-card__meta dt {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--color-text-muted);
 }
 
-.results-card__meta dd {
+.result-card__meta dd {
   margin: 0;
   font-weight: 600;
   color: var(--color-text-strong);

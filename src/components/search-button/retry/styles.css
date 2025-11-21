@@ -1,13 +1,13 @@
-.search-button.retry-search-button {
+.search-button.search-button__retry {
   background-color: var(--color-error);
   color: var(--color-text);
 }
 
-.search-button.retry-search-button:hover {
+.search-button.search-button__retry:hover {
   background-color: var(--color-error-strong);
   transform: scale(1.1);
 }
 
-.search-button.retry-search-button:active {
+.search-button.search-button__retry:active {
   transform: scale(0.9);
 }

@@ -27,7 +27,7 @@ describe("SearchButton", () => {
 
     const button = screen.getByRole("button", { name: "Cerca" });
 
-    expect(button).toHaveClass("loading-search-button");
+    expect(button).toHaveClass("search-button__loading");
     expect(button).toBeDisabled();
 
     fireEvent.click(button);
@@ -40,7 +40,7 @@ describe("SearchButton", () => {
 
     const button = screen.getByRole("button", { name: "Cerca" });
 
-    expect(button).toHaveClass("ready-search-button");
+    expect(button).toHaveClass("search-button__ready");
     expect(button).not.toBeDisabled();
 
     fireEvent.click(button);
@@ -53,7 +53,7 @@ describe("SearchButton", () => {
 
     const button = screen.getByRole("button", { name: "Riprova" });
 
-    expect(button).toHaveClass("retry-search-button");
+    expect(button).toHaveClass("search-button__retry");
     expect(button).not.toBeDisabled();
 
     fireEvent.click(button);

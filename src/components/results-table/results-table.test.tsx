@@ -131,7 +131,7 @@ describe("ResultsTable", () => {
       <ResultsTable results={results} onRedirect={handleRedirect} />,
     );
 
-    const raceHeaders = container.querySelectorAll(".race-name");
+    const raceHeaders = container.querySelectorAll(".results-table__race-name");
     expect(raceHeaders).toHaveLength(2);
     expect(
       Array.from(raceHeaders).map((header) => header.textContent?.trim()),
@@ -181,7 +181,9 @@ describe("ResultsTable", () => {
     render(<ResultsTable results={results} onRedirect={handleRedirect} />);
 
     expect(
-      screen.getAllByText("Pizzo dei Tre Signori", { selector: ".race-name" }),
+      screen.getAllByText("Pizzo dei Tre Signori", {
+        selector: ".results-table__race-name",
+      }),
     ).toHaveLength(1);
   });
 
@@ -211,7 +213,7 @@ describe("ResultsTable", () => {
 
     const raceHeader = screen.getByText("Valtellina Skyrace");
     const raceHeaderContainer = getRequiredElement(
-      raceHeader.closest(".race-name") as HTMLElement | null,
+      raceHeader.closest(".results-table__race-name") as HTMLElement | null,
       "race header container",
     );
     const raceButton = within(raceHeaderContainer).getByRole("button", {
@@ -251,7 +253,9 @@ describe("ResultsTable", () => {
 
     const athleteName = screen.getByText("Rusconi Paolo");
     const athleteContainer = getRequiredElement(
-      (athleteName.closest(".athlete-name") as HTMLElement | null) ??
+      (athleteName.closest(
+        ".results-table__athlete-name",
+      ) as HTMLElement | null) ??
         (athleteName.parentElement as HTMLElement | null),
       "athlete container",
     );

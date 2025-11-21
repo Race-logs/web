@@ -31,26 +31,28 @@ export const ResultCard = ({ result, onRedirect }: ResultCardProps) => {
   };
 
   return (
-    <article className="results-card" data-card-id={id}>
-      <header className="results-card__header">
-        <div className="results-card__placement">
-          <span className="results-card__position">#{position}</span>
+    <article className="result-card" data-card-id={id}>
+      <header className="result-card__header">
+        <div className="result-card__placement">
+          <span className="result-card__position">#{position}</span>
         </div>
-        <span className="results-card__time">{formatTime(timeSeconds)}</span>
+        <span className="result-card__time">{formatTime(timeSeconds)}</span>
       </header>
-      <div className="results-card__athlete">
-        <p className="results-card__name">
-          <span className="results-card__bib">N° {bibNumber}</span>
+      <div className="result-card__athlete">
+        <p className="result-card__name">
+          <span className="result-card__bib">N° {bibNumber}</span>
           <span>{`${lastName} ${firstName}`}</span>
           <RedirectButton
             label={`Vai ai dettagli di ${lastName} ${firstName}`}
             onClick={() => onRedirect(`athlete id is ${athleteId}`)}
           />
         </p>
-        <p className="results-card__club">{sportsClub}</p>
+        <p className="result-card__club">{sportsClub}</p>
       </div>
       <button
-        className={`results-card__toggle${isExpanded ? " expanded" : ""}`}
+        className={`result-card__toggle${
+          isExpanded ? " result-card__toggle--expanded" : ""
+        }`}
         onClick={toggleCardDetails}
         type="button"
         aria-expanded={isExpanded}
@@ -60,7 +62,7 @@ export const ResultCard = ({ result, onRedirect }: ResultCardProps) => {
         <ToggleIcon />
       </button>
       {isExpanded ? (
-        <dl className="results-card__meta" id={detailsId}>
+        <dl className="result-card__meta" id={detailsId}>
           <div>
             <dt>Categoria</dt>
             <dd>{`${category}${category ? "-" : ""}${gender}`}</dd>

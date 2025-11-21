@@ -1,6 +1,6 @@
 export const ToggleIcon = () => (
   <svg
-    className="results-card__toggle-icon"
+    className="result-card__toggle-icon"
     width="20"
     height="20"
     viewBox="0 0 24 24"

@@ -27,8 +27,8 @@ export const SearchBar = ({ onSearch, status }: SearchBarProps) => {
           : "ready";
 
   return (
-    <div className="search-container">
-      <div className="textbox">
+    <div className="search-bar">
+      <div className="search-bar__textbox">
         <SearchInput
           placeholder="Cerca il tuo nome o il nome di una gara"
           value={searchString}
@@ -36,7 +36,7 @@ export const SearchBar = ({ onSearch, status }: SearchBarProps) => {
           onSubmit={handleSearch}
         />
       </div>
-      <div className="button">
+      <div className="search-bar__button">
         <SearchButton onClick={handleSearch} status={buttonStatus} />
       </div>
     </div>

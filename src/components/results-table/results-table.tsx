@@ -60,9 +60,9 @@ export const ResultsTable = ({ results, onRedirect }: ResultsListProps) => {
           return (
             <React.Fragment key={id}>
               {showRaceHeader && (
-                <tr className="race-header">
+                <tr className="results-table__race-header">
                   <td colSpan={10}>
-                    <div className="race-name">
+                    <div className="results-table__race-name">
                       {raceName}
                       <RedirectButton
                         label={`Vai ai dettagli della gara ${raceName}`}
@@ -77,8 +77,8 @@ export const ResultsTable = ({ results, onRedirect }: ResultsListProps) => {
               <tr>
                 <td>{position}</td>
                 <td>{bibNumber}</td>
-                <td className="stacked-rows">
-                  <span className="athlete-name">
+                <td className="results-table__stacked-rows">
+                  <span className="results-table__athlete-name">
                     {`${lastName} ${firstName}`}
                     <RedirectButton
                       label={`Vai ai dettagli di ${lastName} ${firstName}`}
@@ -92,8 +92,10 @@ export const ResultsTable = ({ results, onRedirect }: ResultsListProps) => {
 
                   <span>{sportsClub}</span>
                 </td>
-                <td className="race-time">{formatTime(timeSeconds)}</td>
-                <td className="stacked-rows">
+                <td className="results-table__race-time">
+                  {formatTime(timeSeconds)}
+                </td>
+                <td className="results-table__stacked-rows">
                   <span>{`${category}${category ? "-" : ""}${gender}`}</span>
                   <span>{yearOfBirth}</span>
                 </td>

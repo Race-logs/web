@@ -1,6 +1,6 @@
 export const SearchIcon = () => (
   <svg
-    className="search-icon"
+    className="search-input__icon"
     viewBox="0 0 24 24"
     width={24}
     height={24}
