@@ -24,6 +24,7 @@ CSS class names follow a Component-scoped BEM variant: use a kebab-cased compone
 
 ## Testing Guidelines
 Vitest with Testing Library powers unit and interaction tests, configured through `vitest.config.ts` and the `happy-dom` environment. Place test files next to the code under test using the `.test.ts` or `.test.tsx` suffix (e.g., `src/components/search-bar/search-bar.test.tsx`). Prefer behavior-focused assertions (`screen.getByRole`) over implementation details. Execute `yarn test` and ensure any new asynchronous logic has loading and error states covered. Use the mock server or fixture helpers instead of real network calls.
+Use the global Testing Library helpers (`render`, `screen`) rather than per-test return values; only reach for scoped queries or `rerender`/`unmount` when the test truly needs them.
 
 ## Commit & Pull Request Guidelines
 Commit messages follow the existing short, imperative style (`add happy-dom`, `fix lint errors`). Keep commits focused and avoid mixing lint fixes with feature work. For pull requests, include a concise summary of the change, highlight affected screens or APIs, link any relevant issues, and attach screenshots or GIFs for UI tweaks. Confirm `yarn check`, `yarn typecheck`, and `yarn test` pass before requesting review, and mention any skipped steps explicitly.
