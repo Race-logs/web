@@ -17,6 +17,7 @@ CSS class names follow a Component-scoped BEM variant: use a kebab-cased compone
 
 ## Engineering Principles
 - Practice clean code: prefer clear names, limit component responsibilities, and delete unused helpers instead of leaving dead code behind.
+- Avoid speculative API surface: don’t add options/flags or behaviors that aren’t exercised by the app; keep interfaces minimal until a real use case appears.
 - Keep the dependency graph lean: rely on TypeScript, React, and existing utilities before adding packages, and remove any library that no longer provides value.
 - Document any new dependency in the PR description with a short justification so reviewers can assess long-term maintenance impact.
 - Reach for mocks sparingly: prefer exercising real component interactions and reserve heavy mocking for truly external boundaries.
