@@ -51,9 +51,7 @@ describe("ResultCard", () => {
   });
 
   it("ties the toggle button to the details container for accessibility", async () => {
-    const { container } = render(
-      <ResultCard result={baseResult} onRedirect={handleRedirect} />,
-    );
+    render(<ResultCard result={baseResult} onRedirect={handleRedirect} />);
 
     const detailsId = `${baseResult.id}-details`;
     const toggleButton = screen.getByRole("button", {
@@ -63,7 +61,7 @@ describe("ResultCard", () => {
     await user.click(toggleButton);
 
     expect(toggleButton).toHaveAttribute("aria-controls", detailsId);
-    const details = container.querySelector(`#${detailsId}`);
+    const details = document.getElementById(detailsId);
     if (!details) throw new Error("details list not found");
     expect(toggleButton).toHaveAttribute("aria-expanded", "true");
     expect(details).toBeInTheDocument();

@@ -48,11 +48,10 @@ describe("ResultsCards", () => {
   });
 
   it("returns null when there are no race results", () => {
-    const { container } = render(
-      <ResultsCards results={[]} onRedirect={handleRedirect} />,
-    );
+    render(<ResultsCards results={[]} onRedirect={handleRedirect} />);
 
-    expect(container.firstChild).toBeNull();
+    expect(screen.queryByRole("heading")).not.toBeInTheDocument();
+    expect(document.querySelector(".cards-list")).toBeNull();
   });
 
   it("groups results by race and renders the athlete info inside cards", async () => {
@@ -85,9 +84,7 @@ describe("ResultsCards", () => {
       },
     ];
 
-    const { container } = render(
-      <ResultsCards results={results} onRedirect={handleRedirect} />,
-    );
+    render(<ResultsCards results={results} onRedirect={handleRedirect} />);
 
     expect(
       screen.getByRole("heading", { name: "Valmalenco Vertical" }),
@@ -99,10 +96,8 @@ describe("ResultsCards", () => {
     expect(screen.getByText("Rossi Luca")).toBeInTheDocument();
     expect(screen.getByText("Verdi Luca")).toBeInTheDocument();
     expect(screen.getByText("Neri Luca")).toBeInTheDocument();
-    const firstCard = getRequiredElement(
-      container.querySelector(".result-card") as HTMLElement | null,
-      "results card",
-    );
+    const [firstCard] = screen.getAllByRole("article");
+    if (!firstCard) throw new Error("results card not found");
     expect(within(firstCard).getByText("#1")).toBeInTheDocument();
     expect(within(firstCard).getByText("N° 11")).toBeInTheDocument();
 

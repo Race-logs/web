@@ -4,13 +4,18 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { App } from "./App";
 import { initialData } from "./initial-data";
 import { useAthleteRaceResults } from "./hooks/use-athlete-race-results";
+import { useMediaQuery } from "./hooks/use-media-query";
 import type { AthleteRaceResult } from "./entities/athlete-race-result";
 
 vi.mock("./hooks/use-athlete-race-results", () => ({
   useAthleteRaceResults: vi.fn(),
 }));
+vi.mock("./hooks/use-media-query", () => ({
+  useMediaQuery: vi.fn(),
+}));
 
 const mockUseAthleteRaceResults = vi.mocked(useAthleteRaceResults);
+const mockUseMediaQuery = vi.mocked(useMediaQuery);
 
 afterEach(() => {
   vi.clearAllMocks();
@@ -19,6 +24,7 @@ afterEach(() => {
 describe("App", () => {
   beforeEach(() => {
     window.history.replaceState({}, "", "/");
+    mockUseMediaQuery.mockReturnValue(false);
   });
 
   it("shows the seeded results before any search is submitted", () => {
@@ -169,5 +175,23 @@ describe("App", () => {
     await user.click(screen.getByRole("button", { name: /cerca/i }));
 
     expect(window.location.search).toBe("?q=Valmalenco");
+  });
+
+  it("renders the cards layout on mobile and the table layout on desktop", () => {
+    mockUseAthleteRaceResults.mockReturnValue({
+      data: initialData,
+      loading: false,
+      error: false,
+    });
+
+    mockUseMediaQuery.mockReturnValue(true);
+    const { unmount } = render(<App />);
+    expect(document.querySelector(".cards-list")).toBeInTheDocument();
+    expect(document.querySelector(".results-table")).toBeNull();
+
+    mockUseMediaQuery.mockReturnValue(false);
+    unmount();
+    render(<App />);
+    expect(document.querySelector(".results-table")).toBeInTheDocument();
   });
 });

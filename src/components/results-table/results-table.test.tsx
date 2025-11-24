@@ -127,15 +127,17 @@ describe("ResultsTable", () => {
       },
     ];
 
-    const { container } = render(
-      <ResultsTable results={results} onRedirect={handleRedirect} />,
-    );
+    render(<ResultsTable results={results} onRedirect={handleRedirect} />);
 
-    const raceHeaders = container.querySelectorAll(".results-table__race-name");
+    const raceHeaders = screen.getAllByText(/./, {
+      selector: ".results-table__race-name",
+    });
+
     expect(raceHeaders).toHaveLength(2);
-    expect(
-      Array.from(raceHeaders).map((header) => header.textContent?.trim()),
-    ).toEqual(["Valmalenco Vertical", "Tre Cime Trail"]);
+    expect(raceHeaders.map((header) => header.textContent?.trim())).toEqual([
+      "Valmalenco Vertical",
+      "Tre Cime Trail",
+    ]);
   });
 
   it("does not repeat the race header for consecutive results in the same race", () => {

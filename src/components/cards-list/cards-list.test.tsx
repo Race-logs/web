@@ -61,7 +61,8 @@ describe("CardsList", () => {
   });
 
   it("returns null when there are no sections", () => {
-    const { container } = render(<CardsList sections={[]} />);
-    expect(container.firstChild).toBeNull();
+    render(<CardsList sections={[]} />);
+    expect(screen.queryByRole("heading")).not.toBeInTheDocument();
+    expect(document.querySelector(".cards-list")).toBeNull();
   });
 });
