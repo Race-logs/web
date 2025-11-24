@@ -1,24 +1,29 @@
-import { useState } from "react";
 import "./styles.css";
 import { SearchInput } from "../search-input/search-input";
 import { SearchButton } from "../search-button/search-button";
 
 type SearchBarProps = {
+  searchString: string;
+  onChange: (value: string) => void;
   onSearch: (s: string) => void;
   status: "loading" | "error" | "idle";
 };
 
-export const SearchBar = ({ onSearch, status }: SearchBarProps) => {
-  const [searchString, setSearchString] = useState("");
+export const SearchBar = ({
+  searchString,
+  onChange,
+  onSearch,
+  status,
+}: SearchBarProps) => {
+  const trimmedSearchString = searchString.trim();
 
   const handleSearch = () => {
-    const trimmed = searchString.trim();
-    if (!trimmed || status === "loading") return;
-    onSearch(trimmed);
+    if (!trimmedSearchString || status === "loading") return;
+    onSearch(trimmedSearchString);
   };
 
   const buttonStatus =
-    searchString.trim() === ""
+    trimmedSearchString === ""
       ? "disabled"
       : status === "loading"
         ? "loading"
@@ -32,7 +37,7 @@ export const SearchBar = ({ onSearch, status }: SearchBarProps) => {
         <SearchInput
           placeholder="Cerca il tuo nome o il nome di una gara"
           value={searchString}
-          onChange={setSearchString}
+          onChange={onChange}
           onSubmit={handleSearch}
         />
       </div>

@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { afterEach, describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { App } from "./App";
 import { initialData } from "./initial-data";
 import { useAthleteRaceResults } from "./hooks/use-athlete-race-results";
@@ -17,6 +17,10 @@ afterEach(() => {
 });
 
 describe("App", () => {
+  beforeEach(() => {
+    window.history.replaceState({}, "", "/");
+  });
+
   it("shows the seeded results before any search is submitted", () => {
     mockUseAthleteRaceResults.mockReturnValue({
       data: initialData,
@@ -126,5 +130,44 @@ describe("App", () => {
       screen.getByText("Kosgei Brigid", { exact: false }),
     ).toBeInTheDocument();
     expect(screen.queryByText(seededAthleteName)).not.toBeInTheDocument();
+  });
+
+  it("hydrates the search input from the URL query param on load", () => {
+    window.history.pushState({}, "", "/?q=brigid");
+    mockUseAthleteRaceResults.mockReturnValue({
+      data: initialData,
+      loading: false,
+      error: false,
+    });
+
+    render(<App />);
+
+    const input = screen.getByPlaceholderText(
+      "Cerca il tuo nome o il nome di una gara",
+    );
+    expect(input).toHaveValue("brigid");
+    expect(mockUseAthleteRaceResults).toHaveBeenCalledWith(
+      "brigid",
+      initialData,
+    );
+  });
+
+  it("writes the search term to the URL when a search is submitted", async () => {
+    const user = userEvent.setup();
+    mockUseAthleteRaceResults.mockReturnValue({
+      data: initialData,
+      loading: false,
+      error: false,
+    });
+
+    render(<App />);
+
+    const input = screen.getByPlaceholderText(
+      "Cerca il tuo nome o il nome di una gara",
+    );
+    await user.type(input, "Valmalenco");
+    await user.click(screen.getByRole("button", { name: /cerca/i }));
+
+    expect(window.location.search).toBe("?q=Valmalenco");
   });
 });

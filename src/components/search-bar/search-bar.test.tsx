@@ -1,18 +1,39 @@
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, it, expect, vi, beforeEach } from "vitest";
+import { useState } from "react";
 import { SearchBar } from "./search-bar";
 
 describe("SearchBar", () => {
-  const user = userEvent.setup();
   const handleSearch = vi.fn();
+
+  const renderSearchBar = (status: "loading" | "error" | "idle" = "idle") => {
+    const Wrapper = () => {
+      const [searchString, setSearchString] = useState("");
+
+      return (
+        <SearchBar
+          searchString={searchString}
+          onChange={setSearchString}
+          onSearch={(next) => {
+            handleSearch(next);
+            setSearchString(next);
+          }}
+          status={status}
+        />
+      );
+    };
+
+    return render(<Wrapper />);
+  };
 
   beforeEach(() => {
     vi.clearAllMocks();
   });
 
-  it("calls onSearch with trimmed value when clicking the button", async () => {
-    render(<SearchBar onSearch={handleSearch} status="idle" />);
+  it("calls onSearch with trimmed search string when clicking the button", async () => {
+    const user = userEvent.setup();
+    renderSearchBar();
 
     const input = screen.getByPlaceholderText(/cerca/i);
 
@@ -29,7 +50,8 @@ describe("SearchBar", () => {
   });
 
   it("does not call onSearch when the button is disabled", async () => {
-    render(<SearchBar onSearch={handleSearch} status="idle" />);
+    const user = userEvent.setup();
+    renderSearchBar();
 
     const button = screen.getByRole("button", { name: /cerca/i });
     expect(button).toBeDisabled();
@@ -40,7 +62,8 @@ describe("SearchBar", () => {
   });
 
   it("does not call onSearch when status is loading", async () => {
-    render(<SearchBar onSearch={handleSearch} status="loading" />);
+    const user = userEvent.setup();
+    renderSearchBar("loading");
 
     const input = screen.getByPlaceholderText(/cerca/i);
     const button = screen.getByRole("button"); // label may change while loading
@@ -53,7 +76,8 @@ describe("SearchBar", () => {
   });
 
   it("prevents Enter submissions while loading", async () => {
-    render(<SearchBar onSearch={handleSearch} status="loading" />);
+    const user = userEvent.setup();
+    renderSearchBar("loading");
 
     const input = screen.getByPlaceholderText(/cerca/i);
 
@@ -64,7 +88,8 @@ describe("SearchBar", () => {
   });
 
   it("shows a retry button labeled 'Riprova' and calls onSearch when clicked", async () => {
-    render(<SearchBar onSearch={handleSearch} status="error" />);
+    const user = userEvent.setup();
+    renderSearchBar("error");
 
     const input = screen.getByPlaceholderText(/cerca/i);
 
@@ -80,7 +105,8 @@ describe("SearchBar", () => {
   });
 
   it("disables the button again when the input is cleared", async () => {
-    render(<SearchBar onSearch={handleSearch} status="idle" />);
+    const user = userEvent.setup();
+    renderSearchBar();
 
     const input = screen.getByPlaceholderText(/cerca/i);
 
@@ -100,8 +126,9 @@ describe("SearchBar", () => {
     expect(handleSearch).not.toHaveBeenCalled();
   });
 
-  it("calls onSearch with trimmed value when pressing Enter in the input", async () => {
-    render(<SearchBar onSearch={handleSearch} status="idle" />);
+  it("calls onSearch with trimmed search string when pressing Enter in the input", async () => {
+    const user = userEvent.setup();
+    renderSearchBar();
 
     const input = screen.getByPlaceholderText(/cerca/i);
 
@@ -112,7 +139,8 @@ describe("SearchBar", () => {
   });
 
   it("does not call onSearch when input contains only whitespace", async () => {
-    render(<SearchBar onSearch={handleSearch} status="idle" />);
+    const user = userEvent.setup();
+    renderSearchBar();
 
     const input = screen.getByPlaceholderText(/cerca/i);
     await user.type(input, "      ");
